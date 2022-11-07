@@ -24,7 +24,6 @@ class ChangeUi(QMainWindow):
         self.set_port = COMSettings(self.logger)
         self.dataCheck = DataCheck()
         self.temp_checkbox()
-        self.threadInit()
 
     def temp_checkbox(self):
         self.ui.cam1_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
@@ -52,7 +51,6 @@ class ChangeUi(QMainWindow):
             self.signals.signalStart.connect(self.reader.startProcess)
             self.signals.signalExit.connect(self.reader.exitProcess)
             self.threadpool.start(self.reader)
-            #self.signals.signalStart.emit()
 
         except Exception as e:
             self.logger.error(e)

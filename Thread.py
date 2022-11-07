@@ -24,7 +24,7 @@ class Runner(QRunnable):
         while self.cycle:
             try:
                 if not self.is_run:
-                    time.sleep(0.01)
+                    time.sleep(1)
                 else:
                     temp_arr = []
                     for i in range(240, 248):
