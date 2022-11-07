@@ -45,7 +45,7 @@ class ChangeUi(QMainWindow):
         try:
             self.threadpool = QThreadPool()
             self.reader = Runner(self.set_port.client)
-            self.reader.signals.result.connect(self.readResult)
+            self.reader.signals.result_temp.connect(self.readResult)
             self.reader.signals.error_read.connect(self.readError)
             self.reader.signals.result_log.connect(self.readLog)
             self.signals.signalStart.connect(self.reader.startProcess)
@@ -57,12 +57,15 @@ class ChangeUi(QMainWindow):
 
     def readLog(self, text):
         self.ui.info_label.setText(text)
+        self.logger.info(text)
         print(text)
 
     def readResult(self, list_value):
         txt_log = 'Parcel received: ' + str(datetime.now())[:-7]
         self.ui.info_label.setText(txt_log)
         print(list_value)
+        self.logger.info(txt_log)
+        self.logger.info(list_value)
         self.parsMsgBin(list_value)
         self.convertMsg(list_value)
 
