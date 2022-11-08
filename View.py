@@ -1,4 +1,5 @@
 import LogPrg
+import time
 from Thread import Runner
 from ReadSettings import DataCheck, DataSensBin, DataSensInt, COMSettings
 from Archive import ReadArchive
@@ -9,8 +10,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 
 
 class WindowSignals(QObject):
-    signalStart = pyqtSignal()
-    signalStop = pyqtSignal()
+    signalStart = pyqtSignal(int)
     signalExit = pyqtSignal()
 
 
@@ -23,20 +23,21 @@ class ChangeUi(QMainWindow):
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
         self.dataCheck = DataCheck()
-        self.temp_checkbox()
 
-    def temp_checkbox(self):
-        self.ui.cam1_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam2_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam3_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam4_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam5_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam6_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam7_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
-        self.ui.cam8_type_temp_comboBox.addItems(['TMP112A', 'DS18B20/DS18S20'])
+    def initReadUzel(self):
+        try:
+            while True:
+                if self.ui.cam1_checkBox.isChecked():
+                    print('CAM 1 is Checked!')
+
+                print('cycle is run')
+                time.sleep(5)
+
+        except Exception as e:
+            self.logger.error(e)
 
     def startThread(self):
-        self.signals.signalStart.emit()
+        self.signals.signalStart.emit(240)
 
     def exitThread(self):
         self.signals.signalExit.emit()
