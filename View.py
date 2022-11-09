@@ -6,7 +6,7 @@ from Archive import ReadArchive
 from datetime import datetime
 from MainUi import Ui_MainWindow
 from PyQt5.QtWidgets import QMainWindow
-from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
+from PyQt5.QtCore import Qt, QObject, pyqtSignal, QThreadPool
 
 
 class WindowSignals(QObject):
@@ -23,6 +23,7 @@ class ChangeUi(QMainWindow):
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
         self.dataCheck = DataCheck()
+        self.initCheck()
 
     def initReadUzel(self):
         try:
@@ -36,12 +37,6 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.logger.error(e)
 
-    def startThread(self):
-        self.signals.signalStart.emit(240)
-
-    def exitThread(self):
-        self.signals.signalExit.emit()
-
     def threadInit(self):
         try:
             self.threadpool = QThreadPool()
@@ -52,6 +47,38 @@ class ChangeUi(QMainWindow):
             self.signals.signalStart.connect(self.reader.startProcess)
             self.signals.signalExit.connect(self.reader.exitProcess)
             self.threadpool.start(self.reader)
+
+        except Exception as e:
+            self.logger.error(e)
+
+    def startThread(self):
+        self.signals.signalStart.emit(240)
+
+    def exitThread(self):
+        self.signals.signalExit.emit()
+
+    def initCheck(self):
+        try:
+            self.ui.cam1_checkBox.stateChanged.connect(lambda: self.result_check(1, self.ui.cam1_checkBox.isChecked()))
+            self.ui.cam2_checkBox.stateChanged.connect(lambda: self.result_check(2, self.ui.cam2_checkBox.isChecked()))
+            self.ui.cam3_checkBox.stateChanged.connect(lambda: self.result_check(3, self.ui.cam3_checkBox.isChecked()))
+            self.ui.cam4_checkBox.stateChanged.connect(lambda: self.result_check(4, self.ui.cam4_checkBox.isChecked()))
+            self.ui.cam5_checkBox.stateChanged.connect(lambda: self.result_check(5, self.ui.cam5_checkBox.isChecked()))
+            self.ui.cam6_checkBox.stateChanged.connect(lambda: self.result_check(6, self.ui.cam6_checkBox.isChecked()))
+            self.ui.cam7_checkBox.stateChanged.connect(lambda: self.result_check(7, self.ui.cam7_checkBox.isChecked()))
+            self.ui.cam8_checkBox.stateChanged.connect(lambda: self.result_check(8, self.ui.cam8_checkBox.isChecked()))
+
+        except Exception as e:
+            self.logger.error(e)
+
+    def result_check(self, adr, state):
+        try:
+            if state:
+                print(state)
+                print(adr)
+            else:
+                print(state)
+                print(adr)
 
         except Exception as e:
             self.logger.error(e)

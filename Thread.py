@@ -53,9 +53,9 @@ class Runner(QRunnable):
                         else:
                             serial_list.append('Err')
 
-                    self.signals.result_temp.emit(temp_list)
-                    self.signals.result_bat.emit(bat_list)
-                    self.signals.result_serial.emit(serial_list)
+                    self.signals.result_temp.emit(self.adr_dev, temp_list)
+                    self.signals.result_bat.emit(self.adr_dev, bat_list)
+                    self.signals.result_serial.emit(self.adr_dev, serial_list)
                     time.sleep(5)
 
             except Exception as e:
