@@ -1,0 +1,455 @@
+2022-11-10 15:13:18,176 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-10 15:13:23,007 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-10 15:13:23,364 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,364 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,364 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,473 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,473 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,473 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,582 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,582 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,582 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,692 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,692 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,692 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,801 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,801 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,801 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,910 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,910 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:23,910 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,020 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,020 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,020 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,129 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,129 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,129 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,238 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,238 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,238 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,348 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,348 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,348 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,457 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,457 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,457 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,566 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,566 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,566 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,676 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,676 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,676 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,785 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,785 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,785 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,894 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,894 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:24,894 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,004 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,004 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,004 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,113 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,113 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,113 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,223 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,223 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,223 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,332 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,332 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,332 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,441 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,441 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,441 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,551 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,551 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,551 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,660 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,660 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,660 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,769 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,769 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,769 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,879 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,879 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,879 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,988 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,988 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:25,988 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,097 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,097 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,097 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,207 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,207 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,207 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,316 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,316 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,316 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,425 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,425 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,425 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,535 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,535 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,535 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,644 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,644 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,644 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,753 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,753 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,753 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,863 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,863 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,863 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,972 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,972 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:26,972 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,081 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,081 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,081 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,191 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,191 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,191 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,300 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,300 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,300 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,409 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,409 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,409 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,519 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,519 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,519 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,628 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,628 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,628 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,739 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,739 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,739 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,854 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,854 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,854 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,964 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,964 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:27,964 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,073 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,073 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,073 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,183 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,183 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,183 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,292 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,292 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,292 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,401 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,401 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,401 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,511 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,511 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,511 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,620 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,620 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,620 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,729 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,729 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,729 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,839 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,839 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,839 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,948 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,948 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:28,948 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,057 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,057 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,057 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,167 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,167 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,167 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,276 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,276 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,276 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,385 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,385 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,385 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,495 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,495 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,495 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,604 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,604 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,604 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,715 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,715 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,715 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,834 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,834 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,834 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,943 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,943 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:29,943 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,052 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,052 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,052 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,162 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,162 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,162 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,271 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,271 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,271 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,381 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,381 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,381 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,490 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,490 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,490 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,599 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,599 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,599 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,709 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,709 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,709 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,818 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,818 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,818 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,927 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,927 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:30,927 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,037 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,037 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,037 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,147 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,147 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,147 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,256 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,256 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,256 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,372 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,372 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,372 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,481 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,481 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,481 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,591 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,591 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,591 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,700 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,700 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,700 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,809 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,809 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,809 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,919 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,919 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:31,919 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,028 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,028 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,028 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,137 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,137 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,137 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,247 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,247 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,247 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,356 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,356 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,356 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,465 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,465 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,465 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,575 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,575 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,575 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,684 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,684 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,684 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,794 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,794 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,794 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,903 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,903 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:32,903 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,012 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,012 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,012 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,122 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,122 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,122 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,231 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,231 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,231 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,340 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,340 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,340 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,450 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,450 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,450 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,559 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,559 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,559 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,668 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,668 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,668 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,778 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,778 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,778 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,887 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,887 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,887 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,996 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,996 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:33,996 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,106 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,106 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,106 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,215 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,215 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,215 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,324 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,324 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,324 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,434 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,434 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,434 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,543 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,543 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,543 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,652 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,652 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,652 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,762 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,762 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,762 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,871 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,871 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,871 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,981 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,981 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:34,981 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,090 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,090 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,090 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,199 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,199 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,199 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,309 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,309 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,309 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,418 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,418 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,418 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,527 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,527 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,527 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,637 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,637 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,637 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,746 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,746 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,746 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,855 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,855 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,855 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,965 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,965 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:35,965 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,074 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,074 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,074 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,183 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,183 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,183 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,293 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,293 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,293 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,402 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,402 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,402 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,511 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,511 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,511 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,621 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,621 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,621 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,730 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,730 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,730 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,839 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,839 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,839 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,949 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,949 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:36,949 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:37,136 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:37,136 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:37,136 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:37,152 - [INFO] - __main__ - (View.py).readLog(72) - Exit process
+2022-11-10 15:13:37,168 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-10 15:13:37,199 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:37,199 - [ERROR] - __main__ - (View.py).readError(86) : ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:13:37,199 - [ERROR] - __main__ - (View.py).readError(86) - ReadSignals.result_temp[object] signal has 1 argument(s) but 2 provided
+2022-11-10 15:14:53,311 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-10 15:14:57,312 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-10 15:14:57,481 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:14:57
+2022-11-10 15:14:57,481 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000000010000', '0000000000010010', '0000000000010011']
+2022-11-10 15:14:57,481 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:14:57,481 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:14:57,481 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:14:57,481 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:14:57,481 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:14:57,481 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:02,598 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:02
+2022-11-10 15:15:02,598 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000000010000', '0000000000010010', '0000000000010011']
+2022-11-10 15:15:02,599 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:02,599 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:02,599 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:02,600 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:02,600 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:02,600 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:07,714 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:07
+2022-11-10 15:15:07,714 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000000010000', '0000000000010010', '0000000000010011']
+2022-11-10 15:15:07,714 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:07,714 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:07,714 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:07,714 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:07,714 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:07,714 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:09,537 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-10 15:15:12,832 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:12
+2022-11-10 15:15:12,832 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000000100010', '0000000000100100', '0000000000100110']
+2022-11-10 15:15:12,832 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:12,832 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:12,832 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:12,832 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:12,832 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:12,832 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:17,956 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:17
+2022-11-10 15:15:17,956 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000000100010', '0000000000100100', '0000000000100110']
+2022-11-10 15:15:17,956 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:17,956 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:17,956 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:17,956 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:17,956 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:17,956 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:23,081 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:23
+2022-11-10 15:15:23,082 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000000100010', '0000000000100100', '0000000000100110']
+2022-11-10 15:15:23,082 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:23,082 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:23,082 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:23,083 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:23,083 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:23,083 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:24,794 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-10 15:15:28,202 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:28
+2022-11-10 15:15:28,202 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000001001010', '0000000001001100', '0000000001001110']
+2022-11-10 15:15:28,202 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:28,202 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:28,202 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:28,202 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:28,202 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:28,202 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:33,320 - [INFO] - __main__ - (View.py).readResult(79) - Parcel received: 2022-11-10 15:15:33
+2022-11-10 15:15:33,320 - [INFO] - __main__ - (View.py).readResult(80) - ['0000000001001010', '0000000001001100', '0000000001001110']
+2022-11-10 15:15:33,320 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:33,320 - [ERROR] - __main__ - (View.py).parsMsgBin(101) : list index out of range
+2022-11-10 15:15:33,320 - [ERROR] - __main__ - (View.py).parsMsgBin(101) - list index out of range
+2022-11-10 15:15:33,320 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:33,320 - [ERROR] - __main__ - (View.py).convertMsg(128) : list index out of range
+2022-11-10 15:15:33,320 - [ERROR] - __main__ - (View.py).convertMsg(128) - list index out of range
+2022-11-10 15:15:34,242 - [INFO] - __main__ - (View.py).readLog(72) - Exit process
+2022-11-10 15:15:38,335 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm

@@ -10,7 +10,7 @@ from PyQt5.QtCore import Qt, QObject, pyqtSignal, QThreadPool
 
 
 class WindowSignals(QObject):
-    signalStart = pyqtSignal(int)
+    signalStart = pyqtSignal()
     signalExit = pyqtSignal()
 
 
@@ -24,18 +24,6 @@ class ChangeUi(QMainWindow):
         self.set_port = COMSettings(self.logger)
         self.dataCheck = DataCheck()
         self.initCheck()
-
-    def initReadUzel(self):
-        try:
-            while True:
-                if self.ui.cam1_checkBox.isChecked():
-                    print('CAM 1 is Checked!')
-
-                print('cycle is run')
-                time.sleep(5)
-
-        except Exception as e:
-            self.logger.error(e)
 
     def threadInit(self):
         try:
@@ -52,7 +40,7 @@ class ChangeUi(QMainWindow):
             self.logger.error(e)
 
     def startThread(self):
-        self.signals.signalStart.emit(240)
+        self.signals.signalStart.emit()
 
     def exitThread(self):
         self.signals.signalExit.emit()
@@ -74,11 +62,7 @@ class ChangeUi(QMainWindow):
     def result_check(self, adr, state):
         try:
             if state:
-                print(state)
-                print(adr)
-            else:
-                print(state)
-                print(adr)
+                self.signals.signalStart.emit(adr)
 
         except Exception as e:
             self.logger.error(e)
