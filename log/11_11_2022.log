@@ -183,3 +183,47 @@
 2022-11-11 16:20:44,424 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:20:44
 2022-11-11 16:20:45,751 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
 2022-11-11 16:20:49,438 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:37:01,423 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:37:01,423 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:37:02,985 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:37:02
+2022-11-11 16:37:05,885 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:37:07,994 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:37:29,335 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:37:29,335 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:37:29,835 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:37:29
+2022-11-11 16:37:35,349 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:37:35
+2022-11-11 16:37:40,857 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:37:40
+2022-11-11 16:37:42,444 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:37:45,865 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:40:29,788 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:40:29,788 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:40:30,334 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:40:30
+2022-11-11 16:40:35,847 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:40:35
+2022-11-11 16:40:37,251 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:40:40,860 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:41:45,746 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:41:45,746 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:41:46,246 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:41:46
+2022-11-11 16:41:51,745 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:41:51
+2022-11-11 16:41:52,214 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:41:56,759 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:42:10,028 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:42:10,028 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:42:10,497 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:42:10
+2022-11-11 16:42:10,497 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:42:10,497 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:42:10,497 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:42:15,964 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:42:15
+2022-11-11 16:42:15,964 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:42:15,964 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:42:15,964 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:42:17,323 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:42:20,978 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:44:01,785 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:44:01,785 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:44:02,238 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:44:02
+2022-11-11 16:44:02,238 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:44:02,238 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:44:02,238 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:44:06,870 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:44:07,245 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm

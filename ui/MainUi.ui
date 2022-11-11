@@ -87,6 +87,348 @@
           <property name="spacing">
            <number>0</number>
           </property>
+          <item row="0" column="2">
+           <widget class="QFrame" name="cam3_frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>20</number>
+             </property>
+             <property name="rightMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>20</number>
+             </property>
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <item row="3" column="0">
+              <widget class="QLabel" name="cam3_sernum_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Серийный номер</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="cam3_checkBox">
+               <property name="maximumSize">
+                <size>
+                 <width>150</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial Black</family>
+                 <pointsize>14</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Камера №3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="cam3_sens1sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>16</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam3_sens2temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam3_sens3bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="cam3_sens2sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="cam3_bat_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Напряжение</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam3_sens1temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam3_sens3temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="cam3_sens3sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1" colspan="2">
+              <widget class="QLabel" name="cam3_temp_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Температура</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam3_sens2bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam3_sens1bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
           <item row="0" column="0">
            <widget class="QFrame" name="cam1_frame">
             <property name="frameShape">
@@ -115,13 +457,13 @@
               <widget class="QLCDNumber" name="cam1_sens2temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -134,7 +476,7 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
                 <double>0.000000000000000</double>
@@ -148,13 +490,13 @@
               <widget class="QLCDNumber" name="cam1_sens3bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -167,7 +509,7 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
                 <double>0.000000000000000</double>
@@ -221,7 +563,7 @@
               <widget class="QLCDNumber" name="cam1_sens3temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -240,7 +582,7 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
                 <double>0.000000000000000</double>
@@ -286,13 +628,13 @@
               <widget class="QLCDNumber" name="cam1_sens1bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -305,7 +647,7 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
                 <double>0.000000000000000</double>
@@ -332,13 +674,13 @@
               <widget class="QLCDNumber" name="cam1_sens2bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -351,7 +693,7 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
                 <double>0.000000000000000</double>
@@ -365,13 +707,13 @@
               <widget class="QLCDNumber" name="cam1_sens1temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -384,7 +726,7 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
                 <double>0.000000000000000</double>
@@ -429,6 +771,690 @@
             </layout>
            </widget>
           </item>
+          <item row="1" column="1">
+           <widget class="QFrame" name="cam6_frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>20</number>
+             </property>
+             <property name="rightMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>20</number>
+             </property>
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <item row="4" column="0">
+              <widget class="QLabel" name="cam6_sens1sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>16</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam6_sens2temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam6_sens3temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="cam6_sernum_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Серийный номер</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="cam6_sens3sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam6_sens1temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1" colspan="2">
+              <widget class="QLabel" name="cam6_temp_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Температура</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam6_sens3bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam6_sens2bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="cam6_sens2sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="cam6_checkBox">
+               <property name="maximumSize">
+                <size>
+                 <width>150</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial Black</family>
+                 <pointsize>14</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Камера №6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam6_sens1bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="cam6_bat_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Напряжение</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QFrame" name="cam4_frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>20</number>
+             </property>
+             <property name="rightMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>20</number>
+             </property>
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <item row="6" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam4_sens3bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="cam4_bat_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Напряжение</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam4_sens1temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam4_sens2temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="cam4_sernum_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Серийный номер</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="cam4_sens1sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>16</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam4_sens3temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="cam4_sens3sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam4_sens1bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam4_sens2bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1" colspan="2">
+              <widget class="QLabel" name="cam4_temp_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Температура</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="cam4_sens2sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="cam4_checkBox">
+               <property name="maximumSize">
+                <size>
+                 <width>150</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial Black</family>
+                 <pointsize>14</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Камера №4</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
           <item row="1" column="0">
            <widget class="QFrame" name="cam5_frame">
             <property name="frameShape">
@@ -457,13 +1483,13 @@
               <widget class="QLCDNumber" name="cam5_sens1bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -476,13 +1502,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -490,13 +1516,13 @@
               <widget class="QLCDNumber" name="cam5_sens3temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -509,13 +1535,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -523,13 +1549,13 @@
               <widget class="QLCDNumber" name="cam5_sens1temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -542,13 +1568,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -607,13 +1633,13 @@
               <widget class="QLCDNumber" name="cam5_sens3bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -626,13 +1652,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -706,13 +1732,13 @@
               <widget class="QLCDNumber" name="cam5_sens2temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -725,13 +1751,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -739,13 +1765,13 @@
               <widget class="QLCDNumber" name="cam5_sens2bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -758,13 +1784,355 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QFrame" name="cam7_frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>20</number>
+             </property>
+             <property name="rightMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>20</number>
+             </property>
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam7_sens1temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="cam7_sernum_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Серийный номер</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam7_sens3bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1" colspan="2">
+              <widget class="QLabel" name="cam7_temp_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Температура</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam7_sens3temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="cam7_checkBox">
+               <property name="maximumSize">
+                <size>
+                 <width>150</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial Black</family>
+                 <pointsize>14</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Камера №7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="cam7_sens2sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="cam7_sens3sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="cam7_bat_label">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Напряжение</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam7_sens2temp_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="cam7_sens1sernum_label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>16</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam7_sens1bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3" alignment="Qt::AlignHCenter">
+              <widget class="QLCDNumber" name="cam7_sens2bat_lcdNum">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="digitCount">
+                <number>5</number>
+               </property>
+               <property name="value" stdset="0">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="intValue" stdset="0">
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -866,13 +2234,13 @@
               <widget class="QLCDNumber" name="cam2_sens1temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -885,13 +2253,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -918,13 +2286,13 @@
               <widget class="QLCDNumber" name="cam2_sens1bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -937,13 +2305,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -951,13 +2319,13 @@
               <widget class="QLCDNumber" name="cam2_sens2bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -970,13 +2338,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -1005,13 +2373,13 @@
               <widget class="QLCDNumber" name="cam2_sens2temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -1024,13 +2392,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -1051,13 +2419,13 @@
               <widget class="QLCDNumber" name="cam2_sens3temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -1070,13 +2438,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -1084,13 +2452,13 @@
               <widget class="QLCDNumber" name="cam2_sens3bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -1103,1381 +2471,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QFrame" name="cam6_frame">
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Plain</enum>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_2">
-             <property name="leftMargin">
-              <number>10</number>
-             </property>
-             <property name="topMargin">
-              <number>20</number>
-             </property>
-             <property name="rightMargin">
-              <number>10</number>
-             </property>
-             <property name="bottomMargin">
-              <number>20</number>
-             </property>
-             <property name="spacing">
-              <number>10</number>
-             </property>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam6_sens1sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>16</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam6_sens2temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam6_sens3temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="0">
-              <widget class="QLabel" name="cam6_sernum_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Серийный номер</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam6_sens3sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam6_sens1temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1" colspan="2">
-              <widget class="QLabel" name="cam6_temp_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Температура</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam6_sens3bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam6_sens2bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam6_sens2sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0">
-              <widget class="QCheckBox" name="cam6_checkBox">
-               <property name="maximumSize">
-                <size>
-                 <width>150</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial Black</family>
-                 <pointsize>14</pointsize>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>Камера №6</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam6_sens1bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="3">
-              <widget class="QLabel" name="cam6_bat_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Напряжение</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item row="0" column="2">
-           <widget class="QFrame" name="cam3_frame">
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Plain</enum>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_5">
-             <property name="leftMargin">
-              <number>10</number>
-             </property>
-             <property name="topMargin">
-              <number>20</number>
-             </property>
-             <property name="rightMargin">
-              <number>10</number>
-             </property>
-             <property name="bottomMargin">
-              <number>20</number>
-             </property>
-             <property name="spacing">
-              <number>10</number>
-             </property>
-             <item row="3" column="0">
-              <widget class="QLabel" name="cam3_sernum_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Серийный номер</string>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0">
-              <widget class="QCheckBox" name="cam3_checkBox">
-               <property name="maximumSize">
-                <size>
-                 <width>150</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial Black</family>
-                 <pointsize>14</pointsize>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>Камера №3</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam3_sens1sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>16</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam3_sens2temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam3_sens3bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam3_sens2sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="3">
-              <widget class="QLabel" name="cam3_bat_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Напряжение</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam3_sens1temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam3_sens3temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam3_sens3sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1" colspan="2">
-              <widget class="QLabel" name="cam3_temp_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Температура</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam3_sens2bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam3_sens1bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item row="1" column="2">
-           <widget class="QFrame" name="cam7_frame">
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Plain</enum>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_6">
-             <property name="leftMargin">
-              <number>10</number>
-             </property>
-             <property name="topMargin">
-              <number>20</number>
-             </property>
-             <property name="rightMargin">
-              <number>10</number>
-             </property>
-             <property name="bottomMargin">
-              <number>20</number>
-             </property>
-             <property name="spacing">
-              <number>10</number>
-             </property>
-             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam7_sens1temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="0">
-              <widget class="QLabel" name="cam7_sernum_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Серийный номер</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam7_sens3bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1" colspan="2">
-              <widget class="QLabel" name="cam7_temp_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Температура</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam7_sens3temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0">
-              <widget class="QCheckBox" name="cam7_checkBox">
-               <property name="maximumSize">
-                <size>
-                 <width>150</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial Black</family>
-                 <pointsize>14</pointsize>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>Камера №7</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam7_sens2sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam7_sens3sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="3">
-              <widget class="QLabel" name="cam7_bat_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Напряжение</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam7_sens2temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam7_sens1sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>16</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam7_sens1bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam7_sens2bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item row="0" column="4">
-           <widget class="QFrame" name="cam4_frame">
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Plain</enum>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_7">
-             <property name="leftMargin">
-              <number>10</number>
-             </property>
-             <property name="topMargin">
-              <number>20</number>
-             </property>
-             <property name="rightMargin">
-              <number>10</number>
-             </property>
-             <property name="bottomMargin">
-              <number>20</number>
-             </property>
-             <property name="spacing">
-              <number>10</number>
-             </property>
-             <item row="6" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam4_sens3bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="3">
-              <widget class="QLabel" name="cam4_bat_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Напряжение</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam4_sens1temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam4_sens2temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="0">
-              <widget class="QLabel" name="cam4_sernum_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Серийный номер</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam4_sens1sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>16</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="1" colspan="2" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam4_sens3temp_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam4_sens3sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam4_sens1bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="3" alignment="Qt::AlignHCenter">
-              <widget class="QLCDNumber" name="cam4_sens2bat_lcdNum">
-               <property name="minimumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>70</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="digitCount">
-                <number>3</number>
-               </property>
-               <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
-               </property>
-               <property name="intValue" stdset="0">
-                <number>88888</number>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1" colspan="2">
-              <widget class="QLabel" name="cam4_temp_label">
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>Температура</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam4_sens2sernum_label">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial</family>
-                 <pointsize>14</pointsize>
-                </font>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0">
-              <widget class="QCheckBox" name="cam4_checkBox">
-               <property name="maximumSize">
-                <size>
-                 <width>150</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Arial Black</family>
-                 <pointsize>14</pointsize>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>Камера №4</string>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -2512,13 +2512,13 @@
               <widget class="QLCDNumber" name="cam8_sens3bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -2531,13 +2531,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -2649,13 +2649,13 @@
               <widget class="QLCDNumber" name="cam8_sens1temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -2668,13 +2668,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -2682,13 +2682,13 @@
               <widget class="QLCDNumber" name="cam8_sens2bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -2701,13 +2701,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -2715,13 +2715,13 @@
               <widget class="QLCDNumber" name="cam8_sens1bat_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -2734,13 +2734,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -2748,13 +2748,13 @@
               <widget class="QLCDNumber" name="cam8_sens3temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -2767,13 +2767,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
@@ -2781,13 +2781,13 @@
               <widget class="QLCDNumber" name="cam8_sens2temp_lcdNum">
                <property name="minimumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>70</width>
+                 <width>100</width>
                  <height>40</height>
                 </size>
                </property>
@@ -2800,13 +2800,13 @@
                 <string notr="true"/>
                </property>
                <property name="digitCount">
-                <number>3</number>
+                <number>5</number>
                </property>
                <property name="value" stdset="0">
-                <double>88888.000000000000000</double>
+                <double>0.000000000000000</double>
                </property>
                <property name="intValue" stdset="0">
-                <number>88888</number>
+                <number>0</number>
                </property>
               </widget>
              </item>
