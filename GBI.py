@@ -34,6 +34,7 @@ def main():
             txt_log = 'Programm starting!'
             print(txt_log)
             window.logger.info(txt_log)
+            window.startThread()
 
     except Exception as e:
         window.logger.error(e)

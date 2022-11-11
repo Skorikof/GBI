@@ -40,37 +40,18 @@ class COMSettings(object):
             self.logger.error(e)
 
 
-class DataCheck(object):
+class Registers(object):
     def __init__(self):
-        self.cam1 = False
-        self.cam2 = False
-        self.cam3 = False
-        self.cam4 = False
-        self.cam5 = False
-        self.cam6 = False
-        self.cam7 = False
-        self.cav8 = False
+        self.temp = 0
+        self.serial = 0
+        self.bat = 0
 
 
-class DataSensBin(object):
+class DataSens(object):
     def __init__(self):
-        self.cam1 = []
-        self.cam2 = []
-        self.cam3 = []
-        self.cam4 = []
-        self.cam5 = []
-        self.cam6 = []
-        self.cam7 = []
-        self.cam8 = []
+        self.sens = []
 
 
-class DataSensInt(object):
+class DataCam(object):
     def __init__(self):
-        self.cam1 = []
-        self.cam2 = []
-        self.cam3 = []
-        self.cam4 = []
-        self.cam5 = []
-        self.cam6 = []
-        self.cam7 = []
-        self.cam8 = []
+        self.cam = []
