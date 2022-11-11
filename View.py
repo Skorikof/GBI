@@ -103,27 +103,33 @@ class ChangeUi(QMainWindow):
             if len(self.dataCam.cam[0].sens[0].temp) < 5:
                 self.ui.cam1_sens1temp_lcdNum.display(self.dataCam.cam[0].sens[0].temp)
             else:
-                self.ui.cam1_sens1temp_lcdNum.display(str(self.dopCodeBintoDec(self.dataCam.cam[0].sens[0].temp)/16))
+                self.ui.cam1_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[0].temp))
 
             if len(self.dataCam.cam[0].sens[1].temp) < 5:
                 self.ui.cam1_sens2temp_lcdNum.display(self.dataCam.cam[0].sens[1].temp)
             else:
-                self.ui.cam1_sens2temp_lcdNum.display(str(self.dopCodeBintoDec(self.dataCam.cam[0].sens[1].temp)/16))
+                self.ui.cam1_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[1].temp))
 
             if len(self.dataCam.cam[0].sens[2].temp) < 5:
                 self.ui.cam1_sens3temp_lcdNum.display(self.dataCam.cam[0].sens[2].temp)
             else:
-                self.ui.cam1_sens3temp_lcdNum.display(str(self.dopCodeBintoDec(self.dataCam.cam[0].sens[2].temp)/16))
+                self.ui.cam1_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[2].temp))
 
         except Exception as e:
             self.logger.error(e)
 
-    def dopCodeBintoDec(self, value, bits=16):
+    def dopCodeBintoDec(self, command, value, bits=16):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
         if value[:1] == '1':
             val_temp = -(2 ** bits - int(value, 2))
         else:
             val_temp = int(value, 2)
+
+        if command == 'Temp':
+            val_temp = str(round(val_temp / 16, 1))
+
+        if command == 'Bat':
+            val_temp = str(round(val_temp * 0.1, 1))
 
         return val_temp
 
