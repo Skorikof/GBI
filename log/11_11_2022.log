@@ -100,3 +100,58 @@
 2022-11-11 13:48:02,316 - [ERROR] - __main__ - (View.py).readResult(98) - list index out of range
 2022-11-11 13:48:02,316 - [ERROR] - __main__ - (View.py).readResult(98) : list index out of range
 2022-11-11 13:48:02,316 - [ERROR] - __main__ - (View.py).readResult(98) - list index out of range
+2022-11-11 15:05:46,875 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:05:46,875 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:05:47,390 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:05:47
+2022-11-11 15:05:47,391 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:47,391 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) : 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:47,391 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:52,917 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:05:52
+2022-11-11 15:05:52,918 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:52,918 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) : 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:52,918 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:58,437 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:05:58
+2022-11-11 15:05:58,438 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:58,438 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) : 'DataSens' object has no attribute 'temp'
+2022-11-11 15:05:58,438 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:06:04,008 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:06:04
+2022-11-11 15:06:04,008 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:06:04,008 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) : 'DataSens' object has no attribute 'temp'
+2022-11-11 15:06:04,008 - [ERROR] - __main__ - (View.py).convertMsgTemp(143) - 'DataSens' object has no attribute 'temp'
+2022-11-11 15:06:04,927 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 15:06:09,022 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 15:11:23,585 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:11:23,585 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:11:24,131 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:11:24
+2022-11-11 15:11:29,663 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:11:29
+2022-11-11 15:11:32,985 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 15:11:34,679 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 15:12:32,444 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:12:32,444 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:12:33,007 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:12:33
+2022-11-11 15:12:36,950 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 15:12:38,019 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 15:17:47,212 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:17:47,212 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:17:47,767 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:17:47
+2022-11-11 15:19:28,810 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:19:28
+2022-11-11 15:22:41,591 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:22:41,593 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:22:43,117 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:22:43
+2022-11-11 15:23:01,501 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:23:01
+2022-11-11 15:24:10,596 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:24:10,597 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:24:11,136 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:24:11
+2022-11-11 15:24:16,685 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:24:16
+2022-11-11 15:24:22,229 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:24:22
+2022-11-11 15:24:27,766 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:24:27
+2022-11-11 15:24:30,093 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 15:24:32,779 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 15:33:45,290 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:33:45,291 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:33:45,838 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:33:45
+2022-11-11 15:33:47,838 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 15:33:50,848 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 15:39:59,337 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 15:39:59,353 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 15:39:59,853 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 15:39:59

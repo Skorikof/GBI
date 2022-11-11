@@ -70,7 +70,7 @@ class Runner(QRunnable):
                         else:
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
                             self.signals.result_log.emit(txt_log)
-                            temp_arr.append([[-100, -100, -100], [-100, -100, -100], [-100, -100, -100]])
+                            temp_arr.append([['-100', '-100', '-100'], ['-100', '-100', '-100'], ['-100', '-100', '-100']])
                         result_list.append(temp_arr)
 
                     self.signals.result_temp.emit(result_list)

@@ -92,71 +92,28 @@ class ChangeUi(QMainWindow):
                     self.dataCam.cam[i].sens[j].temp = arr[i][j][0]
                     self.dataCam.cam[i].sens[j].serial = arr[i][j][1]
                     self.dataCam.cam[i].sens[j].bat = arr[i][j][2]
-            #self.convertMsg()
+
+            self.convertMsgTemp()
 
         except Exception as e:
             self.logger.error(e)
 
-    def convertMsg(self):
+    def convertMsgTemp(self):
         try:
+            if len(self.dataCam.cam[0].sens[0].temp) < 5:
+                self.ui.cam1_sens1temp_lcdNum.display(self.dataCam.cam[0].sens[0].temp)
+            else:
+                self.ui.cam1_sens1temp_lcdNum.display(str(self.dopCodeBintoDec(self.dataCam.cam[0].sens[0].temp)/16))
 
-            temp_arr = []
-            for i in range(8):
-                temp_list = []
-                for j in range(3):
-                    temp_val = self.dopCodeBintoDec(bin_list[i][j]) / 2
-                    temp_list.append(temp_val)
-                temp_arr.append(temp_list)
+            if len(self.dataCam.cam[0].sens[1].temp) < 5:
+                self.ui.cam1_sens2temp_lcdNum.display(self.dataCam.cam[0].sens[1].temp)
+            else:
+                self.ui.cam1_sens2temp_lcdNum.display(str(self.dopCodeBintoDec(self.dataCam.cam[0].sens[1].temp)/16))
 
-            print(temp_arr)
-
-            self.dataInt.cam1 = temp_arr[0]
-            self.dataInt.cam2 = temp_arr[1]
-            self.dataInt.cam3 = temp_arr[2]
-            self.dataInt.cam4 = temp_arr[3]
-            self.dataInt.cam5 = temp_arr[4]
-            self.dataInt.cam6 = temp_arr[5]
-            self.dataInt.cam7 = temp_arr[6]
-            self.dataInt.cam8 = temp_arr[7]
-            self.fillingTemp()
-            self.saveFiletoArch()
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def fillingTemp(self):
-        try:
-            self.ui.cam1_sens1temp_lcdNum.display(self.dataInt.cam1[0])
-            self.ui.cam1_sens2temp_lcdNum.display(self.dataInt.cam1[1])
-            self.ui.cam1_sens3temp_lcdNum.display(self.dataInt.cam1[2])
-
-            self.ui.cam2_sens1temp_lcdNum.display(self.dataInt.cam2[0])
-            self.ui.cam2_sens2temp_lcdNum.display(self.dataInt.cam2[1])
-            self.ui.cam2_sens3temp_lcdNum.display(self.dataInt.cam2[2])
-
-            self.ui.cam3_sens1temp_lcdNum.display(self.dataInt.cam3[0])
-            self.ui.cam3_sens2temp_lcdNum.display(self.dataInt.cam3[1])
-            self.ui.cam3_sens3temp_lcdNum.display(self.dataInt.cam3[2])
-
-            self.ui.cam4_sens1temp_lcdNum.display(self.dataInt.cam4[0])
-            self.ui.cam4_sens2temp_lcdNum.display(self.dataInt.cam4[1])
-            self.ui.cam4_sens3temp_lcdNum.display(self.dataInt.cam4[2])
-
-            self.ui.cam5_sens1temp_lcdNum.display(self.dataInt.cam5[0])
-            self.ui.cam5_sens2temp_lcdNum.display(self.dataInt.cam5[1])
-            self.ui.cam5_sens3temp_lcdNum.display(self.dataInt.cam5[2])
-
-            self.ui.cam6_sens1temp_lcdNum.display(self.dataInt.cam6[0])
-            self.ui.cam6_sens2temp_lcdNum.display(self.dataInt.cam6[1])
-            self.ui.cam6_sens3temp_lcdNum.display(self.dataInt.cam6[2])
-
-            self.ui.cam7_sens1temp_lcdNum.display(self.dataInt.cam7[0])
-            self.ui.cam7_sens2temp_lcdNum.display(self.dataInt.cam7[1])
-            self.ui.cam7_sens3temp_lcdNum.display(self.dataInt.cam7[2])
-
-            self.ui.cam8_sens1temp_lcdNum.display(self.dataInt.cam8[0])
-            self.ui.cam8_sens2temp_lcdNum.display(self.dataInt.cam8[1])
-            self.ui.cam8_sens3temp_lcdNum.display(self.dataInt.cam8[2])
+            if len(self.dataCam.cam[0].sens[2].temp) < 5:
+                self.ui.cam1_sens3temp_lcdNum.display(self.dataCam.cam[0].sens[2].temp)
+            else:
+                self.ui.cam1_sens3temp_lcdNum.display(str(self.dopCodeBintoDec(self.dataCam.cam[0].sens[2].temp)/16))
 
         except Exception as e:
             self.logger.error(e)
@@ -170,29 +127,29 @@ class ChangeUi(QMainWindow):
 
         return val_temp
 
-    def archiveRead(self):
-        try:
-            self.archive = ReadArchive()
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def saveFiletoArch(self):
-        try:
-            name_arch = str(datetime.now().day).zfill(2) + '.' + str(datetime.now().month).zfill(2) +\
-                        '.' + str(datetime.now().year) + '.csv'
-            time_arch = datetime.now().strftime('%H:%M:%S')
-            cam1 = str(self.dataInt.cam1) + ';'
-            cam2 = str(self.dataInt.cam2) + ';'
-            cam3 = str(self.dataInt.cam3) + ';'
-            cam4 = str(self.dataInt.cam4) + ';'
-            cam5 = str(self.dataInt.cam5) + ';'
-            cam6 = str(self.dataInt.cam6) + ';'
-            cam7 = str(self.dataInt.cam7) + ';'
-            cam8 = str(self.dataInt.cam8) + '\n'
-            with open ('archive/'+name_arch, 'a') as file_arch:
-                file_arch.write(time_arch + ';' + 'Температура;' + cam1 + cam2 + cam3 + cam4 + cam5 + cam6 + cam7 + cam8)
-                file_arch.write(';' + 'Напряжение;' + '\n')
-
-        except Exception as e:
-            self.logger.error(e)
+    # def archiveRead(self):
+    #     try:
+    #         self.archive = ReadArchive()
+    #
+    #     except Exception as e:
+    #         self.logger.error(e)
+    #
+    # def saveFiletoArch(self):
+    #     try:
+    #         name_arch = str(datetime.now().day).zfill(2) + '.' + str(datetime.now().month).zfill(2) +\
+    #                     '.' + str(datetime.now().year) + '.csv'
+    #         time_arch = datetime.now().strftime('%H:%M:%S')
+    #         cam1 = str(self.dataInt.cam1) + ';'
+    #         cam2 = str(self.dataInt.cam2) + ';'
+    #         cam3 = str(self.dataInt.cam3) + ';'
+    #         cam4 = str(self.dataInt.cam4) + ';'
+    #         cam5 = str(self.dataInt.cam5) + ';'
+    #         cam6 = str(self.dataInt.cam6) + ';'
+    #         cam7 = str(self.dataInt.cam7) + ';'
+    #         cam8 = str(self.dataInt.cam8) + '\n'
+    #         with open ('archive/'+name_arch, 'a') as file_arch:
+    #             file_arch.write(time_arch + ';' + 'Температура;' + cam1 + cam2 + cam3 + cam4 + cam5 + cam6 + cam7 + cam8)
+    #             file_arch.write(';' + 'Напряжение;' + '\n')
+    #
+    #     except Exception as e:
+    #         self.logger.error(e)
