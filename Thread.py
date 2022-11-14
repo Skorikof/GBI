@@ -8,36 +8,41 @@ class ReadSignals(QObject):
     error_read = pyqtSignal(object)
 
 
-class Runner(QRunnable):
+class Writer(QRunnable):
     signals = ReadSignals()
 
-    def __init__(self, client):
-        super(Runner, self).__init__()
-        self.cycle = True
-        self.is_run = False
+    def __init__(self, client, adr_dev, command):
+        super(Writer, self).__init__()
         self.client = client
-        self.is_paused = False
-        self.is_killed = False
-        self.sens_regs = [4098, 4103, 4108]
+        self.adr_dev = adr_dev
+        self.command = command
 
     @pyqtSlot()
-    def write(self):
+    def run(self):
         try:
             if self.command:
-                rq = self.client.write_registers(8192, 1, init=self.adr_dev)
+                rq = self.client.write_registers(8192, [1], init=self.adr_dev)
                 txt_log = 'Cam ' + str(self.adr_dev) + ' is enabled!'
             else:
-                rq = self.client.write_registers(8192, 0, init=self.adr_dev)
+                rq = self.client.write_registers(8192, [0], init=self.adr_dev)
                 txt_log = 'Cam ' + str(self.adr_dev) + ' is disabled!'
             self.signals.result_log.emit(txt_log)
 
         except Exception as e:
             self.signals.error_read.emit(e)
 
-    def startWrite(self, adr_dev, command):
-        self.command = command
-        self.adr_dev = adr_dev
-        self.write()
+
+class Reader(QRunnable):
+    signals = ReadSignals()
+
+    def __init__(self, client):
+        super(Reader, self).__init__()
+        self.cycle = True
+        self.is_run = False
+        self.client = client
+        self.is_paused = False
+        self.is_killed = False
+        self.sens_regs = [4098, 4103, 4108]
 
     @pyqtSlot()
     def run(self):
@@ -48,6 +53,7 @@ class Runner(QRunnable):
                 else:
                     result_list = []
                     for i in range(1, 9):
+                        print('Cycle reader')
                         temp_arr = []
                         rr = self.client.read_holding_registers(8192, 1, unit=i)
                         if not rr.isError():
@@ -59,7 +65,7 @@ class Runner(QRunnable):
                                     rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=i)
                                     if not rr.isError():
                                         temp_list.append(''.join(bin(rr.registers[0])[2:].zfill(16)))
-                                        temp_list.append(''.join(bin(rr.registers[1])[2:].zfill(16)))
+                                        temp_list.append(''.join(str(rr.registers[1])))
                                         temp_list.append(''.join(bin(rr.registers[2])[2:].zfill(16)))
 
                                     else:
@@ -68,6 +74,7 @@ class Runner(QRunnable):
                                     temp_arr.append(temp_list)
 
                         else:
+                            print(str(i))
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
                             self.signals.result_log.emit(txt_log)
                             temp_arr.append([['-100', '-100', '-100'], ['-100', '-100', '-100'], ['-100', '-100', '-100']])

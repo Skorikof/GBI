@@ -145,8 +145,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam3_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam3_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -230,8 +230,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam3_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam3_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -328,8 +328,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam3_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam3_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -540,8 +540,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam1_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam1_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -605,8 +605,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam1_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam1_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -749,8 +749,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam1_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam1_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -795,8 +795,8 @@
              <property name="spacing">
               <number>10</number>
              </property>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam6_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam6_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -893,8 +893,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam6_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam6_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1024,8 +1024,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam6_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam6_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1262,8 +1262,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam4_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam4_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1314,8 +1314,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam4_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam4_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1412,8 +1412,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam4_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam4_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1591,8 +1591,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam5_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam5_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1610,8 +1610,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam5_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam5_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1709,8 +1709,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam5_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam5_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1967,8 +1967,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam7_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam7_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -1986,8 +1986,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam7_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam7_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2051,8 +2051,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam7_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam7_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2166,8 +2166,8 @@
              <property name="spacing">
               <number>10</number>
              </property>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam2_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam2_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2211,8 +2211,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam2_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam2_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2263,8 +2263,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam2_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam2_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2562,8 +2562,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="cam8_sens1sernum_label">
+             <item row="4" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam8_sens1serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2581,8 +2581,8 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="QLabel" name="cam8_sens3sernum_label">
+             <item row="6" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam8_sens3serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -2626,8 +2626,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="cam8_sens2sernum_label">
+             <item row="5" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="cam8_sens2serial_label">
                <property name="minimumSize">
                 <size>
                  <width>0</width>

@@ -227,3 +227,41 @@
 2022-11-11 16:44:02,238 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
 2022-11-11 16:44:06,870 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
 2022-11-11 16:44:07,245 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-11 16:46:04,234 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-11 16:46:04,234 - [INFO] - __main__ - (View.py).readLog(51) - Start process
+2022-11-11 16:46:05,686 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:05
+2022-11-11 16:46:05,686 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:05,686 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:46:05,686 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:11,195 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:11
+2022-11-11 16:46:11,195 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:11,195 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:46:11,195 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:13,821 - [INFO] - __main__ - (View.py).readLog(51) - Cam 1 is enabled!
+2022-11-11 16:46:17,096 - [INFO] - __main__ - (View.py).readLog(51) - Cam 2 is enabled!
+2022-11-11 16:46:17,692 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:17
+2022-11-11 16:46:22,115 - [INFO] - __main__ - (View.py).readLog(51) - Cam 3 is enabled!
+2022-11-11 16:46:23,147 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:23
+2022-11-11 16:46:25,971 - [INFO] - __main__ - (View.py).readLog(51) - Cam 4 is enabled!
+2022-11-11 16:46:28,541 - [INFO] - __main__ - (View.py).readLog(51) - Cam 4 is disabled!
+2022-11-11 16:46:28,704 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:28
+2022-11-11 16:46:28,704 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:28,704 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:46:28,704 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:30,458 - [INFO] - __main__ - (View.py).readLog(51) - Cam 3 is disabled!
+2022-11-11 16:46:32,591 - [INFO] - __main__ - (View.py).readLog(51) - Cam 2 is disabled!
+2022-11-11 16:46:34,597 - [INFO] - __main__ - (View.py).readLog(51) - Cam 1 is disabled!
+2022-11-11 16:46:34,795 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:34
+2022-11-11 16:46:34,795 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:34,795 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:46:34,795 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:39,886 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:39
+2022-11-11 16:46:39,886 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:39,886 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:46:39,886 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:45,041 - [INFO] - __main__ - (View.py).readResult(85) - Parcel received: 2022-11-11 16:46:45
+2022-11-11 16:46:45,041 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:45,041 - [ERROR] - __main__ - (View.py).readResult(99) : list index out of range
+2022-11-11 16:46:45,041 - [ERROR] - __main__ - (View.py).readResult(99) - list index out of range
+2022-11-11 16:46:48,822 - [INFO] - __main__ - (View.py).readLog(51) - Exit process
+2022-11-11 16:46:50,025 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
