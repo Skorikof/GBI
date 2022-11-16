@@ -51,37 +51,43 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
-                    result_list = []
-                    for i in range(1, 9):
-                        print('Cycle reader')
-                        temp_arr = []
-                        rr = self.client.read_holding_registers(8192, 1, unit=i)
-                        if not rr.isError():
-                            if rr.registers[0] == 0:
-                                temp_arr.append([['Off', 'Off', 'Off'], ['Off', 'Off', 'Off'], ['Off', 'Off', 'Off']])
-                            if rr.registers[0] == 1:
-                                for j in range(len(self.sens_regs)):
-                                    temp_list = []
-                                    rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=i)
-                                    if not rr.isError():
-                                        temp_list.append(''.join(bin(rr.registers[0])[2:].zfill(16)))
-                                        temp_list.append(''.join(str(rr.registers[1])))
-                                        temp_list.append(''.join(bin(rr.registers[2])[2:].zfill(16)))
+                    if not self.client:
+                        txt_log = 'Not connect with COM-port'
+                        self.signals.result_log.emit(txt_log)
 
-                                    else:
-                                        temp_list.append(['Err', 'Err', 'Err'])
+                    else:
+                        result_list = []
+                        for i in range(1, 9):
+                            temp_arr = []
+                            rr = self.client.read_holding_registers(0, 10, unit=2)
+                            print(self.client.framer._buffer)
+                            if not rr.isError():
+                                print(rr.framer._buffer())
+                                # if rr.registers[0] == 0:
+                                #     temp_arr.append([['Off', 'Off', 'Off'], ['Off', 'Off', 'Off'], ['Off', 'Off', 'Off']])
+                                # if rr.registers[0] == 1:
+                                #     for j in range(len(self.sens_regs)):
+                                #         temp_list = []
+                                #         rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=i)
+                                #         if not rr.isError():
+                                #             temp_list.append(''.join(bin(rr.registers[0])[2:].zfill(16)))
+                                #             temp_list.append(''.join(str(rr.registers[1])))
+                                #             temp_list.append(''.join(bin(rr.registers[2])[2:].zfill(16)))
+                                #
+                                #         else:
+                                #             temp_list.append(['Err', 'Err', 'Err'])
+                                #
+                                #         temp_arr.append(temp_list)
 
-                                    temp_arr.append(temp_list)
+                            else:
+                                print(str(i))
+                                txt_log = 'Base Station ' + str(i) + ' does not answer'
+                                self.signals.result_log.emit(txt_log)
+                                temp_arr.append([['-100', '-100', '-100'], ['-100', '-100', '-100'], ['-100', '-100', '-100']])
+                            result_list.append(temp_arr)
 
-                        else:
-                            print(str(i))
-                            txt_log = 'Base Station ' + str(i) + ' does not answer'
-                            self.signals.result_log.emit(txt_log)
-                            temp_arr.append([['-100', '-100', '-100'], ['-100', '-100', '-100'], ['-100', '-100', '-100']])
-                        result_list.append(temp_arr)
-
-                    self.signals.result_temp.emit(result_list)
-                    time.sleep(5)
+                        self.signals.result_temp.emit(result_list)
+                        self.client.timeout(5)
 
             except Exception as e:
                 self.signals.error_read.emit(e)

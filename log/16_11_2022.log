@@ -1,0 +1,787 @@
+2022-11-16 09:55:27,593 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 09:55:27,594 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 09:55:27,982 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 09:55:27
+2022-11-16 09:55:27,982 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 09:55:27,982 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 09:55:27,982 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 09:55:33,329 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 09:55:33
+2022-11-16 09:55:33,329 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 09:55:33,329 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 09:55:33,329 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 09:55:38,655 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 09:55:38
+2022-11-16 09:55:38,656 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 09:55:38,656 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 09:55:38,656 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 09:56:26,215 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 10:05:15,520 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 10:05:15,520 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 10:05:15,878 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:15
+2022-11-16 10:05:15,879 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:15,879 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:15,879 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:15,879 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:15,879 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:15,879 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:16,461 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:16
+2022-11-16 10:05:16,461 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:16,461 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:16,461 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:16,461 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:16,461 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:16,461 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:17,265 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:17
+2022-11-16 10:05:17,265 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:17,265 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:17,265 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:17,265 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:17,265 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:17,265 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:17,611 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:17
+2022-11-16 10:05:17,611 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:17,611 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:17,611 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:17,612 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:17,612 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:17,612 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:18,013 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:18
+2022-11-16 10:05:18,013 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:18,013 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:18,013 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:18,013 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:18,013 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:18,013 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:18,361 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:18
+2022-11-16 10:05:18,361 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:18,361 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:18,361 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:18,362 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:18,362 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:18,362 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:18,695 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:18
+2022-11-16 10:05:18,695 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:18,695 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:18,695 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:18,695 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:18,695 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:18,695 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:19,045 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:19
+2022-11-16 10:05:19,045 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:19,045 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:19,045 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:19,045 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:19,045 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:19,045 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:19,399 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:19
+2022-11-16 10:05:19,400 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:19,400 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:19,400 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:19,401 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:19,401 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:19,401 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:19,730 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:19
+2022-11-16 10:05:19,731 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:19,731 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:19,731 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:19,731 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:19,731 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:19,731 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:20,061 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:20
+2022-11-16 10:05:20,061 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:20,061 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:20,061 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:20,062 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:20,062 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:20,062 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:20,397 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:20
+2022-11-16 10:05:20,397 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:20,397 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:20,397 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:20,398 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:20,398 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:20,398 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:20,728 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:20
+2022-11-16 10:05:20,729 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:20,729 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:20,729 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:20,730 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:20,730 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:20,730 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:21,079 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:21
+2022-11-16 10:05:21,079 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:21,079 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:21,079 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:21,079 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:21,079 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:21,079 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:21,413 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:21
+2022-11-16 10:05:21,413 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:21,413 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:21,413 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:21,414 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:21,414 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:21,414 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:21,745 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:21
+2022-11-16 10:05:21,746 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:21,746 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:21,746 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:21,748 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:21,748 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:21,748 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:22,079 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:22
+2022-11-16 10:05:22,081 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:22,081 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:22,081 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:22,082 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:22,082 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:22,082 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:22,412 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:22
+2022-11-16 10:05:22,412 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:22,412 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:22,412 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:22,413 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:22,413 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:22,413 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:22,745 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:22
+2022-11-16 10:05:22,745 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:22,745 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:22,745 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:22,745 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:22,745 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:22,745 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:23,077 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:23
+2022-11-16 10:05:23,077 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:23,077 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:23,077 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:23,078 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:23,078 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:23,078 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:23,411 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:23
+2022-11-16 10:05:23,411 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:23,411 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:23,411 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:23,412 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:23,412 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:23,412 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:23,744 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:23
+2022-11-16 10:05:23,745 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:23,745 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:23,745 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:23,745 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:23,745 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:23,745 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:24,076 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:24
+2022-11-16 10:05:24,077 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:24,077 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:24,077 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:24,077 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:24,077 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:24,077 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:24,411 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:24
+2022-11-16 10:05:24,412 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:24,412 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:24,412 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:24,412 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:24,412 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:24,412 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:24,743 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:24
+2022-11-16 10:05:24,744 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:24,744 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:24,744 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:24,745 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:24,745 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:24,745 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:25,072 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:25
+2022-11-16 10:05:25,072 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:25,072 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:25,072 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:25,072 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:25,072 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:25,072 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:25,396 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:25
+2022-11-16 10:05:25,397 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:25,397 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:25,397 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:25,397 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:25,397 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:25,397 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:25,722 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:25
+2022-11-16 10:05:25,722 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:25,722 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:25,722 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:25,723 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:25,723 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:25,723 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:26,069 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:26
+2022-11-16 10:05:26,070 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:26,070 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:26,070 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:26,071 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:26,071 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:26,071 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:26,411 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:26
+2022-11-16 10:05:26,412 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:26,412 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:26,412 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:26,413 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:26,413 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:26,413 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:26,743 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:26
+2022-11-16 10:05:26,743 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:26,743 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:26,743 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:26,744 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:26,744 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:26,744 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:27,078 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:27
+2022-11-16 10:05:27,080 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:27,080 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:27,080 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:27,081 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:27,081 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:27,081 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:27,409 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:27
+2022-11-16 10:05:27,410 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:27,410 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:27,410 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:27,410 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:27,410 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:27,410 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:27,743 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:27
+2022-11-16 10:05:27,743 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:27,743 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:27,743 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:27,744 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:27,744 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:27,744 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:28,077 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:28
+2022-11-16 10:05:28,078 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:28,078 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:28,078 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:28,078 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:28,078 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:28,078 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:28,408 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:28
+2022-11-16 10:05:28,408 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:28,408 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:28,408 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:28,408 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:28,408 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:28,408 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:28,739 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:28
+2022-11-16 10:05:28,740 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:28,740 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:28,740 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:28,742 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:28,742 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:28,742 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:29,093 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:29
+2022-11-16 10:05:29,094 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:29,094 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:29,094 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:29,095 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:29,095 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:29,095 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:29,324 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 10:05:29,426 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 10:05:29,477 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 10:05:29
+2022-11-16 10:05:29,477 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:29,477 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 10:05:29,477 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 10:05:29,478 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 10:05:29,478 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 10:05:29,478 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 11:25:59,010 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 11:25:59,010 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 11:37:08,220 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'registers'
+2022-11-16 11:37:08,220 - [ERROR] - __main__ - (View.py).readError(55) : 'ExceptionResponse' object has no attribute 'registers'
+2022-11-16 11:37:08,220 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'registers'
+2022-11-16 11:37:15,010 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'registers'
+2022-11-16 11:37:15,010 - [ERROR] - __main__ - (View.py).readError(55) : 'ExceptionResponse' object has no attribute 'registers'
+2022-11-16 11:37:15,010 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'registers'
+2022-11-16 11:38:57,041 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 11:38:57,041 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 11:39:00,044 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 11:39:00,060 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 11:48:55,551 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 11:48:55,551 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 11:57:33,288 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'framer'
+2022-11-16 11:57:33,288 - [ERROR] - __main__ - (View.py).readError(55) : 'ExceptionResponse' object has no attribute 'framer'
+2022-11-16 11:57:33,288 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'framer'
+2022-11-16 11:57:41,736 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'framer'
+2022-11-16 11:57:41,736 - [ERROR] - __main__ - (View.py).readError(55) : 'ExceptionResponse' object has no attribute 'framer'
+2022-11-16 11:57:41,736 - [ERROR] - __main__ - (View.py).readError(55) - 'ExceptionResponse' object has no attribute 'framer'
+2022-11-16 11:57:48,938 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 11:59:39,965 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 11:59:39,965 - [ERROR] - View - (ReadSettings.py).initPort(41) : Not a valid byte size: '8'
+2022-11-16 11:59:39,965 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 11:59:49,433 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 11:59:49,433 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 11:59:49,433 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:00:02,143 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:00:02,143 - [ERROR] - View - (ReadSettings.py).initPort(41) : Not a valid byte size: '8'
+2022-11-16 12:00:02,143 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:00:09,329 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:00:09,329 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:00:09,329 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:00:17,930 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:00:17,930 - [ERROR] - View - (ReadSettings.py).initPort(41) : Not a valid byte size: '8'
+2022-11-16 12:00:17,930 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:00:34,485 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:00:34,485 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:00:34,485 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:23:06,942 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:23:06,942 - [ERROR] - View - (ReadSettings.py).initPort(41) : Not a valid byte size: '8'
+2022-11-16 12:23:06,942 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:23:12,597 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:23:12,597 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:23:12,597 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:33:18,877 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:33:18,877 - [ERROR] - View - (ReadSettings.py).initPort(41) : Not a valid byte size: '8'
+2022-11-16 12:33:18,877 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:33:40,306 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:33:40,306 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:33:40,306 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:33:43,890 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:33:43,890 - [ERROR] - View - (ReadSettings.py).initPort(41) : Not a valid byte size: '8'
+2022-11-16 12:33:43,890 - [ERROR] - View - (ReadSettings.py).initPort(41) - Not a valid byte size: '8'
+2022-11-16 12:33:48,623 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:33:48,623 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:33:48,623 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-16 12:34:32,269 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 12:34:32,270 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 12:34:32,319 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:34:33,307 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:34:34,326 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:34:35,344 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:34:36,359 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:34:37,375 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:34:38,388 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:34:39,404 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:34:39,406 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:34:39
+2022-11-16 12:34:39,406 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:34:39,406 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:34:39,406 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:34:39,408 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:34:39,408 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:34:39,408 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:34:39,434 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:34:40,434 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:34:41,449 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:34:42,455 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:34:43,467 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:34:43,589 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 12:34:46,507 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 12:34:46,559 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:34:46,560 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:34:46,560 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:34:46,561 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:34:46
+2022-11-16 12:34:46,561 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:34:46,561 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:34:46,561 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:34:46,561 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:34:46,561 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:34:46,561 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:24,218 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 12:36:24,219 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 12:36:25,234 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:26,249 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:27,258 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:28,269 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 12:36:32,337 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 12:36:32,382 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:32,382 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:32,383 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:32,384 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:32,384 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:32,385 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:32
+2022-11-16 12:36:32,385 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:32,385 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:32,385 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:32,385 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:32,385 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:32,385 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,182 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 12:36:54,183 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 12:36:54,229 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:54,230 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:54,241 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:54,250 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:54,266 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:54,283 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:54,303 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:54,318 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:54,319 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:54
+2022-11-16 12:36:54,319 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,319 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:54,319 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,319 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,319 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:54,319 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,335 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:54,351 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:54,367 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:54,383 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:54,400 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:54,416 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:54,432 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:54,448 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:54,448 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:54
+2022-11-16 12:36:54,448 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,448 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:54,448 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,448 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,448 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:54,448 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,464 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:54,480 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:54,496 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:54,512 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:54,528 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:54,544 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:54,560 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:54,576 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:54,576 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:54
+2022-11-16 12:36:54,577 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,577 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:54,577 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,577 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,577 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:54,577 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,594 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:54,610 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:54,626 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:54,642 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:54,660 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:54,677 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:54,694 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:54,710 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:54,711 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:54
+2022-11-16 12:36:54,711 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,711 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:54,711 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,711 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,711 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:54,711 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,727 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:54,743 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:54,760 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:54,776 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:54,793 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:54,809 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:54,825 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:54,841 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:54,842 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:54
+2022-11-16 12:36:54,842 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,842 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:54,842 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,843 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,843 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:54,843 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,859 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:54,876 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:54,893 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:54,910 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:54,927 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:54,944 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:54,960 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:54,976 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:54,976 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:54
+2022-11-16 12:36:54,976 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,976 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:54,976 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:54,977 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,977 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:54,977 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:54,993 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,009 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,026 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,042 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,059 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,075 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,091 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,110 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,111 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,111 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,111 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,111 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,112 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,112 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,112 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,128 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,144 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,160 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,176 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,193 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,209 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,225 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,242 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,243 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,243 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,243 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,243 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,243 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,243 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,243 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,259 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,275 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,291 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,308 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,326 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,342 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,359 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,376 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,377 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,377 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,377 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,377 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,378 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,378 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,378 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,396 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,412 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,428 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,444 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,460 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,476 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,492 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,508 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,509 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,509 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,509 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,509 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,509 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,509 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,509 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,525 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,542 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,559 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,576 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,593 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,610 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,626 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,643 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,643 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,643 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,643 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,643 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,644 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,644 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,644 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,660 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,676 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,692 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,709 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,726 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,742 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,759 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,777 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,778 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,778 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,778 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,778 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,779 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,779 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,779 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,797 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:55,814 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:55,832 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:55,850 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:55,868 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:55,885 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:55,901 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:55,916 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:55,917 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:55
+2022-11-16 12:36:55,917 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,917 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:55,917 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:55,917 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:55,917 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:55,917 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:56,934 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:56,956 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:56,979 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,001 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,023 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,046 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,071 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,095 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,097 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,098 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,098 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,098 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,101 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,101 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,101 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,119 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,142 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:57,164 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,181 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,199 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,217 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,235 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,252 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,253 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,253 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,253 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,253 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,254 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,254 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,254 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,271 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,290 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:57,310 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,327 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,346 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,365 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,383 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,403 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,404 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,404 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,404 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,404 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,407 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,407 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,407 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,426 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,445 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:57,463 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,481 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,498 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,515 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,537 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,555 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,555 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,555 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,555 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,555 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,556 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,556 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,556 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,575 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,593 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:57,610 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,627 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,644 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,662 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,679 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,698 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,698 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,698 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,698 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,698 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,699 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,699 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,699 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,716 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,733 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:57,749 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,766 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,781 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,798 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,814 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,830 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,830 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,831 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,831 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,831 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,832 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,832 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,832 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,849 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,865 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:57,882 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:57,898 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:57,915 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:57,931 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:57,947 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:57,964 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:57,964 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:57
+2022-11-16 12:36:57,964 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,964 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:57,964 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:57,965 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,965 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:57,965 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:57,980 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:57,997 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:58,013 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:58,030 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:58,046 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:58,062 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:58,079 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:58,095 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:58,095 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:58
+2022-11-16 12:36:58,096 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,096 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:58,096 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,096 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,096 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:58,096 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,112 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:58,128 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:58,145 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:58,161 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:58,178 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:58,195 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:58,212 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:58,230 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:58,231 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:58
+2022-11-16 12:36:58,231 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,231 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:58,231 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,232 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,232 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:58,232 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,249 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:58,266 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:58,282 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:58,299 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:58,318 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:58,334 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:58,350 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:58,367 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:58,367 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:58
+2022-11-16 12:36:58,368 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,368 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:58,368 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,369 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,369 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:58,369 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,384 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:58,401 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:58,500 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:58,500 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:58,501 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:58,501 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:58,501 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:58,501 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:58,501 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:58
+2022-11-16 12:36:58,502 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,502 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:58,502 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,502 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,502 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:58,502 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,502 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 12:36:58,630 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 12:36:58,645 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 1 does not answer
+2022-11-16 12:36:58,646 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 12:36:58,647 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 12:36:58,648 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 12:36:58,649 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 12:36:58,650 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 12:36:58,651 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 12:36:58,651 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 12:36:58,651 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 12:36:58
+2022-11-16 12:36:58,651 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,651 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 12:36:58,651 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 12:36:58,652 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:36:58,652 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 12:36:58,652 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 12:38:24,422 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 12:38:24,424 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 12:40:57,732 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 12:40:57,733 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 12:42:34,625 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 12:42:34,625 - [INFO] - __main__ - (View.py).readLog(50) - Start process
