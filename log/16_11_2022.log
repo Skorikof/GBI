@@ -785,3 +785,63 @@
 2022-11-16 12:40:57,733 - [INFO] - __main__ - (View.py).readLog(50) - Start process
 2022-11-16 12:42:34,625 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
 2022-11-16 12:42:34,625 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 14:19:58,058 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 14:19:58,058 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 14:20:36,600 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 14:20:36,616 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 14:28:59,199 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 14:28:59,199 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 14:29:03,246 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 14:29:06,323 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 14:29:06,354 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 14:29:06
+2022-11-16 14:29:06,354 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 14:29:06,354 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 14:29:06,354 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 14:29:06,354 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 14:29:06,354 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 14:29:06,354 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 15:14:05,231 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 15:14:05,231 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 15:16:13,636 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 15:16:13,636 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 15:17:44,287 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 15:17:44,287 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 15:19:46,748 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 15:19:46,748 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 15:23:59,822 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 15:23:59,822 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 15:24:28,156 - [ERROR] - __main__ - (View.py).readError(55) - string index out of range
+2022-11-16 15:24:28,156 - [ERROR] - __main__ - (View.py).readError(55) : string index out of range
+2022-11-16 15:24:28,156 - [ERROR] - __main__ - (View.py).readError(55) - string index out of range
+2022-11-16 15:31:47,294 - [INFO] - __main__ - (GBI.py).main(36) - Programm starting!
+2022-11-16 15:31:47,294 - [INFO] - __main__ - (View.py).readLog(50) - Start process
+2022-11-16 15:31:48,325 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 15:31:49,340 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 15:31:50,355 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 15:31:51,371 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 15:31:52,386 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 15:31:53,402 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 15:31:54,417 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 15:31:54,417 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 15:31:54
+2022-11-16 15:31:54,417 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 15:31:54,417 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 15:31:54,417 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 15:31:54,417 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 15:31:54,417 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 15:31:54,417 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 15:31:55,442 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 2 does not answer
+2022-11-16 15:31:56,457 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 3 does not answer
+2022-11-16 15:31:57,461 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 4 does not answer
+2022-11-16 15:31:58,499 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 5 does not answer
+2022-11-16 15:31:58,499 - [INFO] - __main__ - (View.py).readLog(50) - Exit process
+2022-11-16 15:32:01,514 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-16 15:32:01,545 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 6 does not answer
+2022-11-16 15:32:01,545 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 7 does not answer
+2022-11-16 15:32:01,545 - [INFO] - __main__ - (View.py).readLog(50) - Base Station 8 does not answer
+2022-11-16 15:32:01,561 - [INFO] - __main__ - (View.py).readResult(86) - Parcel received: 2022-11-16 15:32:01
+2022-11-16 15:32:01,561 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 15:32:01,561 - [ERROR] - __main__ - (View.py).readResult(118) : list index out of range
+2022-11-16 15:32:01,561 - [ERROR] - __main__ - (View.py).readResult(118) - list index out of range
+2022-11-16 15:32:01,561 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
+2022-11-16 15:32:01,561 - [ERROR] - __main__ - (View.py).readError(55) : 'int' object is not callable
+2022-11-16 15:32:01,561 - [ERROR] - __main__ - (View.py).readError(55) - 'int' object is not callable
