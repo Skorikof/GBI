@@ -21,10 +21,10 @@ class Writer(QRunnable):
     def run(self):
         try:
             if self.command:
-                rq = self.client.write_registers(8192, [1], init=self.adr_dev)
+                rq = self.client.write_register(8192, 1, init=self.adr_dev)
                 txt_log = 'Cam ' + str(self.adr_dev) + ' is enabled!'
             else:
-                rq = self.client.write_registers(8192, [0], init=self.adr_dev)
+                rq = self.client.write_register(8192, 0, init=self.adr_dev)
                 txt_log = 'Cam ' + str(self.adr_dev) + ' is disabled!'
             self.signals.result_log.emit(txt_log)
 
