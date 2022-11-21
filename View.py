@@ -95,24 +95,8 @@ class ChangeUi(QMainWindow):
                     self.dataCam.cam[i].sens[j].bat = arr[i][j][2]
 
             self.convertSerial()
-
-            self.convertTempCam1()
-            self.convertTempCam2()
-            self.convertTempCam3()
-            self.convertTempCam4()
-            self.convertTempCam5()
-            self.convertTempCam6()
-            self.convertTempCam7()
-            self.convertTempCam8()
-
-            self.convertBatCam1()
-            self.convertBatCam2()
-            self.convertBatCam3()
-            self.convertBatCam4()
-            self.convertBatCam5()
-            self.convertBatCam6()
-            self.convertBatCam7()
-            self.convertBatCam8()
+            self.convertTemp()
+            self.convertBat()
 
         except Exception as e:
             self.logger.error(e)
@@ -154,322 +138,76 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.logger.error(e)
 
-    def convertTempCam1(self):
+    def convertTemp(self):
         try:
-            if len(self.dataCam.cam[0].sens[0].temp) < 5:
-                self.ui.cam1_sens1temp_lcdNum.display(self.dataCam.cam[0].sens[0].temp)
-            else:
-                self.ui.cam1_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[0].temp))
+            self.ui.cam1_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[0].temp))
+            self.ui.cam1_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[1].temp))
+            self.ui.cam1_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[2].temp))
 
-            if len(self.dataCam.cam[0].sens[1].temp) < 5:
-                self.ui.cam1_sens2temp_lcdNum.display(self.dataCam.cam[0].sens[1].temp)
-            else:
-                self.ui.cam1_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[1].temp))
+            self.ui.cam2_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[0].temp))
+            self.ui.cam2_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[1].temp))
+            self.ui.cam2_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[2].temp))
 
-            if len(self.dataCam.cam[0].sens[2].temp) < 5:
-                self.ui.cam1_sens3temp_lcdNum.display(self.dataCam.cam[0].sens[2].temp)
-            else:
-                self.ui.cam1_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[2].temp))
+            self.ui.cam3_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[0].temp))
+            self.ui.cam3_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[1].temp))
+            self.ui.cam3_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[2].temp))
+
+            self.ui.cam4_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[0].temp))
+            self.ui.cam4_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[1].temp))
+            self.ui.cam4_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[2].temp))
+
+            self.ui.cam5_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[0].temp))
+            self.ui.cam5_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[1].temp))
+            self.ui.cam5_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[2].temp))
+
+            self.ui.cam6_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[0].temp))
+            self.ui.cam6_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[1].temp))
+            self.ui.cam6_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[2].temp))
+
+            self.ui.cam7_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[0].temp))
+            self.ui.cam7_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[1].temp))
+            self.ui.cam7_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[2].temp))
+
+            self.ui.cam8_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[0].temp))
+            self.ui.cam8_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[1].temp))
+            self.ui.cam8_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[2].temp))
 
         except Exception as e:
             self.logger.error(e)
 
-    def convertTempCam2(self):
+    def convertBat(self):
         try:
-            if len(self.dataCam.cam[1].sens[0].temp) < 5:
-                self.ui.cam2_sens1temp_lcdNum.display(self.dataCam.cam[1].sens[0].temp)
-            else:
-                self.ui.cam2_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[0].temp))
+            self.ui.cam1_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[0].bat))
+            self.ui.cam1_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[1].bat))
+            self.ui.cam1_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[2].bat))
 
-            if len(self.dataCam.cam[1].sens[1].temp) < 5:
-                self.ui.cam2_sens2temp_lcdNum.display(self.dataCam.cam[1].sens[1].temp)
-            else:
-                self.ui.cam2_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[1].temp))
+            self.ui.cam2_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[0].bat))
+            self.ui.cam2_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[1].bat))
+            self.ui.cam2_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[2].bat))
 
-            if len(self.dataCam.cam[1].sens[2].temp) < 5:
-                self.ui.cam2_sens3temp_lcdNum.display(self.dataCam.cam[1].sens[2].temp)
-            else:
-                self.ui.cam2_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[2].temp))
+            self.ui.cam3_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[0].bat))
+            self.ui.cam3_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[1].bat))
+            self.ui.cam3_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[2].bat))
 
-        except Exception as e:
-            self.logger.error(e)
+            self.ui.cam4_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[0].bat))
+            self.ui.cam4_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[1].bat))
+            self.ui.cam4_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[2].bat))
 
-    def convertTempCam3(self):
-        try:
-            if len(self.dataCam.cam[2].sens[0].temp) < 5:
-                self.ui.cam3_sens1temp_lcdNum.display(self.dataCam.cam[2].sens[0].temp)
-            else:
-                self.ui.cam3_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[0].temp))
+            self.ui.cam5_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[0].bat))
+            self.ui.cam5_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[1].bat))
+            self.ui.cam5_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[2].bat))
 
-            if len(self.dataCam.cam[2].sens[1].temp) < 5:
-                self.ui.cam3_sens2temp_lcdNum.display(self.dataCam.cam[2].sens[1].temp)
-            else:
-                self.ui.cam3_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[1].temp))
+            self.ui.cam6_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[0].bat))
+            self.ui.cam6_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[1].bat))
+            self.ui.cam6_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[2].bat))
 
-            if len(self.dataCam.cam[2].sens[2].temp) < 5:
-                self.ui.cam3_sens3temp_lcdNum.display(self.dataCam.cam[2].sens[2].temp)
-            else:
-                self.ui.cam3_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[2].temp))
+            self.ui.cam7_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[0].bat))
+            self.ui.cam7_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[1].bat))
+            self.ui.cam7_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[2].bat))
 
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertTempCam4(self):
-        try:
-            if len(self.dataCam.cam[3].sens[0].temp) < 5:
-                self.ui.cam4_sens1temp_lcdNum.display(self.dataCam.cam[3].sens[0].temp)
-            else:
-                self.ui.cam4_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[0].temp))
-
-            if len(self.dataCam.cam[3].sens[1].temp) < 5:
-                self.ui.cam4_sens2temp_lcdNum.display(self.dataCam.cam[3].sens[1].temp)
-            else:
-                self.ui.cam4_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[1].temp))
-
-            if len(self.dataCam.cam[3].sens[2].temp) < 5:
-                self.ui.cam4_sens3temp_lcdNum.display(self.dataCam.cam[3].sens[2].temp)
-            else:
-                self.ui.cam4_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[2].temp))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertTempCam5(self):
-        try:
-            if len(self.dataCam.cam[4].sens[0].temp) < 5:
-                self.ui.cam5_sens1temp_lcdNum.display(self.dataCam.cam[4].sens[0].temp)
-            else:
-                self.ui.cam5_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[0].temp))
-
-            if len(self.dataCam.cam[4].sens[1].temp) < 5:
-                self.ui.cam5_sens2temp_lcdNum.display(self.dataCam.cam[4].sens[1].temp)
-            else:
-                self.ui.cam5_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[1].temp))
-
-            if len(self.dataCam.cam[4].sens[2].temp) < 5:
-                self.ui.cam5_sens3temp_lcdNum.display(self.dataCam.cam[4].sens[2].temp)
-            else:
-                self.ui.cam5_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[2].temp))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertTempCam6(self):
-        try:
-            if len(self.dataCam.cam[5].sens[0].temp) < 5:
-                self.ui.cam6_sens1temp_lcdNum.display(self.dataCam.cam[5].sens[0].temp)
-            else:
-                self.ui.cam6_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[0].temp))
-
-            if len(self.dataCam.cam[5].sens[1].temp) < 5:
-                self.ui.cam6_sens2temp_lcdNum.display(self.dataCam.cam[5].sens[1].temp)
-            else:
-                self.ui.cam6_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[1].temp))
-
-            if len(self.dataCam.cam[5].sens[2].temp) < 5:
-                self.ui.cam6_sens3temp_lcdNum.display(self.dataCam.cam[5].sens[2].temp)
-            else:
-                self.ui.cam6_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[2].temp))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertTempCam7(self):
-        try:
-            if len(self.dataCam.cam[6].sens[0].temp) < 5:
-                self.ui.cam7_sens1temp_lcdNum.display(self.dataCam.cam[6].sens[0].temp)
-            else:
-                self.ui.cam7_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[0].temp))
-
-            if len(self.dataCam.cam[6].sens[1].temp) < 5:
-                self.ui.cam7_sens2temp_lcdNum.display(self.dataCam.cam[6].sens[1].temp)
-            else:
-                self.ui.cam7_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[1].temp))
-
-            if len(self.dataCam.cam[6].sens[2].temp) < 5:
-                self.ui.cam7_sens3temp_lcdNum.display(self.dataCam.cam[6].sens[2].temp)
-            else:
-                self.ui.cam7_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[2].temp))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertTempCam8(self):
-        try:
-            if len(self.dataCam.cam[7].sens[0].temp) < 5:
-                self.ui.cam8_sens1temp_lcdNum.display(self.dataCam.cam[7].sens[0].temp)
-            else:
-                self.ui.cam8_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[0].temp))
-
-            if len(self.dataCam.cam[7].sens[1].temp) < 5:
-                self.ui.cam8_sens2temp_lcdNum.display(self.dataCam.cam[7].sens[1].temp)
-            else:
-                self.ui.cam8_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[1].temp))
-
-            if len(self.dataCam.cam[7].sens[2].temp) < 5:
-                self.ui.cam8_sens3temp_lcdNum.display(self.dataCam.cam[7].sens[2].temp)
-            else:
-                self.ui.cam8_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[2].temp))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam1(self):
-        try:
-            if len(self.dataCam.cam[0].sens[0].bat) < 5:
-                self.ui.cam1_sens1bat_lcdNum.display(self.dataCam.cam[0].sens[0].bat)
-            else:
-                self.ui.cam1_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[0].bat))
-
-            if len(self.dataCam.cam[0].sens[1].bat) < 5:
-                self.ui.cam1_sens2bat_lcdNum.display(self.dataCam.cam[0].sens[1].bat)
-            else:
-                self.ui.cam1_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[1].bat))
-
-            if len(self.dataCam.cam[0].sens[2].bat) < 5:
-                self.ui.cam1_sens3bat_lcdNum.display(self.dataCam.cam[0].sens[2].bat)
-            else:
-                self.ui.cam1_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam2(self):
-        try:
-            if len(self.dataCam.cam[1].sens[0].bat) < 5:
-                self.ui.cam2_sens1bat_lcdNum.display(self.dataCam.cam[1].sens[0].bat)
-            else:
-                self.ui.cam2_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[0].bat))
-
-            if len(self.dataCam.cam[1].sens[1].bat) < 5:
-                self.ui.cam2_sens2bat_lcdNum.display(self.dataCam.cam[1].sens[1].bat)
-            else:
-                self.ui.cam2_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[1].bat))
-
-            if len(self.dataCam.cam[1].sens[2].bat) < 5:
-                self.ui.cam2_sens3bat_lcdNum.display(self.dataCam.cam[1].sens[2].bat)
-            else:
-                self.ui.cam2_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam3(self):
-        try:
-            if len(self.dataCam.cam[2].sens[0].bat) < 5:
-                self.ui.cam3_sens1bat_lcdNum.display(self.dataCam.cam[2].sens[0].bat)
-            else:
-                self.ui.cam3_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[0].bat))
-
-            if len(self.dataCam.cam[2].sens[1].bat) < 5:
-                self.ui.cam3_sens2bat_lcdNum.display(self.dataCam.cam[2].sens[1].bat)
-            else:
-                self.ui.cam3_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[1].bat))
-
-            if len(self.dataCam.cam[2].sens[2].bat) < 5:
-                self.ui.cam3_sens3bat_lcdNum.display(self.dataCam.cam[2].sens[2].bat)
-            else:
-                self.ui.cam3_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam4(self):
-        try:
-            if len(self.dataCam.cam[3].sens[0].bat) < 5:
-                self.ui.cam4_sens1bat_lcdNum.display(self.dataCam.cam[3].sens[0].bat)
-            else:
-                self.ui.cam4_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[0].bat))
-
-            if len(self.dataCam.cam[3].sens[1].bat) < 5:
-                self.ui.cam4_sens2bat_lcdNum.display(self.dataCam.cam[3].sens[1].bat)
-            else:
-                self.ui.cam4_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[1].bat))
-
-            if len(self.dataCam.cam[3].sens[2].bat) < 5:
-                self.ui.cam4_sens3bat_lcdNum.display(self.dataCam.cam[3].sens[2].bat)
-            else:
-                self.ui.cam4_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam5(self):
-        try:
-            if len(self.dataCam.cam[4].sens[0].bat) < 5:
-                self.ui.cam5_sens1bat_lcdNum.display(self.dataCam.cam[4].sens[0].bat)
-            else:
-                self.ui.cam5_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[0].bat))
-
-            if len(self.dataCam.cam[4].sens[1].bat) < 5:
-                self.ui.cam5_sens2bat_lcdNum.display(self.dataCam.cam[4].sens[1].bat)
-            else:
-                self.ui.cam5_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[1].bat))
-
-            if len(self.dataCam.cam[4].sens[2].bat) < 5:
-                self.ui.cam5_sens3bat_lcdNum.display(self.dataCam.cam[4].sens[2].bat)
-            else:
-                self.ui.cam5_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam6(self):
-        try:
-            if len(self.dataCam.cam[5].sens[0].bat) < 5:
-                self.ui.cam6_sens1bat_lcdNum.display(self.dataCam.cam[5].sens[0].bat)
-            else:
-                self.ui.cam6_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[0].bat))
-
-            if len(self.dataCam.cam[5].sens[1].bat) < 5:
-                self.ui.cam6_sens2bat_lcdNum.display(self.dataCam.cam[5].sens[1].bat)
-            else:
-                self.ui.cam6_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[1].bat))
-
-            if len(self.dataCam.cam[5].sens[2].bat) < 5:
-                self.ui.cam6_sens3bat_lcdNum.display(self.dataCam.cam[5].sens[2].bat)
-            else:
-                self.ui.cam6_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam7(self):
-        try:
-            if len(self.dataCam.cam[6].sens[0].bat) < 5:
-                self.ui.cam7_sens1bat_lcdNum.display(self.dataCam.cam[6].sens[0].bat)
-            else:
-                self.ui.cam7_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[0].bat))
-
-            if len(self.dataCam.cam[6].sens[1].bat) < 5:
-                self.ui.cam7_sens2bat_lcdNum.display(self.dataCam.cam[6].sens[1].bat)
-            else:
-                self.ui.cam7_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[1].bat))
-
-            if len(self.dataCam.cam[6].sens[2].bat) < 5:
-                self.ui.cam7_sens3bat_lcdNum.display(self.dataCam.cam[6].sens[2].bat)
-            else:
-                self.ui.cam7_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[2].bat))
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertBatCam8(self):
-        try:
-            if len(self.dataCam.cam[7].sens[0].bat) < 5:
-                self.ui.cam8_sens1bat_lcdNum.display(self.dataCam.cam[7].sens[0].bat)
-            else:
-                self.ui.cam8_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[0].bat))
-
-            if len(self.dataCam.cam[7].sens[1].bat) < 5:
-                self.ui.cam8_sens2bat_lcdNum.display(self.dataCam.cam[7].sens[1].bat)
-            else:
-                self.ui.cam8_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[1].bat))
-
-            if len(self.dataCam.cam[7].sens[2].bat) < 5:
-                self.ui.cam8_sens3bat_lcdNum.display(self.dataCam.cam[7].sens[2].bat)
-            else:
-                self.ui.cam8_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[2].bat))
+            self.ui.cam8_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[0].bat))
+            self.ui.cam8_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[1].bat))
+            self.ui.cam8_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[2].bat))
 
         except Exception as e:
             self.logger.error(e)
@@ -478,6 +216,10 @@ class ChangeUi(QMainWindow):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
         if value[:1] == '1':
             val_temp = -(2 ** bits - int(value, 2))
+            if val_temp == -10:
+                return 'Error'
+            if val_temp == -20:
+                return 'oFF'
         else:
             val_temp = int(value, 2)
 

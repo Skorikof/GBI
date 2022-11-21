@@ -60,14 +60,42 @@ class Reader(QRunnable):
                         if msg == "b''":
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
                             self.signals.result_log.emit(txt_log)
-                            temp_arr.append([['-100', '-100', '-100'],
-                                             ['-100', '-100', '-100'],
-                                             ['-100', '-100', '-100']])
-                        elif msg[12] == '1':
-                            print('Base station active')
-
+                            temp_arr.append([['1111111111110110', '11110110', '11110110'],
+                                             ['1111111111110110', '11110110', '11110110'],
+                                             ['1111111111110110', '11110110', '11110110']]) # -10
                         else:
-                            print('Base station deactive')
+                            msg = msg[9:-7:]
+                            if msg == '0000':
+                                txt_log = 'Base Station ' + str(i) + ' is disabled'
+                                self.signals.result_log.emit(txt_log)
+                                temp_arr.append([['1111111111101100', '11101100', '11101100'],
+                                                 ['1111111111101100', '11101100', '11101100'],
+                                                 ['1111111111101100', '11101100', '11101100']]) # -20
+                            else:
+                                temp_list = []
+                                for j in range(3):
+                                    rr = self.client.read_holding_registers(4098 + j, 1, unit=i)
+                                    msg = str(self.client.framer._buffer)
+                                    msg = msg[9:-7:]
+                                    print(msg)
+                                    temp_list.append(msg)
+                                temp_arr.append(temp_list)
+
+                                for j in range(3):
+                                    rr = self.client.read_holding_registers(4103 + j, 1, unit=i)
+                                    msg = str(self.client.framer._buffer)
+                                    msg = msg[9:-7:]
+                                    print(msg)
+                                    temp_list.append(msg)
+                                temp_arr.append(temp_list)
+
+                                for j in range(3):
+                                    rr = self.client.read_holding_registers(4108 + j, 1, unit=i)
+                                    msg = str(self.client.framer._buffer)
+                                    msg = msg[9:-7:]
+                                    print(msg)
+                                    temp_list.append(msg)
+                                temp_arr.append(temp_list)
 
                         result_list.append(temp_arr)
 
