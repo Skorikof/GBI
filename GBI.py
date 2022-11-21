@@ -26,14 +26,17 @@ def main():
     app = QApplication(sys.argv)
     window = ApplicationWindow()
     window.show()
+    txt_log = 'Programm starting!'
+    print(txt_log)
+    window.logger.info(txt_log)
     try:
         if not window.set_port.initPort():
-            window.ui.info_label.setText('Отсутствует подключение по порту: ' + window.set_port.portNumber)
-        else:
-            window.threadInit()
-            txt_log = 'Programm starting!'
+            txt_log = 'Отсутствует подключение по порту: ' + window.set_port.portNumber
             print(txt_log)
             window.logger.info(txt_log)
+            window.ui.info_label.setText(txt_log)
+        else:
+            window.threadInit()
             window.startThread()
 
     except Exception as e:

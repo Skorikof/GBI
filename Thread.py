@@ -52,11 +52,11 @@ class Reader(QRunnable):
                     time.sleep(1)
                 else:
                     result_list = []
-                    for i in range(1, 9):
+                    for i in range(8):
                         temp_arr = []
-                        rr = self.client.read_holding_registers(8192, 1, unit=i)
+                        rr = self.client.read_holding_registers(8192, 1, unit=i+1)
                         msg = str(self.client.framer._buffer)
-                        print(msg)
+                        #print(msg)
                         if msg == "b''":
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
                             self.signals.result_log.emit(txt_log)
@@ -66,7 +66,7 @@ class Reader(QRunnable):
                         else:
                             msg = msg[9:-7:]
                             if msg == '0000':
-                                txt_log = 'Base Station ' + str(i) + ' is disabled'
+                                txt_log = 'Base Station ' + str(i + 1) + ' is disabled'
                                 self.signals.result_log.emit(txt_log)
                                 temp_arr.append([['1111111111101100', '11101100', '11101100'],
                                                  ['1111111111101100', '11101100', '11101100'],
@@ -74,33 +74,30 @@ class Reader(QRunnable):
                             else:
                                 temp_list = []
                                 for j in range(3):
-                                    rr = self.client.read_holding_registers(4098 + j, 1, unit=i)
+                                    rr = self.client.read_holding_registers(4098 + j, 1, unit=i+1)
                                     msg = str(self.client.framer._buffer)
                                     msg = msg[9:-7:]
-                                    print(msg)
                                     temp_list.append(msg)
                                 temp_arr.append(temp_list)
 
                                 for j in range(3):
-                                    rr = self.client.read_holding_registers(4103 + j, 1, unit=i)
+                                    rr = self.client.read_holding_registers(4103 + j, 1, unit=i+1)
                                     msg = str(self.client.framer._buffer)
                                     msg = msg[9:-7:]
-                                    print(msg)
                                     temp_list.append(msg)
                                 temp_arr.append(temp_list)
 
                                 for j in range(3):
-                                    rr = self.client.read_holding_registers(4108 + j, 1, unit=i)
+                                    rr = self.client.read_holding_registers(4108 + j, 1, unit=i+1)
                                     msg = str(self.client.framer._buffer)
                                     msg = msg[9:-7:]
-                                    print(msg)
                                     temp_list.append(msg)
                                 temp_arr.append(temp_list)
 
                         result_list.append(temp_arr)
 
                     self.signals.result_temp.emit(result_list)
-                    self.client.timeout(5)
+                    time.sleep(5)
 
             except Exception as e:
                 self.signals.error_read.emit(e)
