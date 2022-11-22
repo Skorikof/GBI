@@ -37,6 +37,7 @@ class ChangeUi(QMainWindow):
             self.signals.signalStart.connect(self.reader.startProcess)
             self.signals.signalExit.connect(self.reader.exitProcess)
             self.threadpool.start(self.reader)
+            self.startThread()
 
         except Exception as e:
             self.logger.error(e)
@@ -58,8 +59,6 @@ class ChangeUi(QMainWindow):
 
     def initCheck(self):
         try:
-            for i in range(8):
-                self.check_cams(i + 1, False)
             self.ui.cam1_checkBox.stateChanged.connect(lambda: self.check_cams(1, self.ui.cam1_checkBox.isChecked()))
             self.ui.cam2_checkBox.stateChanged.connect(lambda: self.check_cams(2, self.ui.cam2_checkBox.isChecked()))
             self.ui.cam3_checkBox.stateChanged.connect(lambda: self.check_cams(3, self.ui.cam3_checkBox.isChecked()))
@@ -74,10 +73,8 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            self.signals.signalPause.emit()
             self.writer = Writer(self.set_port.client, adr, state)
             self.threadpool.start(self.writer)
-            self.startThread()
 
         except Exception as e:
             self.logger.error(e)
