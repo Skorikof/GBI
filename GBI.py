@@ -37,7 +37,6 @@ def main():
             window.ui.info_label.setText(txt_log)
         else:
             window.threadInit()
-            window.startThread()
 
     except Exception as e:
         window.logger.error(e)

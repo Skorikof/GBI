@@ -11,6 +11,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 
 class WindowSignals(QObject):
     signalStart = pyqtSignal()
+    signalPause = pyqtSignal()
     signalWrite = pyqtSignal(int, bool)
     signalExit = pyqtSignal()
 
@@ -30,6 +31,7 @@ class ChangeUi(QMainWindow):
             self.threadpool = QThreadPool()
             self.reader = Reader(self.set_port.client)
             self.reader.signals.result_temp.connect(self.readResult)
+            self.reader.signals.check_cam.connect(self.cancel_check)
             self.reader.signals.error_read.connect(self.readError)
             self.reader.signals.result_log.connect(self.readLog)
             self.signals.signalStart.connect(self.reader.startProcess)
@@ -56,6 +58,8 @@ class ChangeUi(QMainWindow):
 
     def initCheck(self):
         try:
+            for i in range(8):
+                self.check_cams(i + 1, False)
             self.ui.cam1_checkBox.stateChanged.connect(lambda: self.check_cams(1, self.ui.cam1_checkBox.isChecked()))
             self.ui.cam2_checkBox.stateChanged.connect(lambda: self.check_cams(2, self.ui.cam2_checkBox.isChecked()))
             self.ui.cam3_checkBox.stateChanged.connect(lambda: self.check_cams(3, self.ui.cam3_checkBox.isChecked()))
@@ -70,9 +74,56 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
+            self.signals.signalPause.emit()
             self.writer = Writer(self.set_port.client, adr, state)
             self.threadpool.start(self.writer)
-            print(adr, state)
+            self.startThread()
+
+        except Exception as e:
+            self.logger.error(e)
+
+    def cancel_check(self, adr, command):
+        try:
+            if adr == 1:
+                if command:
+                    self.ui.cam1_checkBox.setChecked(True)
+                else:
+                    self.ui.cam1_checkBox.setChecked(False)
+            if adr == 2:
+                if command:
+                    self.ui.cam2_checkBox.setChecked(True)
+                else:
+                    self.ui.cam2_checkBox.setChecked(False)
+            if adr == 3:
+                if command:
+                    self.ui.cam3_checkBox.setChecked(True)
+                else:
+                    self.ui.cam3_checkBox.setChecked(False)
+            if adr == 4:
+                if command:
+                    self.ui.cam4_checkBox.setChecked(True)
+                else:
+                    self.ui.cam4_checkBox.setChecked(False)
+            if adr == 5:
+                if command:
+                    self.ui.cam5_checkBox.setChecked(True)
+                else:
+                    self.ui.cam5_checkBox.setChecked(False)
+            if adr == 6:
+                if command:
+                    self.ui.cam6_checkBox.setChecked(True)
+                else:
+                    self.ui.cam6_checkBox.setChecked(False)
+            if adr == 7:
+                if command:
+                    self.ui.cam7_checkBox.setChecked(True)
+                else:
+                    self.ui.cam7_checkBox.setChecked(False)
+            if adr == 8:
+                if command:
+                    self.ui.cam8_checkBox.setChecked(True)
+                else:
+                    self.ui.cam8_checkBox.setChecked(False)
 
         except Exception as e:
             self.logger.error(e)

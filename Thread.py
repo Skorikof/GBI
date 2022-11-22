@@ -5,6 +5,7 @@ from PyQt5.QtCore import QObject, QRunnable, pyqtSignal, pyqtSlot
 class ReadSignals(QObject):
     result_temp = pyqtSignal(object)
     result_log = pyqtSignal(object)
+    check_cam = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
 
 
@@ -21,11 +22,17 @@ class Writer(QRunnable):
     def run(self):
         try:
             if self.command:
-                rq = self.client.write_register(8192, 1, init=self.adr_dev)
-                txt_log = 'Cam ' + str(self.adr_dev) + ' is enabled!'
+                rq = self.client.write_registers(8192, [1], init=self.adr_dev)
+                if not rq.isError():
+                    txt_log = 'Cam ' + str(self.adr_dev) + ' is enabled!'
+                else:
+                    txt_log = 'Cam ' + str(self.adr_dev) + ' is unsuccessful attempt'
             else:
-                rq = self.client.write_register(8192, 0, init=self.adr_dev)
-                txt_log = 'Cam ' + str(self.adr_dev) + ' is disabled!'
+                rq = self.client.write_registers(8192, [0], init=self.adr_dev)
+                if not rq.isError():
+                    txt_log = 'Cam ' + str(self.adr_dev) + ' is disabled!'
+                else:
+                    txt_log = 'Cam ' + str(self.adr_dev) + ' is unsuccessful attempt'
             self.signals.result_log.emit(txt_log)
 
         except Exception as e:
@@ -52,52 +59,41 @@ class Reader(QRunnable):
                     time.sleep(1)
                 else:
                     result_list = []
-                    for i in range(8):
+                    for i in range(1, 9):
                         temp_arr = []
-                        rr = self.client.read_holding_registers(8192, 1, unit=i+1)
-                        msg = str(self.client.framer._buffer)
-                        #print(msg)
-                        if msg == "b''":
+                        rr = self.client.read_holding_registers(8192, 1, unit=i)
+                        if not rr.isError():
+
+                            if rr.registers[0] == 1:
+                                self.signals.check_cam.emit(i, True)
+                                for j in range(3):
+                                    temp_list = []
+                                    rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=i)
+                                    temp_list.append(bin(rr.registers[0])[2:].zfill(16))
+                                    temp_list.append(bin(rr.registers[1])[2:].zfill(8))
+                                    temp_list.append(bin(rr.registers[2])[2:].zfill(8))
+
+                                    temp_arr.append(temp_list)
+
+                            else:
+                                self.signals.check_cam.emit(i, False)
+                                txt_log = 'Base Station ' + str(i) + ' is disabled'
+                                self.signals.result_log.emit(txt_log)
+                                temp_arr.append([['1111111111101100', '11101100', '11101100'],
+                                                 ['1111111111101100', '11101100', '11101100'],
+                                                 ['1111111111101100', '11101100', '11101100']])  # -20
+
+                        else:
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
                             self.signals.result_log.emit(txt_log)
                             temp_arr.append([['1111111111110110', '11110110', '11110110'],
                                              ['1111111111110110', '11110110', '11110110'],
                                              ['1111111111110110', '11110110', '11110110']]) # -10
-                        else:
-                            msg = msg[9:-7:]
-                            if msg == '0000':
-                                txt_log = 'Base Station ' + str(i + 1) + ' is disabled'
-                                self.signals.result_log.emit(txt_log)
-                                temp_arr.append([['1111111111101100', '11101100', '11101100'],
-                                                 ['1111111111101100', '11101100', '11101100'],
-                                                 ['1111111111101100', '11101100', '11101100']]) # -20
-                            else:
-                                temp_list = []
-                                for j in range(3):
-                                    rr = self.client.read_holding_registers(4098 + j, 1, unit=i+1)
-                                    msg = str(self.client.framer._buffer)
-                                    msg = msg[9:-7:]
-                                    temp_list.append(msg)
-                                temp_arr.append(temp_list)
-
-                                for j in range(3):
-                                    rr = self.client.read_holding_registers(4103 + j, 1, unit=i+1)
-                                    msg = str(self.client.framer._buffer)
-                                    msg = msg[9:-7:]
-                                    temp_list.append(msg)
-                                temp_arr.append(temp_list)
-
-                                for j in range(3):
-                                    rr = self.client.read_holding_registers(4108 + j, 1, unit=i+1)
-                                    msg = str(self.client.framer._buffer)
-                                    msg = msg[9:-7:]
-                                    temp_list.append(msg)
-                                temp_arr.append(temp_list)
 
                         result_list.append(temp_arr)
 
                     self.signals.result_temp.emit(result_list)
-                    time.sleep(5)
+                    time.sleep(2)
 
             except Exception as e:
                 self.signals.error_read.emit(e)
@@ -106,6 +102,11 @@ class Reader(QRunnable):
         self.cycle = True
         self.is_run = True
         txt_log = 'Start process'
+        self.signals.result_log.emit(txt_log)
+
+    def pauseProcess(self):
+        self.is_run = False
+        txt_log = 'Pause process'
         self.signals.result_log.emit(txt_log)
 
     def exitProcess(self):
