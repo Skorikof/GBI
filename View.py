@@ -1,6 +1,6 @@
 import LogPrg
 import time
-from Thread import Reader, Writer
+from Thread import Reader
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
 from Archive import ReadArchive
 from datetime import datetime
@@ -12,7 +12,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 class WindowSignals(QObject):
     signalStart = pyqtSignal()
     signalPause = pyqtSignal()
-    signalWrite = pyqtSignal(int, bool)
+    signalWrite = pyqtSignal(bool, int, bool)
     signalExit = pyqtSignal()
 
 
@@ -35,6 +35,7 @@ class ChangeUi(QMainWindow):
             self.reader.signals.error_read.connect(self.readError)
             self.reader.signals.result_log.connect(self.readLog)
             self.signals.signalStart.connect(self.reader.startProcess)
+            self.signals.signalWrite.connect(self.reader.commandWrite)
             self.signals.signalExit.connect(self.reader.exitProcess)
             self.threadpool.start(self.reader)
             self.startThread()
@@ -73,8 +74,8 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            self.writer = Writer(self.set_port.client, adr, state)
-            self.threadpool.start(self.writer)
+            print(adr, state)
+            self.signals.signalWrite.emit(True, adr, state)
 
         except Exception as e:
             self.logger.error(e)
@@ -262,12 +263,12 @@ class ChangeUi(QMainWindow):
 
     def dopCodeBintoDec(self, command, value, bits=16):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
-        if value[:1] == '1':
+        if value == '-10':
+            return '-10'
+        if value == '-20':
+            return '-20'
+        if value[0] == '1':
             val_temp = -(2 ** bits - int(value, 2))
-            if val_temp == -10:
-                return 'Error'
-            if val_temp == -20:
-                return 'oFF'
         else:
             val_temp = int(value, 2)
 

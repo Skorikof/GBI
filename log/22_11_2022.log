@@ -9754,3 +9754,46 @@
 2022-11-22 14:42:05,524 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
 2022-11-22 14:42:05,524 - [ERROR] - __main__ - (View.py).readResult(150) : list index out of range
 2022-11-22 14:42:05,524 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:51:05,464 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-22 14:51:05,466 - [INFO] - __main__ - (View.py).readLog(53) - Start process
+2022-11-22 14:51:05,545 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 1 is disabled
+2022-11-22 14:51:06,700 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 2 does not answer
+2022-11-22 14:51:07,917 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 3 does not answer
+2022-11-22 14:51:09,141 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 4 does not answer
+2022-11-22 14:51:10,364 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 5 does not answer
+2022-11-22 14:51:11,581 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 6 does not answer
+2022-11-22 14:51:12,797 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 7 does not answer
+2022-11-22 14:51:14,029 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 8 does not answer
+2022-11-22 14:51:14,230 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-22 14:51:14
+2022-11-22 14:51:14,230 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:51:14,230 - [ERROR] - __main__ - (View.py).readResult(150) : list index out of range
+2022-11-22 14:51:14,230 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:51:16,243 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 1 is disabled
+2022-11-22 14:51:17,449 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 2 does not answer
+2022-11-22 14:51:18,676 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 3 does not answer
+2022-11-22 14:51:19,894 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 4 does not answer
+2022-11-22 14:51:21,111 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 5 does not answer
+2022-11-22 14:51:23,254 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 6 does not answer
+2022-11-22 14:51:24,478 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 7 does not answer
+2022-11-22 14:51:25,687 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 8 does not answer
+2022-11-22 14:51:25,887 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-22 14:51:25
+2022-11-22 14:51:25,887 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:51:25,887 - [ERROR] - __main__ - (View.py).readResult(150) : list index out of range
+2022-11-22 14:51:25,887 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:51:27,903 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 1 is disabled
+2022-11-22 14:51:29,919 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 2 does not answer
+2022-11-22 14:51:31,125 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 3 does not answer
+2022-11-22 14:51:32,342 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 4 does not answer
+2022-11-22 14:51:33,574 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 5 does not answer
+2022-11-22 14:51:34,782 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 6 does not answer
+2022-11-22 14:51:36,005 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 7 does not answer
+2022-11-22 14:51:37,038 - [INFO] - __main__ - (View.py).readLog(53) - Exit process
+2022-11-22 14:51:39,438 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-22 14:51:39,455 - [INFO] - __main__ - (View.py).readLog(53) - Base Station 8 does not answer
+2022-11-22 14:51:39,455 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-22 14:51:39
+2022-11-22 14:51:39,455 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:51:39,455 - [ERROR] - __main__ - (View.py).readResult(150) : list index out of range
+2022-11-22 14:51:39,455 - [ERROR] - __main__ - (View.py).readResult(150) - list index out of range
+2022-11-22 14:53:15,365 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-22 14:58:16,864 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-22 15:04:23,874 - [INFO] - __main__ - (View.py).readLog(53) - Exit process

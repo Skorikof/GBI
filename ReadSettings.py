@@ -42,9 +42,9 @@ class COMSettings(object):
 
 class Registers(object):
     def __init__(self):
-        self.temp = 0
-        self.serial = 0
-        self.bat = 0
+        self.temp = '-10'
+        self.serial = '-10'
+        self.bat = '-10'
 
 
 class DataSens(object):

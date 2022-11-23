@@ -1,0 +1,479 @@
+2022-11-23 16:41:30,763 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:41:34,409 - [INFO] - __main__ - (View.py).readLog(54) - Exit process
+2022-11-23 16:41:34,830 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-23 16:41:49,655 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:41:49,662 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 16:41:49,711 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:41:50,894 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:41:52,112 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:41:53,341 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:41:54,558 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:41:55,789 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:41:57,003 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:41:58,235 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:41:58,445 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:41:58
+2022-11-23 16:45:05,036 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:05,036 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:05,037 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:05,037 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:05,037 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:05,037 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:05,037 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:05,037 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:05,039 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:05
+2022-11-23 16:45:12,506 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:12,506 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:12,507 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:12,507 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:12,507 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:12,507 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:12,507 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:12,507 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:12,508 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:12
+2022-11-23 16:45:15,654 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,654 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,655 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,656 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,656 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,657 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,658 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,658 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,659 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,660 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,660 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,661 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,662 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,663 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,663 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,664 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,664 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,664 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,664 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,664 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,664 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,666 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,666 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,666 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,666 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,667 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,667 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,667 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,668 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,668 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,668 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,670 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,670 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,671 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,672 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,672 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,672 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,673 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,673 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,673 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,673 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,673 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,673 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,674 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,675 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,675 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,676 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,676 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,676 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,676 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,676 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,677 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,677 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,677 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,677 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,677 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,678 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,678 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,678 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,678 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,678 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,678 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,679 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,680 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,681 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,681 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,682 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:15,690 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:15,690 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:15,690 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:15,690 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:15,691 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:15,691 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:15,691 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:15,691 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:15
+2022-11-23 16:45:15,691 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:16,336 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:17,554 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:18,781 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:19,999 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:21,216 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:22,434 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:23,651 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:23,851 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:23
+2022-11-23 16:45:25,867 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:27,090 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:28,314 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:29,543 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:30,768 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:31,978 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:33,193 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:34,410 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:34,615 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:34
+2022-11-23 16:45:36,624 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:37,847 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:39,074 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:40,298 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:41,531 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:42,753 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:43,973 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:45,212 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:45,421 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:45
+2022-11-23 16:45:47,432 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:48,646 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:45:49,859 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:45:51,075 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:45:52,302 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:45:53,523 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:45:54,742 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:45:55,968 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:45:56,175 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:45:56
+2022-11-23 16:45:58,194 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:45:59,422 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:46:00,658 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:46:01,887 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:46:03,114 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:46:04,334 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:46:05,541 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:46:06,767 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:46:06,981 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:46:06
+2022-11-23 16:46:08,988 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:46:10,203 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:46:11,419 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:46:12,639 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:46:13,861 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:46:15,068 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:46:16,286 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:46:17,515 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:46:17,732 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:46:17
+2022-11-23 16:46:19,738 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:46:20,956 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:46:22,174 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:46:23,381 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:46:24,187 - [INFO] - __main__ - (View.py).readLog(54) - Exit process
+2022-11-23 16:46:30,469 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-23 16:46:30,523 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:46:30,524 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:46:30,525 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:46:30,527 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:46:30,528 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:46:30
+2022-11-23 16:48:12,396 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:48:12,396 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-23 16:48:21,658 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-23 16:48:21,658 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-23 16:48:21,658 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-23 16:51:45,646 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:51:45,648 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 16:51:45,693 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:51:46,884 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:51:48,090 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:51:49,305 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:51:50,535 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:51:51,765 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:51:52,984 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:51:54,205 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:51:54,411 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:51:54
+2022-11-23 16:51:56,423 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:51:57,654 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:51:58,033 - [INFO] - __main__ - (View.py).readLog(54) - Exit process
+2022-11-23 16:52:20,440 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:52:20,442 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 16:52:20,489 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:52:21,665 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:52:22,877 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:52:24,086 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:52:25,309 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:52:26,526 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:52:27,757 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:52:28,978 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:52:29,191 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:52:29
+2022-11-23 16:52:31,207 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:52:32,423 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:52:32,987 - [INFO] - __main__ - (View.py).readLog(54) - Exit process
+2022-11-23 16:58:00,836 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:58:00,841 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 16:58:00,891 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:58:02,065 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:58:03,278 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:58:04,509 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:58:05,730 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:58:06,959 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:58:08,174 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:58:09,403 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:58:22,887 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:58:22
+2022-11-23 16:58:24,908 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:58:26,131 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:58:27,353 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:58:28,587 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:58:29,826 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:58:31,051 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:58:32,266 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:58:33,481 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:59:10,857 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 16:59:10,861 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 16:59:10,914 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 16:59:12,100 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 16:59:13,309 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 16:59:14,530 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 16:59:15,759 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 16:59:16,981 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 16:59:18,199 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 16:59:19,429 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 16:59:24,821 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 16:59:24
+2022-11-23 17:00:30,099 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:00:30,102 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:00:30,143 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:00:31,344 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:00:32,574 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:00:33,802 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:00:35,012 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:00:36,235 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:00:37,468 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:00:38,700 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:00:48,440 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 17:00:48
+2022-11-23 17:00:57,836 - [INFO] - __main__ - (View.py).readLog(54) - Cam True is unsuccessful attempt
+2022-11-23 17:03:46,194 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:03:46,199 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:03:46,251 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:03:49,436 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:03:52,661 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:03:55,876 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:03:59,107 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:04:02,341 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:04:05,564 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:04:08,790 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:04:17,285 - [INFO] - __main__ - (View.py).readResult(134) - Parcel received: 2022-11-23 17:04:17
+2022-11-23 17:07:30,592 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:07:30,596 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:07:30,680 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:07:33,866 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:07:37,079 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:07:40,295 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:07:43,506 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:07:46,733 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:07:49,966 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:07:53,185 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:08:42,435 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:08:42,438 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:08:42,484 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:08:45,685 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:08:48,904 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:08:52,123 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:08:55,343 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:08:58,575 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:09:01,787 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:09:05,013 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:09:05,214 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:09:05
+2022-11-23 17:09:10,238 - [INFO] - __main__ - (View.py).readLog(54) - Cam True is unsuccessful attempt
+2022-11-23 17:09:10,259 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:09:13,469 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:09:16,696 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:11:16,788 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:11:16,790 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:11:16,838 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:11:20,015 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:11:23,242 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:11:26,462 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:11:29,674 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:11:32,902 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:11:36,121 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:11:39,353 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:11:39,564 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:11:39
+2022-11-23 17:11:44,589 - [INFO] - __main__ - (View.py).readLog(54) - Cam 1 is unsuccessful attempt
+2022-11-23 17:11:44,604 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:11:47,834 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:14:00,702 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:14:00,704 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:14:00,753 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:14:01,928 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:14:03,155 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:14:04,440 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:14:05,608 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:14:06,836 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:14:08,063 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:14:09,284 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:14:09,492 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:14:09
+2022-11-23 17:14:12,534 - [INFO] - __main__ - (View.py).readLog(54) - Cam 1 is unsuccessful attempt
+2022-11-23 17:14:12,553 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:14:13,772 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:14:15,042 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:20:34,355 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-23 17:20:34,355 - [INFO] - __main__ - (View.py).readLog(54) - Start process
+2022-11-23 17:20:34,402 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:20:35,605 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:20:36,823 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:20:38,029 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:20:39,235 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:20:40,447 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:20:41,665 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:20:42,883 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:20:43,087 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:20:43
+2022-11-23 17:20:45,102 - [INFO] - __main__ - (View.py).readLog(54) - Cam 1 is enabled!
+2022-11-23 17:20:46,383 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:20:47,601 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:20:48,820 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:20:50,038 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:20:51,243 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:20:52,453 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:20:53,672 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:20:53,875 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:20:53
+2022-11-23 17:20:55,890 - [INFO] - __main__ - (View.py).readLog(54) - Cam 1 is disabled!
+2022-11-23 17:20:55,906 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:20:57,140 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:20:58,358 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:20:59,570 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:21:00,782 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:21:02,000 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:21:03,219 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:21:04,426 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:21:04,629 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:21:04
+2022-11-23 17:21:06,638 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:21:07,872 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:21:09,077 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:21:10,300 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:21:11,519 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:21:12,737 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:21:13,956 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:21:15,174 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:21:15,377 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:21:15
+2022-11-23 17:21:17,392 - [INFO] - __main__ - (View.py).readLog(54) - Cam 1 is enabled!
+2022-11-23 17:21:18,673 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:21:19,892 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:21:21,110 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:21:22,329 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:21:23,547 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:21:24,766 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:21:25,984 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:21:26,187 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:21:26
+2022-11-23 17:21:29,468 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:21:30,686 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:21:31,905 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:21:33,123 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:21:34,341 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:21:35,560 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:21:36,778 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:21:36,981 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:21:36
+2022-11-23 17:21:40,262 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:21:41,480 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:21:42,699 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:21:43,917 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:21:45,136 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:21:46,342 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:21:47,560 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:21:47,763 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:21:47
+2022-11-23 17:21:51,044 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:21:52,262 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:21:53,481 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:21:54,699 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:21:55,918 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:21:57,133 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:21:58,353 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:21:58,563 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:21:58
+2022-11-23 17:22:01,837 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:22:03,041 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:22:04,260 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:22:05,478 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:22:06,696 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:22:07,915 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:22:09,133 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:22:09,336 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:22:09
+2022-11-23 17:22:11,352 - [INFO] - __main__ - (View.py).readLog(54) - Cam 1 is disabled!
+2022-11-23 17:22:11,367 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:22:12,601 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:22:13,820 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:22:15,038 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:22:16,257 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:22:17,475 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:22:18,684 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:22:19,902 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 8 does not answer
+2022-11-23 17:22:20,105 - [INFO] - __main__ - (View.py).readResult(135) - Parcel received: 2022-11-23 17:22:20
+2022-11-23 17:22:22,120 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 1 is disabled
+2022-11-23 17:22:23,354 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 2 does not answer
+2022-11-23 17:22:24,573 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 3 does not answer
+2022-11-23 17:22:25,791 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 4 does not answer
+2022-11-23 17:22:27,010 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 5 does not answer
+2022-11-23 17:22:28,228 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 6 does not answer
+2022-11-23 17:22:29,447 - [INFO] - __main__ - (View.py).readLog(54) - Base Station 7 does not answer
+2022-11-23 17:22:30,040 - [INFO] - __main__ - (View.py).readLog(54) - Exit process
