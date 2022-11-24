@@ -1,8 +1,6 @@
 import LogPrg
-import time
-from Thread import Reader
+from Thread import Reader, Writer
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
-from Archive import ReadArchive
 from datetime import datetime
 from MainUi import Ui_MainWindow
 from PyQt5.QtWidgets import QMainWindow
@@ -35,7 +33,6 @@ class ChangeUi(QMainWindow):
             self.reader.signals.error_read.connect(self.readError)
             self.reader.signals.result_log.connect(self.readLog)
             self.signals.signalStart.connect(self.reader.startProcess)
-            self.signals.signalWrite.connect(self.reader.commandWrite)
             self.signals.signalExit.connect(self.reader.exitProcess)
             self.threadpool.start(self.reader)
             self.startThread()
@@ -74,8 +71,8 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            print(adr, state)
-            self.signals.signalWrite.emit(True, adr, state)
+            self.writer = Writer(self.set_port.client, adr, state)
+            self.threadpool.start(self.writer)
 
         except Exception as e:
             self.logger.error(e)
@@ -152,37 +149,37 @@ class ChangeUi(QMainWindow):
 
     def convertSerial(self):
         try:
-            self.ui.cam1_sens1serial_label.setText(str(self.dataCam.cam[0].sens[0].serial))
-            self.ui.cam1_sens2serial_label.setText(str(self.dataCam.cam[0].sens[1].serial))
-            self.ui.cam1_sens3serial_label.setText(str(self.dataCam.cam[0].sens[2].serial))
+            self.ui.cam1_sens1serial_label.setText(self.dataCam.cam[0].sens[0].serial)
+            self.ui.cam1_sens2serial_label.setText(self.dataCam.cam[0].sens[1].serial)
+            self.ui.cam1_sens3serial_label.setText(self.dataCam.cam[0].sens[2].serial)
 
-            self.ui.cam2_sens1serial_label.setText(str(self.dataCam.cam[1].sens[0].serial))
-            self.ui.cam2_sens2serial_label.setText(str(self.dataCam.cam[1].sens[1].serial))
-            self.ui.cam2_sens3serial_label.setText(str(self.dataCam.cam[1].sens[2].serial))
+            self.ui.cam2_sens1serial_label.setText(self.dataCam.cam[1].sens[0].serial)
+            self.ui.cam2_sens2serial_label.setText(self.dataCam.cam[1].sens[1].serial)
+            self.ui.cam2_sens3serial_label.setText(self.dataCam.cam[1].sens[2].serial)
 
-            self.ui.cam3_sens1serial_label.setText(str(self.dataCam.cam[2].sens[0].serial))
-            self.ui.cam3_sens2serial_label.setText(str(self.dataCam.cam[2].sens[1].serial))
-            self.ui.cam3_sens3serial_label.setText(str(self.dataCam.cam[2].sens[2].serial))
+            self.ui.cam3_sens1serial_label.setText(self.dataCam.cam[2].sens[0].serial)
+            self.ui.cam3_sens2serial_label.setText(self.dataCam.cam[2].sens[1].serial)
+            self.ui.cam3_sens3serial_label.setText(self.dataCam.cam[2].sens[2].serial)
 
-            self.ui.cam4_sens1serial_label.setText(str(self.dataCam.cam[3].sens[0].serial))
-            self.ui.cam4_sens2serial_label.setText(str(self.dataCam.cam[3].sens[1].serial))
-            self.ui.cam4_sens3serial_label.setText(str(self.dataCam.cam[3].sens[2].serial))
+            self.ui.cam4_sens1serial_label.setText(self.dataCam.cam[3].sens[0].serial)
+            self.ui.cam4_sens2serial_label.setText(self.dataCam.cam[3].sens[1].serial)
+            self.ui.cam4_sens3serial_label.setText(self.dataCam.cam[3].sens[2].serial)
 
-            self.ui.cam5_sens1serial_label.setText(str(self.dataCam.cam[4].sens[0].serial))
-            self.ui.cam5_sens2serial_label.setText(str(self.dataCam.cam[4].sens[1].serial))
-            self.ui.cam5_sens3serial_label.setText(str(self.dataCam.cam[4].sens[2].serial))
+            self.ui.cam5_sens1serial_label.setText(self.dataCam.cam[4].sens[0].serial)
+            self.ui.cam5_sens2serial_label.setText(self.dataCam.cam[4].sens[1].serial)
+            self.ui.cam5_sens3serial_label.setText(self.dataCam.cam[4].sens[2].serial)
 
-            self.ui.cam6_sens1serial_label.setText(str(self.dataCam.cam[5].sens[0].serial))
-            self.ui.cam6_sens2serial_label.setText(str(self.dataCam.cam[5].sens[1].serial))
-            self.ui.cam6_sens3serial_label.setText(str(self.dataCam.cam[5].sens[2].serial))
+            self.ui.cam6_sens1serial_label.setText(self.dataCam.cam[5].sens[0].serial)
+            self.ui.cam6_sens2serial_label.setText(self.dataCam.cam[5].sens[1].serial)
+            self.ui.cam6_sens3serial_label.setText(self.dataCam.cam[5].sens[2].serial)
 
-            self.ui.cam7_sens1serial_label.setText(str(self.dataCam.cam[6].sens[0].serial))
-            self.ui.cam7_sens2serial_label.setText(str(self.dataCam.cam[6].sens[1].serial))
-            self.ui.cam7_sens3serial_label.setText(str(self.dataCam.cam[6].sens[2].serial))
+            self.ui.cam7_sens1serial_label.setText(self.dataCam.cam[6].sens[0].serial)
+            self.ui.cam7_sens2serial_label.setText(self.dataCam.cam[6].sens[1].serial)
+            self.ui.cam7_sens3serial_label.setText(self.dataCam.cam[6].sens[2].serial)
 
-            self.ui.cam8_sens1serial_label.setText(str(self.dataCam.cam[7].sens[0].serial))
-            self.ui.cam8_sens2serial_label.setText(str(self.dataCam.cam[7].sens[1].serial))
-            self.ui.cam8_sens3serial_label.setText(str(self.dataCam.cam[7].sens[2].serial))
+            self.ui.cam8_sens1serial_label.setText(self.dataCam.cam[7].sens[0].serial)
+            self.ui.cam8_sens2serial_label.setText(self.dataCam.cam[7].sens[1].serial)
+            self.ui.cam8_sens3serial_label.setText(self.dataCam.cam[7].sens[2].serial)
 
         except Exception as e:
             self.logger.error(e)
@@ -263,46 +260,21 @@ class ChangeUi(QMainWindow):
 
     def dopCodeBintoDec(self, command, value, bits=16):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
-        if value == '-10':
-            return '-10'
-        if value == '-20':
-            return '-20'
+        if value == 'error':
+            return 'error'
+        if value == 'off':
+            return 'off'
         if value[0] == '1':
             val_temp = -(2 ** bits - int(value, 2))
         else:
             val_temp = int(value, 2)
 
         if command == 'Temp':
-            val_temp = str(round(val_temp / 16, 1))
+            val_temp = round(val_temp / 16, 1)
+            if val_temp < -50:
+                return '-----'
 
         if command == 'Bat':
-            val_temp = str(round(val_temp * 0.1, 1))
+            val_temp = round(val_temp * 0.1, 1)
 
-        return val_temp
-
-    # def archiveRead(self):
-    #     try:
-    #         self.archive = ReadArchive()
-    #
-    #     except Exception as e:
-    #         self.logger.error(e)
-    #
-    # def saveFiletoArch(self):
-    #     try:
-    #         name_arch = str(datetime.now().day).zfill(2) + '.' + str(datetime.now().month).zfill(2) +\
-    #                     '.' + str(datetime.now().year) + '.csv'
-    #         time_arch = datetime.now().strftime('%H:%M:%S')
-    #         cam1 = str(self.dataInt.cam1) + ';'
-    #         cam2 = str(self.dataInt.cam2) + ';'
-    #         cam3 = str(self.dataInt.cam3) + ';'
-    #         cam4 = str(self.dataInt.cam4) + ';'
-    #         cam5 = str(self.dataInt.cam5) + ';'
-    #         cam6 = str(self.dataInt.cam6) + ';'
-    #         cam7 = str(self.dataInt.cam7) + ';'
-    #         cam8 = str(self.dataInt.cam8) + '\n'
-    #         with open ('archive/'+name_arch, 'a') as file_arch:
-    #             file_arch.write(time_arch + ';' + 'Температура;' + cam1 + cam2 + cam3 + cam4 + cam5 + cam6 + cam7 + cam8)
-    #             file_arch.write(';' + 'Напряжение;' + '\n')
-    #
-    #     except Exception as e:
-    #         self.logger.error(e)
+        return str(val_temp)
