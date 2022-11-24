@@ -19,6 +19,10 @@ class COMSettings(object):
             self.portStopBits = temp_com[3]
             self.client = ModbusClient()
 
+            self.IP_adr = config["Local"]["IP_Address"]
+            self.local_port = int(config["Local"]["Port"])
+
+
         except Exception as e:
             self.logger.error(e)
 

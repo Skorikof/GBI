@@ -304,3 +304,52 @@
 2022-11-24 11:36:08,026 - [INFO] - __main__ - (View.py).readLog(51) - Base Station 7 does not answer
 2022-11-24 11:36:08,026 - [INFO] - __main__ - (View.py).readLog(51) - Base Station 8 does not answer
 2022-11-24 11:36:08,026 - [INFO] - __main__ - (View.py).readResult(132) - Parcel received: 2022-11-24 11:36:08
+2022-11-24 14:41:52,425 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:41:52,425 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:41:54,535 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:41:54,535 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:41:54,535 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:42:12,583 - [ERROR] - View - (View.py).initClient(44) - an integer is required (got type str)
+2022-11-24 14:42:12,583 - [ERROR] - View - (View.py).initClient(44) : an integer is required (got type str)
+2022-11-24 14:42:12,583 - [ERROR] - View - (View.py).initClient(44) - an integer is required (got type str)
+2022-11-24 14:42:12,802 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:42:12,802 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:44:01,478 - [ERROR] - View - (View.py).initClient(46) - an integer is required (got type str)
+2022-11-24 14:44:01,478 - [ERROR] - View - (View.py).initClient(46) : an integer is required (got type str)
+2022-11-24 14:44:01,478 - [ERROR] - View - (View.py).initClient(46) - an integer is required (got type str)
+2022-11-24 14:44:01,712 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:44:01,712 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:45:20,277 - [ERROR] - View - (View.py).initClient(47) - an integer is required (got type str)
+2022-11-24 14:45:20,277 - [ERROR] - View - (View.py).initClient(47) : an integer is required (got type str)
+2022-11-24 14:45:20,277 - [ERROR] - View - (View.py).initClient(47) - an integer is required (got type str)
+2022-11-24 14:45:20,527 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:45:20,527 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:47:16,463 - [ERROR] - View - (View.py).initClient(47) - an integer is required (got type str)
+2022-11-24 14:47:16,463 - [ERROR] - View - (View.py).initClient(47) : an integer is required (got type str)
+2022-11-24 14:47:16,463 - [ERROR] - View - (View.py).initClient(47) - an integer is required (got type str)
+2022-11-24 14:47:16,760 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:47:16,760 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:50:33,325 - [ERROR] - View - (View.py).initClient(47) - [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:50:33,325 - [ERROR] - View - (View.py).initClient(47) : [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:50:33,325 - [ERROR] - View - (View.py).initClient(47) - [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:50:33,621 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:50:33,621 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:51:24,634 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:51:24,634 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:51:24,634 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:56:25,499 - [ERROR] - View - (View.py).initClient(47) - [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:56:25,499 - [ERROR] - View - (View.py).initClient(47) : [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:56:25,499 - [ERROR] - View - (View.py).initClient(47) - [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:56:25,780 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:56:25,780 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:57:24,387 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:57:24,387 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:57:24,387 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:59:02,988 - [ERROR] - View - (View.py).initClient(48) - [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:59:02,988 - [ERROR] - View - (View.py).initClient(48) : [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:59:02,988 - [ERROR] - View - (View.py).initClient(48) - [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2022-11-24 14:59:03,237 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-24 14:59:03,237 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-24 14:59:20,843 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:59:20,843 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-24 14:59:20,843 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'

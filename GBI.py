@@ -1,5 +1,4 @@
 import sys
-import time
 import LogPrg
 from View import ChangeUi
 from PyQt5.QtWidgets import QApplication
@@ -17,6 +16,7 @@ class ApplicationWindow(ChangeUi):
             self.threadpool.waitForDone()
             print('Threads working: ', str(self.threadpool.activeThreadCount()))
             self.set_port.client.close()
+            self.sock.close()
             self.logger.info('Exit programm')
 
         except Exception as e:

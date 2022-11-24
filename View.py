@@ -1,4 +1,6 @@
+import sys
 import LogPrg
+import socket
 from Thread import Reader, Writer
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
 from datetime import datetime
@@ -23,6 +25,27 @@ class ChangeUi(QMainWindow):
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
         self.initCheck()
+        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.initClient()
+
+    def initClient(self):
+        try:
+            print('Подключение..')
+            server_address = (self.set_port.IP_adr, self.set_port.local_port)
+            self.sock.connect(server_address)
+            print('Подключились..')
+            # message = 'This is the message. It will be repeated'
+            # self.sock.sendall(message)
+
+            while True:
+                print('Ожидаем посылку..')
+                data = self.sock.recv(1024)
+                print('Посылка получена..')
+                print(data)
+                self.sock.sendall('Посылка получена')
+
+        except Exception as e:
+            self.logger.error(e)
 
     def threadInit(self):
         try:
