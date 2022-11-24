@@ -26,23 +26,18 @@ class ChangeUi(QMainWindow):
         self.set_port = COMSettings(self.logger)
         self.initCheck()
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.initClient()
 
-    def initClient(self):
+    def initConnect(self):
         try:
-            print('Подключение..')
             server_address = (self.set_port.IP_adr, self.set_port.local_port)
+            print('Подключение к серверу..')
             self.sock.connect(server_address)
-            print('Подключились..')
-            # message = 'This is the message. It will be repeated'
-            # self.sock.sendall(message)
-
+            print('Удачное подключение')
             while True:
                 print('Ожидаем посылку..')
                 data = self.sock.recv(1024)
-                print('Посылка получена..')
+                print('Посылка получена')
                 print(data)
-                self.sock.sendall('Посылка получена')
 
         except Exception as e:
             self.logger.error(e)

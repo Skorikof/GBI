@@ -9,6 +9,32 @@ class ReadSignals(QObject):
     error_read = pyqtSignal(object)
 
 
+class Connect(QRunnable):
+    signals = ReadSignals()
+    def __init__(self, sock, ip, port):
+        super(Connect, self).__init__()
+        self.sock = sock
+        self.ip = ip
+        self.port = port
+
+    @pyqtSlot()
+    def run(self):
+        try:
+            while self.cycle:
+                self.sock.connect(self.ip, self.port)
+
+
+
+
+        except Exception as e:
+            self.signals.error_read.emit(e)
+
+    def startConnect(self):
+        self.cycle = True
+        txt_log = 'Connecting..'
+        self.signals.result_log.emit(txt_log)
+
+
 class Writer(QRunnable):
     signals = ReadSignals()
 
