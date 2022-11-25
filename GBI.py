@@ -13,10 +13,10 @@ class ApplicationWindow(ChangeUi):
         try:
             print('Threads working: ', str(self.threadpool.activeThreadCount()))
             self.exitThread()
+            self.closeConnect()
             self.threadpool.waitForDone()
             print('Threads working: ', str(self.threadpool.activeThreadCount()))
             self.set_port.client.close()
-            self.sock.close()
             self.logger.info('Exit programm')
 
         except Exception as e:
@@ -37,6 +37,7 @@ def main():
             window.ui.info_label.setText(txt_log)
         else:
             window.threadInit()
+            window.initSocket()
 
     except Exception as e:
         window.logger.error(e)

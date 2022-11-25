@@ -1,7 +1,7 @@
 import sys
 import LogPrg
 import socket
-from Thread import Reader, Writer
+from Thread import Reader, Writer, Connection
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
 from datetime import datetime
 from MainUi import Ui_MainWindow
@@ -11,9 +11,11 @@ from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 
 class WindowSignals(QObject):
     signalStart = pyqtSignal()
+    signalConnect = pyqtSignal()
     signalPause = pyqtSignal()
     signalWrite = pyqtSignal(bool, int, bool)
     signalExit = pyqtSignal()
+    signalDisconnect = pyqtSignal()
 
 
 class ChangeUi(QMainWindow):
@@ -24,23 +26,25 @@ class ChangeUi(QMainWindow):
         self.logger = LogPrg.get_logger(__name__)
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
+        self.sock = socket.socket()
         self.initCheck()
-        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    def initConnect(self):
+    def initSocket(self):
         try:
-            server_address = (self.set_port.IP_adr, self.set_port.local_port)
-            print('Подключение к серверу..')
-            self.sock.connect(server_address)
-            print('Удачное подключение')
-            while True:
-                print('Ожидаем посылку..')
-                data = self.sock.recv(1024)
-                print('Посылка получена')
-                print(data)
+            self.connect = Connection(self.sock, self.set_port.IP_adr, self.set_port.local_port)
+            self.signals.signalConnect.connect(self.connect.startConnect)
+            self.signals.signalDisconnect.connect(self.connect.closeConnect)
+            self.threadpool.start(self.connect)
+            self.startConnect()
 
         except Exception as e:
             self.logger.error(e)
+
+    def startConnect(self):
+        self.signals.signalConnect.emit()
+
+    def closeConnect(self):
+        self.signals.signalDisconnect.emit()
 
     def threadInit(self):
         try:

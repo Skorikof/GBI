@@ -9,10 +9,10 @@ class ReadSignals(QObject):
     error_read = pyqtSignal(object)
 
 
-class Connect(QRunnable):
+class Connection(QRunnable):
     signals = ReadSignals()
     def __init__(self, sock, ip, port):
-        super(Connect, self).__init__()
+        super(Connection, self).__init__()
         self.sock = sock
         self.ip = ip
         self.port = port
@@ -21,18 +21,56 @@ class Connect(QRunnable):
     def run(self):
         try:
             while self.cycle:
-                self.sock.connect(self.ip, self.port)
+                while not self.flag_connect:
+                    time.sleep(1)
+                    self.checkConnect()
 
+                while self.flag_connect:
+                    try:
+                        msg = self.sock.recv(1024)
+                        print(msg)
+                        if msg == b'':
+                            time.sleep(1)
+                            self.flag_connect = False
+                            self.sock.close()
 
+                        if msg == b'Get Data':
+                            self.sock.send(b'Hello happy World!')
 
+                        if msg == b'end':
+                            self.closeConnect()
+
+                    except Exception as e:
+                        self.signals.result_log.emit(e)
+                        self.flag_connect = False
+                        self.sock.close()
 
         except Exception as e:
             self.signals.error_read.emit(e)
 
+    def checkConnect(self):
+        try:
+            self.sock.connect((self.ip, self.port))
+            self.flag_connect = True
+            print('Connection complite!')
+
+        except Exception as e:
+            print(e)
+            self.flag_connect = False
+            print('Connection is lose..')
+            self.sock.close()
+
     def startConnect(self):
         self.cycle = True
+        self.flag_connect = False
         txt_log = 'Connecting..'
-        self.signals.result_log.emit(txt_log)
+        #self.signals.result_log.emit(txt_log)
+
+    def closeConnect(self):
+        self.cycle = False
+        self.sock.close()
+        txt_log = 'Exit connect'
+        #self.signals.result_log.emit(txt_log)
 
 
 class Writer(QRunnable):
