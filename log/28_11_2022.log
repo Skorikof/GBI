@@ -1,0 +1,114 @@
+2022-11-28 10:12:43,615 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-28 10:12:43,615 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM5
+2022-11-28 10:12:48,817 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:12:48,817 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:12:48,817 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:12:53,079 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-28 10:12:53,089 - [INFO] - __main__ - (View.py).readLog(71) - Start process
+2022-11-28 10:12:53,089 - [ERROR] - __main__ - (View.py).initSocket(39) - WindowSignals.signalConnect[] signal has 0 argument(s) but 2 provided
+2022-11-28 10:12:53,089 - [ERROR] - __main__ - (View.py).initSocket(39) : WindowSignals.signalConnect[] signal has 0 argument(s) but 2 provided
+2022-11-28 10:12:53,089 - [ERROR] - __main__ - (View.py).initSocket(39) - WindowSignals.signalConnect[] signal has 0 argument(s) but 2 provided
+2022-11-28 10:13:01,102 - [INFO] - __main__ - (View.py).readResult(152) - Parcel received: 2022-11-28 10:13:01
+2022-11-28 10:13:10,146 - [INFO] - __main__ - (View.py).readResult(152) - Parcel received: 2022-11-28 10:13:10
+2022-11-28 10:13:19,180 - [INFO] - __main__ - (View.py).readResult(152) - Parcel received: 2022-11-28 10:13:19
+2022-11-28 10:13:28,211 - [INFO] - __main__ - (View.py).readResult(152) - Parcel received: 2022-11-28 10:13:28
+2022-11-28 10:13:37,234 - [INFO] - __main__ - (View.py).readResult(152) - Parcel received: 2022-11-28 10:13:37
+2022-11-28 10:14:39,982 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:14:39,982 - [ERROR] - View - (View.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:14:39,982 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:14:40,263 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-28 10:14:40,263 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-28 10:14:40,263 - [ERROR] - __main__ - (View.py).initSocket(40) - WindowSignals.signalConnect[] signal has 0 argument(s) but 2 provided
+2022-11-28 10:14:40,263 - [ERROR] - __main__ - (View.py).initSocket(40) : WindowSignals.signalConnect[] signal has 0 argument(s) but 2 provided
+2022-11-28 10:14:40,263 - [ERROR] - __main__ - (View.py).initSocket(40) - WindowSignals.signalConnect[] signal has 0 argument(s) but 2 provided
+2022-11-28 10:14:48,288 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:14:48
+2022-11-28 10:14:57,333 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:14:57
+2022-11-28 10:15:41,182 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:15:41,182 - [ERROR] - View - (View.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:15:41,182 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 10:15:41,432 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-28 10:15:41,432 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-28 10:15:49,442 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:15:49
+2022-11-28 10:15:58,566 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:15:58
+2022-11-28 10:16:07,641 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:16:07
+2022-11-28 10:16:16,674 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:16:16
+2022-11-28 10:16:25,719 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:16:25
+2022-11-28 10:16:34,763 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:16:34
+2022-11-28 10:16:43,808 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:16:43
+2022-11-28 10:16:52,846 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:16:52
+2022-11-28 10:17:01,891 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:01
+2022-11-28 10:17:10,901 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:10
+2022-11-28 10:17:19,941 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:19
+2022-11-28 10:17:28,986 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:28
+2022-11-28 10:17:38,031 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:38
+2022-11-28 10:17:47,076 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:47
+2022-11-28 10:17:56,120 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:17:56
+2022-11-28 10:18:05,158 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:05
+2022-11-28 10:18:14,195 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:14
+2022-11-28 10:18:23,228 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:23
+2022-11-28 10:18:32,273 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:32
+2022-11-28 10:18:41,318 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:41
+2022-11-28 10:18:50,348 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:50
+2022-11-28 10:18:59,381 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:18:59
+2022-11-28 10:19:08,425 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:19:08
+2022-11-28 10:19:17,470 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:19:17
+2022-11-28 10:19:26,514 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:19:26
+2022-11-28 10:19:35,548 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:19:35
+2022-11-28 10:19:44,593 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:19:44
+2022-11-28 10:19:53,637 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:19:53
+2022-11-28 10:20:02,682 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:02
+2022-11-28 10:20:11,727 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:11
+2022-11-28 10:20:20,761 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:20
+2022-11-28 10:20:29,806 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:29
+2022-11-28 10:20:38,850 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:38
+2022-11-28 10:20:47,895 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:47
+2022-11-28 10:20:56,936 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:20:56
+2022-11-28 10:21:05,980 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:21:05
+2022-11-28 10:21:15,010 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:21:15
+2022-11-28 10:21:24,048 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:21:24
+2022-11-28 10:21:33,093 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:21:33
+2022-11-28 10:21:42,137 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:21:42
+2022-11-28 10:21:51,182 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:21:51
+2022-11-28 10:22:00,227 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:00
+2022-11-28 10:22:09,271 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:09
+2022-11-28 10:22:18,303 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:18
+2022-11-28 10:22:27,348 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:27
+2022-11-28 10:22:36,377 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:36
+2022-11-28 10:22:45,422 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:45
+2022-11-28 10:22:54,461 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:22:54
+2022-11-28 10:23:03,506 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:03
+2022-11-28 10:23:12,551 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:12
+2022-11-28 10:23:21,597 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:21
+2022-11-28 10:23:30,642 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:30
+2022-11-28 10:23:39,686 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:39
+2022-11-28 10:23:48,731 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:48
+2022-11-28 10:23:57,762 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:23:57
+2022-11-28 10:24:06,807 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:24:06
+2022-11-28 10:24:16,820 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:24:16
+2022-11-28 10:24:25,866 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:24:25
+2022-11-28 10:24:34,899 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:24:34
+2022-11-28 10:24:43,944 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:24:43
+2022-11-28 10:24:52,989 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:24:52
+2022-11-28 10:25:02,035 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:02
+2022-11-28 10:25:11,058 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:11
+2022-11-28 10:25:20,090 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:20
+2022-11-28 10:25:29,134 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:29
+2022-11-28 10:25:38,179 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:38
+2022-11-28 10:25:47,224 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:47
+2022-11-28 10:25:57,237 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:25:57
+2022-11-28 10:26:06,282 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:26:06
+2022-11-28 10:26:15,327 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:26:15
+2022-11-28 10:26:24,357 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:26:24
+2022-11-28 10:26:33,402 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:26:33
+2022-11-28 10:26:42,448 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:26:42
+2022-11-28 10:26:51,484 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:26:51
+2022-11-28 10:27:00,529 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:00
+2022-11-28 10:27:09,574 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:09
+2022-11-28 10:27:18,610 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:18
+2022-11-28 10:27:27,655 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:27
+2022-11-28 10:27:36,702 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:36
+2022-11-28 10:27:45,747 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:45
+2022-11-28 10:27:54,791 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:27:54
+2022-11-28 10:28:03,836 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:28:03
+2022-11-28 10:28:12,866 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:28:12
+2022-11-28 10:28:21,904 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:28:21

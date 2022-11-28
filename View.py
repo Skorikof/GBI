@@ -1,8 +1,7 @@
 import sys
 import LogPrg
-import socket
 from Thread import Reader, Writer, Connection
-from ReadSettings import COMSettings, DataCam, DataSens, Registers
+from ReadSettings import COMSettings, DataPortal, DataCam, DataSens, Registers
 from datetime import datetime
 from MainUi import Ui_MainWindow
 from PyQt5.QtWidgets import QMainWindow
@@ -11,7 +10,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 
 class WindowSignals(QObject):
     signalStart = pyqtSignal()
-    signalConnect = pyqtSignal()
+    signalConnect = pyqtSignal(str, int)
     signalPause = pyqtSignal()
     signalWrite = pyqtSignal(bool, int, bool)
     signalExit = pyqtSignal()
@@ -26,12 +25,12 @@ class ChangeUi(QMainWindow):
         self.logger = LogPrg.get_logger(__name__)
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
-        self.sock = socket.socket()
         self.initCheck()
+        self.initSocket()
 
     def initSocket(self):
         try:
-            self.connect = Connection(self.sock, self.set_port.IP_adr, self.set_port.local_port)
+            self.connect = Connection(self.set_port.IP_adr, self.set_port.local_port)
             self.signals.signalConnect.connect(self.connect.startConnect)
             self.signals.signalDisconnect.connect(self.connect.closeConnect)
             self.threadpool.start(self.connect)
@@ -41,7 +40,7 @@ class ChangeUi(QMainWindow):
             self.logger.error(e)
 
     def startConnect(self):
-        self.signals.signalConnect.emit()
+        self.signals.signalConnect.emit(self.set_port.IP_adr, self.set_port.local_port)
 
     def closeConnect(self):
         self.signals.signalDisconnect.emit()
@@ -153,129 +152,131 @@ class ChangeUi(QMainWindow):
             self.ui.info_label.setText(txt_log)
             self.logger.info(txt_log)
 
-            self.dataCam = DataCam()
-            for i in range(8):
-                self.dataCam.cam.append(DataSens())
-                for j in range(3):
-                    self.dataCam.cam[i].sens.append(Registers())
-                    self.dataCam.cam[i].sens[j].temp = arr[i][j][0]
-                    self.dataCam.cam[i].sens[j].serial = arr[i][j][1]
-                    self.dataCam.cam[i].sens[j].bat = arr[i][j][2]
+            self.dataPortal = DataPortal()
+            for i in range(4):
+                self.dataPortal.portal.append(DataCam())
+                for j in range(8):
+                    self.dataPortal.portal[i].cam.append(DataSens())
+                    for k in range(3):
+                        self.dataPortal.portal[i].cam[j].sens.append(Registers())
+                        self.dataPortal.portal[i].cam[j].sens[k].temp = self.dopCodeBintoDec('Temp', arr[i][j][0])
+                        self.dataPortal.portal[i].cam[j].sens[k].serial = arr[i][j][1]
+                        self.dataPortal.portal[i].cam[j].sens[k].bat = self.dopCodeBintoDec('Bat', arr[i][j][2])
 
-            self.convertSerial()
-            self.convertTemp()
-            self.convertBat()
-
-        except Exception as e:
-            self.logger.error(e)
-
-    def convertSerial(self):
-        try:
-            self.ui.cam1_sens1serial_label.setText(self.dataCam.cam[0].sens[0].serial)
-            self.ui.cam1_sens2serial_label.setText(self.dataCam.cam[0].sens[1].serial)
-            self.ui.cam1_sens3serial_label.setText(self.dataCam.cam[0].sens[2].serial)
-
-            self.ui.cam2_sens1serial_label.setText(self.dataCam.cam[1].sens[0].serial)
-            self.ui.cam2_sens2serial_label.setText(self.dataCam.cam[1].sens[1].serial)
-            self.ui.cam2_sens3serial_label.setText(self.dataCam.cam[1].sens[2].serial)
-
-            self.ui.cam3_sens1serial_label.setText(self.dataCam.cam[2].sens[0].serial)
-            self.ui.cam3_sens2serial_label.setText(self.dataCam.cam[2].sens[1].serial)
-            self.ui.cam3_sens3serial_label.setText(self.dataCam.cam[2].sens[2].serial)
-
-            self.ui.cam4_sens1serial_label.setText(self.dataCam.cam[3].sens[0].serial)
-            self.ui.cam4_sens2serial_label.setText(self.dataCam.cam[3].sens[1].serial)
-            self.ui.cam4_sens3serial_label.setText(self.dataCam.cam[3].sens[2].serial)
-
-            self.ui.cam5_sens1serial_label.setText(self.dataCam.cam[4].sens[0].serial)
-            self.ui.cam5_sens2serial_label.setText(self.dataCam.cam[4].sens[1].serial)
-            self.ui.cam5_sens3serial_label.setText(self.dataCam.cam[4].sens[2].serial)
-
-            self.ui.cam6_sens1serial_label.setText(self.dataCam.cam[5].sens[0].serial)
-            self.ui.cam6_sens2serial_label.setText(self.dataCam.cam[5].sens[1].serial)
-            self.ui.cam6_sens3serial_label.setText(self.dataCam.cam[5].sens[2].serial)
-
-            self.ui.cam7_sens1serial_label.setText(self.dataCam.cam[6].sens[0].serial)
-            self.ui.cam7_sens2serial_label.setText(self.dataCam.cam[6].sens[1].serial)
-            self.ui.cam7_sens3serial_label.setText(self.dataCam.cam[6].sens[2].serial)
-
-            self.ui.cam8_sens1serial_label.setText(self.dataCam.cam[7].sens[0].serial)
-            self.ui.cam8_sens2serial_label.setText(self.dataCam.cam[7].sens[1].serial)
-            self.ui.cam8_sens3serial_label.setText(self.dataCam.cam[7].sens[2].serial)
+            self.monitorSerialPort1()
+            self.monitorTempPort1()
+            self.monitorBatPort1()
 
         except Exception as e:
             self.logger.error(e)
 
-    def convertTemp(self):
+    def monitorSerialPort1(self):
         try:
-            self.ui.cam1_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[0].temp))
-            self.ui.cam1_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[1].temp))
-            self.ui.cam1_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[0].sens[2].temp))
+            self.ui.cam1_sens1serial_label.setText(self.dataPortal.portal[0].cam[0].sens[0].serial)
+            self.ui.cam1_sens2serial_label.setText(self.dataPortal.portal[0].cam[0].sens[1].serial)
+            self.ui.cam1_sens3serial_label.setText(self.dataPortal.portal[0].cam[0].sens[2].serial)
 
-            self.ui.cam2_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[0].temp))
-            self.ui.cam2_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[1].temp))
-            self.ui.cam2_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[1].sens[2].temp))
+            self.ui.cam2_sens1serial_label.setText(self.dataPortal.portal[0].cam[1].sens[0].serial)
+            self.ui.cam2_sens2serial_label.setText(self.dataPortal.portal[0].cam[1].sens[1].serial)
+            self.ui.cam2_sens3serial_label.setText(self.dataPortal.portal[0].cam[1].sens[2].serial)
 
-            self.ui.cam3_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[0].temp))
-            self.ui.cam3_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[1].temp))
-            self.ui.cam3_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[2].sens[2].temp))
+            self.ui.cam3_sens1serial_label.setText(self.dataPortal.portal[0].cam[2].sens[0].serial)
+            self.ui.cam3_sens2serial_label.setText(self.dataPortal.portal[0].cam[2].sens[1].serial)
+            self.ui.cam3_sens3serial_label.setText(self.dataPortal.portal[0].cam[2].sens[2].serial)
 
-            self.ui.cam4_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[0].temp))
-            self.ui.cam4_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[1].temp))
-            self.ui.cam4_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[3].sens[2].temp))
+            self.ui.cam4_sens1serial_label.setText(self.dataPortal.portal[0].cam[3].sens[0].serial)
+            self.ui.cam4_sens2serial_label.setText(self.dataPortal.portal[0].cam[3].sens[1].serial)
+            self.ui.cam4_sens3serial_label.setText(self.dataPortal.portal[0].cam[3].sens[2].serial)
 
-            self.ui.cam5_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[0].temp))
-            self.ui.cam5_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[1].temp))
-            self.ui.cam5_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[4].sens[2].temp))
+            self.ui.cam5_sens1serial_label.setText(self.dataPortal.portal[0].cam[4].sens[0].serial)
+            self.ui.cam5_sens2serial_label.setText(self.dataPortal.portal[0].cam[4].sens[1].serial)
+            self.ui.cam5_sens3serial_label.setText(self.dataPortal.portal[0].cam[4].sens[2].serial)
 
-            self.ui.cam6_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[0].temp))
-            self.ui.cam6_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[1].temp))
-            self.ui.cam6_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[5].sens[2].temp))
+            self.ui.cam6_sens1serial_label.setText(self.dataPortal.portal[0].cam[5].sens[0].serial)
+            self.ui.cam6_sens2serial_label.setText(self.dataPortal.portal[0].cam[5].sens[1].serial)
+            self.ui.cam6_sens3serial_label.setText(self.dataPortal.portal[0].cam[5].sens[2].serial)
 
-            self.ui.cam7_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[0].temp))
-            self.ui.cam7_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[1].temp))
-            self.ui.cam7_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[6].sens[2].temp))
+            self.ui.cam7_sens1serial_label.setText(self.dataPortal.portal[0].cam[6].sens[0].serial)
+            self.ui.cam7_sens2serial_label.setText(self.dataPortal.portal[0].cam[6].sens[1].serial)
+            self.ui.cam7_sens3serial_label.setText(self.dataPortal.portal[0].cam[6].sens[2].serial)
 
-            self.ui.cam8_sens1temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[0].temp))
-            self.ui.cam8_sens2temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[1].temp))
-            self.ui.cam8_sens3temp_lcdNum.display(self.dopCodeBintoDec('Temp', self.dataCam.cam[7].sens[2].temp))
+            self.ui.cam8_sens1serial_label.setText(self.dataPortal.portal[0].cam[7].sens[0].serial)
+            self.ui.cam8_sens2serial_label.setText(self.dataPortal.portal[0].cam[7].sens[1].serial)
+            self.ui.cam8_sens3serial_label.setText(self.dataPortal.portal[0].cam[7].sens[2].serial)
 
         except Exception as e:
             self.logger.error(e)
 
-    def convertBat(self):
+    def monitorTempPort1(self):
         try:
-            self.ui.cam1_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[0].bat))
-            self.ui.cam1_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[1].bat))
-            self.ui.cam1_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[0].sens[2].bat))
+            self.ui.cam1_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[0].sens[0].temp)
+            self.ui.cam1_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[0].sens[1].temp)
+            self.ui.cam1_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[0].sens[2].temp)
 
-            self.ui.cam2_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[0].bat))
-            self.ui.cam2_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[1].bat))
-            self.ui.cam2_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[1].sens[2].bat))
+            self.ui.cam2_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[1].sens[0].temp)
+            self.ui.cam2_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[1].sens[1].temp)
+            self.ui.cam2_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[1].sens[2].temp)
 
-            self.ui.cam3_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[0].bat))
-            self.ui.cam3_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[1].bat))
-            self.ui.cam3_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[2].sens[2].bat))
+            self.ui.cam3_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[2].sens[0].temp)
+            self.ui.cam3_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[2].sens[1].temp)
+            self.ui.cam3_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[2].sens[2].temp)
 
-            self.ui.cam4_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[0].bat))
-            self.ui.cam4_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[1].bat))
-            self.ui.cam4_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[3].sens[2].bat))
+            self.ui.cam4_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[3].sens[0].temp)
+            self.ui.cam4_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[3].sens[1].temp)
+            self.ui.cam4_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[3].sens[2].temp)
 
-            self.ui.cam5_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[0].bat))
-            self.ui.cam5_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[1].bat))
-            self.ui.cam5_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[4].sens[2].bat))
+            self.ui.cam5_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[4].sens[0].temp)
+            self.ui.cam5_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[4].sens[1].temp)
+            self.ui.cam5_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[4].sens[2].temp)
 
-            self.ui.cam6_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[0].bat))
-            self.ui.cam6_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[1].bat))
-            self.ui.cam6_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[5].sens[2].bat))
+            self.ui.cam6_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[5].sens[0].temp)
+            self.ui.cam6_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[5].sens[1].temp)
+            self.ui.cam6_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[5].sens[2].temp)
 
-            self.ui.cam7_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[0].bat))
-            self.ui.cam7_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[1].bat))
-            self.ui.cam7_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[6].sens[2].bat))
+            self.ui.cam7_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[6].sens[0].temp)
+            self.ui.cam7_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[6].sens[1].temp)
+            self.ui.cam7_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[6].sens[2].temp)
 
-            self.ui.cam8_sens1bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[0].bat))
-            self.ui.cam8_sens2bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[1].bat))
-            self.ui.cam8_sens3bat_lcdNum.display(self.dopCodeBintoDec('Bat', self.dataCam.cam[7].sens[2].bat))
+            self.ui.cam8_sens1temp_lcdNum.display(self.dataPortal.portal[0].cam[7].sens[0].temp)
+            self.ui.cam8_sens2temp_lcdNum.display(self.dataPortal.portal[0].cam[7].sens[1].temp)
+            self.ui.cam8_sens3temp_lcdNum.display(self.dataPortal.portal[0].cam[7].sens[2].temp)
+
+        except Exception as e:
+            self.logger.error(e)
+
+    def monitorBatPort1(self):
+        try:
+            self.ui.cam1_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[0].sens[0].bat)
+            self.ui.cam1_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[0].sens[1].bat)
+            self.ui.cam1_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[0].sens[2].bat)
+
+            self.ui.cam2_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[1].sens[0].bat)
+            self.ui.cam2_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[1].sens[1].bat)
+            self.ui.cam2_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[1].sens[2].bat)
+
+            self.ui.cam3_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[2].sens[0].bat)
+            self.ui.cam3_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[2].sens[1].bat)
+            self.ui.cam3_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[2].sens[2].bat)
+
+            self.ui.cam4_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[3].sens[0].bat)
+            self.ui.cam4_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[3].sens[1].bat)
+            self.ui.cam4_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[3].sens[2].bat)
+
+            self.ui.cam5_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[4].sens[0].bat)
+            self.ui.cam5_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[4].sens[1].bat)
+            self.ui.cam5_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[4].sens[2].bat)
+
+            self.ui.cam6_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[5].sens[0].bat)
+            self.ui.cam6_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[5].sens[1].bat)
+            self.ui.cam6_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[5].sens[2].bat)
+
+            self.ui.cam7_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[6].sens[0].bat)
+            self.ui.cam7_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[6].sens[1].bat)
+            self.ui.cam7_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[6].sens[2].bat)
+
+            self.ui.cam8_sens1bat_lcdNum.display(self.dataPortal.portal[0].cam[7].sens[0].bat)
+            self.ui.cam8_sens2bat_lcdNum.display(self.dataPortal.portal[0].cam[7].sens[1].bat)
+            self.ui.cam8_sens3bat_lcdNum.display(self.dataPortal.portal[0].cam[7].sens[2].bat)
 
         except Exception as e:
             self.logger.error(e)

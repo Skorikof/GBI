@@ -1,19 +1,21 @@
 import time
+import socket
 from PyQt5.QtCore import QObject, QRunnable, pyqtSignal, pyqtSlot
 
 
 class ReadSignals(QObject):
     result_temp = pyqtSignal(object)
     result_log = pyqtSignal(object)
+    connect_check = pyqtSignal(int, bool)
+    connect_data = pyqtSignal(int, int)
     check_cam = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
 
 
 class Connection(QRunnable):
     signals = ReadSignals()
-    def __init__(self, sock, ip, port):
+    def __init__(self, ip, port):
         super(Connection, self).__init__()
-        self.sock = sock
         self.ip = ip
         self.port = port
 
@@ -23,7 +25,7 @@ class Connection(QRunnable):
             while self.cycle:
                 while not self.flag_connect:
                     time.sleep(1)
-                    self.checkConnect()
+                    self.startConnect()
 
                 while self.flag_connect:
                     try:
@@ -33,12 +35,23 @@ class Connection(QRunnable):
                             time.sleep(1)
                             self.flag_connect = False
                             self.sock.close()
+                            self.startConnect()
 
-                        if msg == b'Get Data':
-                            self.sock.send(b'Hello happy World!')
+                        elif msg == b'Hello! ASU server welcomes you!':
+                            txt_log = 'Connection complite'
+                            self.signals.result_log.emit(txt_log)
 
-                        if msg == b'end':
-                            self.closeConnect()
+                        elif msg[:3] == b'KAM':
+                            temp_list = msg.decode(encoding='utf-8').split(',')
+                            portal = temp_list[1]
+                            camera = temp_list[2]
+                            command = temp_list[3]
+                            if command == 'ON':
+                                self.signals.connect_check.emit(camera, True)
+                            if command == 'OFF':
+                                self.signals.connect_check.emit(camera, False)
+                            if command == 'DATA':
+                                self.signals.connect_data.emit(camera)
 
                     except Exception as e:
                         self.signals.result_log.emit(e)
@@ -48,29 +61,28 @@ class Connection(QRunnable):
         except Exception as e:
             self.signals.error_read.emit(e)
 
-    def checkConnect(self):
+    def startConnect(self):
         try:
+            self.cycle = True
+            self.flag_connect = False
+            self.sock = socket.socket()
             self.sock.connect((self.ip, self.port))
+            txt_log = 'Connecting..'
+            self.signals.result_log.emit(txt_log)
             self.flag_connect = True
-            print('Connection complite!')
 
         except Exception as e:
-            print(e)
             self.flag_connect = False
-            print('Connection is lose..')
+            txt_log = 'Connection is lose..'
             self.sock.close()
-
-    def startConnect(self):
-        self.cycle = True
-        self.flag_connect = False
-        txt_log = 'Connecting..'
-        #self.signals.result_log.emit(txt_log)
+            self.signals.result_log.emit(txt_log)
+            self.signals.error_read.emit(e)
 
     def closeConnect(self):
         self.cycle = False
         self.sock.close()
         txt_log = 'Exit connect'
-        #self.signals.result_log.emit(txt_log)
+        self.signals.result_log.emit(txt_log)
 
 
 class Writer(QRunnable):
@@ -145,13 +157,13 @@ class Reader(QRunnable):
                             else:
                                 self.signals.check_cam.emit(i, False)
                                 txt_log = 'Base Station ' + str(i) + ' is disabled'
-                                self.signals.result_log.emit(txt_log)
+                                #self.signals.result_log.emit(txt_log)
                                 for j in range(3):
                                     temp_arr.append(['off', 'off', 'off'])
 
                         else:
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
-                            self.signals.result_log.emit(txt_log)
+                            #self.signals.result_log.emit(txt_log)
                             for j in range(3):
                                 temp_arr.append(['error', 'error', 'error'])
 
