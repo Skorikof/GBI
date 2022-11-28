@@ -283,8 +283,8 @@ class ChangeUi(QMainWindow):
 
     def dopCodeBintoDec(self, command, value, bits=16):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
-        if value == 'error':
-            return 'error'
+        if value == 'err':
+            return 'err'
         if value == 'off':
             return 'off'
         if value[0] == '1':

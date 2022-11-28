@@ -112,3 +112,95 @@
 2022-11-28 10:28:03,836 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:28:03
 2022-11-28 10:28:12,866 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:28:12
 2022-11-28 10:28:21,904 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 10:28:21
+2022-11-28 16:35:03,656 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 16:35:03,656 - [ERROR] - View - (View.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 16:35:03,656 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 16:35:04,129 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-28 16:35:04,131 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-28 16:35:12,123 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:35:12
+2022-11-28 16:35:12,123 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:12,123 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:35:12,123 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:21,154 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:35:21
+2022-11-28 16:35:21,154 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:21,154 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:35:21,154 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:30,137 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:35:30
+2022-11-28 16:35:30,138 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:30,138 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:35:30,138 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:39,112 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:35:39
+2022-11-28 16:35:39,113 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:39,113 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:35:39,113 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:48,073 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:35:48
+2022-11-28 16:35:48,073 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:48,073 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:35:48,073 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:57,087 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:35:57
+2022-11-28 16:35:57,087 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:35:57,087 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:35:57,087 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:06,109 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:36:06
+2022-11-28 16:36:06,109 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:06,109 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:36:06,109 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:06,773 - [INFO] - __main__ - (View.py).readLog(72) - Exit process
+2022-11-28 16:36:07,115 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-28 16:36:20,383 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 16:36:20,383 - [ERROR] - View - (View.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 16:36:20,383 - [ERROR] - View - (View.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-28 16:36:20,618 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-28 16:36:20,620 - [INFO] - __main__ - (View.py).readLog(72) - Start process
+2022-11-28 16:36:28,620 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:36:28
+2022-11-28 16:36:28,620 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:28,620 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:36:28,620 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:37,615 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:36:37
+2022-11-28 16:36:37,615 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:37,615 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:36:37,615 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:46,629 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:36:46
+2022-11-28 16:36:46,630 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:46,630 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:36:46,630 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:55,618 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:36:55
+2022-11-28 16:36:55,618 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:36:55,618 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:36:55,618 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:04,636 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:04
+2022-11-28 16:37:04,636 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:04,636 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:04,636 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:13,645 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:13
+2022-11-28 16:37:13,645 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:13,645 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:13,645 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:22,663 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:22
+2022-11-28 16:37:22,663 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:22,663 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:22,663 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:31,663 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:31
+2022-11-28 16:37:31,664 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:31,664 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:31,664 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:40,671 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:40
+2022-11-28 16:37:40,672 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:40,672 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:40,672 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:49,679 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:49
+2022-11-28 16:37:49,680 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:49,680 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:49,680 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:58,690 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:37:58
+2022-11-28 16:37:58,691 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:37:58,691 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:37:58,691 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:38:07,689 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:38:07
+2022-11-28 16:38:07,689 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:38:07,689 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:38:07,689 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:38:16,690 - [INFO] - __main__ - (View.py).readResult(153) - Parcel received: 2022-11-28 16:38:16
+2022-11-28 16:38:16,690 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base
+2022-11-28 16:38:16,690 - [ERROR] - __main__ - (View.py).readResult(171) : int() can't convert non-string with explicit base
+2022-11-28 16:38:16,690 - [ERROR] - __main__ - (View.py).readResult(171) - int() can't convert non-string with explicit base

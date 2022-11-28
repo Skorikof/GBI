@@ -137,6 +137,7 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
+                    complite_list = []
                     result_list = []
                     for i in range(1, 9):
                         temp_arr = []
@@ -165,12 +166,14 @@ class Reader(QRunnable):
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
                             #self.signals.result_log.emit(txt_log)
                             for j in range(3):
-                                temp_arr.append(['error', 'error', 'error'])
+                                temp_arr.append(['err', 'err', 'err'])
 
                         result_list.append(temp_arr)
                         time.sleep(0.1)
 
-                    self.signals.result_temp.emit(result_list)
+                    complite_list.append(result_list)
+
+                    self.signals.result_temp.emit(complite_list)
                     time.sleep(1)
 
             except Exception as e:
