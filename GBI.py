@@ -1,6 +1,6 @@
 import sys
 import LogPrg
-from View import ChangeUi
+from Controller import ChangeUi
 from PyQt5.QtWidgets import QApplication
 
 
@@ -37,7 +37,7 @@ def main():
             window.ui.info_label.setText(txt_log)
         else:
             window.threadInit()
-            window.initSocket()
+            #window.initSocket()
 
     except Exception as e:
         window.logger.error(e)

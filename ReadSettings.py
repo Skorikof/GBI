@@ -59,8 +59,3 @@ class DataSens(object):
 class DataCam(object):
     def __init__(self):
         self.cam = []
-
-
-class DataPortal(object):
-    def __init__(self):
-        self.portal = []

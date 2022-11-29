@@ -7,7 +7,7 @@ class ReadSignals(QObject):
     result_temp = pyqtSignal(object)
     result_log = pyqtSignal(object)
     connect_check = pyqtSignal(int, bool)
-    connect_data = pyqtSignal(int, int)
+    connect_data = pyqtSignal(int)
     check_cam = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
 
@@ -43,9 +43,8 @@ class Connection(QRunnable):
 
                         elif msg[:3] == b'KAM':
                             temp_list = msg.decode(encoding='utf-8').split(',')
-                            portal = temp_list[1]
-                            camera = temp_list[2]
-                            command = temp_list[3]
+                            camera = temp_list[1]
+                            command = temp_list[2]
                             if command == 'ON':
                                 self.signals.connect_check.emit(camera, True)
                             if command == 'OFF':
@@ -78,6 +77,10 @@ class Connection(QRunnable):
             self.signals.result_log.emit(txt_log)
             self.signals.error_read.emit(e)
 
+    def sendData(self, sens_list):
+        self.sock.send(sens_list)
+        print('msg send')
+
     def closeConnect(self):
         self.cycle = False
         self.sock.close()
@@ -101,6 +104,7 @@ class Writer(QRunnable):
                 rq = self.client.write_registers(8192, [1], unit=self.adr_dev)
                 if not rq.isError():
                     txt_log = 'Cam ' + str(self.adr_dev) + ' is enabled!'
+                    self.signals.check_cam.emit(self.adr_dev, True)
                 else:
                     txt_log = 'Cam ' + str(self.adr_dev) + ' is unsuccessful attempt'
                     self.signals.check_cam.emit(self.adr_dev, False)
@@ -108,6 +112,7 @@ class Writer(QRunnable):
                 rq = self.client.write_registers(8192, [0], unit=self.adr_dev)
                 if not rq.isError():
                     txt_log = 'Cam ' + str(self.adr_dev) + ' is disabled!'
+                    self.signals.check_cam.emit(self.adr_dev, False)
                 else:
                     txt_log = 'Cam ' + str(self.adr_dev) + ' is unsuccessful attempt'
                     self.signals.check_cam.emit(self.adr_dev, True)
@@ -137,7 +142,6 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
-                    complite_list = []
                     result_list = []
                     for i in range(1, 9):
                         temp_arr = []
@@ -158,22 +162,20 @@ class Reader(QRunnable):
                             else:
                                 self.signals.check_cam.emit(i, False)
                                 txt_log = 'Base Station ' + str(i) + ' is disabled'
-                                #self.signals.result_log.emit(txt_log)
+                                self.signals.result_log.emit(txt_log)
                                 for j in range(3):
                                     temp_arr.append(['off', 'off', 'off'])
 
                         else:
                             txt_log = 'Base Station ' + str(i) + ' does not answer'
-                            #self.signals.result_log.emit(txt_log)
+                            self.signals.result_log.emit(txt_log)
                             for j in range(3):
                                 temp_arr.append(['err', 'err', 'err'])
 
                         result_list.append(temp_arr)
                         time.sleep(0.1)
 
-                    complite_list.append(result_list)
-
-                    self.signals.result_temp.emit(complite_list)
+                    self.signals.result_temp.emit(result_list)
                     time.sleep(1)
 
             except Exception as e:

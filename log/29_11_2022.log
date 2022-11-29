@@ -1,0 +1,210 @@
+2022-11-29 12:15:35,787 - [ERROR] - Controller - (Controller.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:35,787 - [ERROR] - Controller - (Controller.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:35,787 - [ERROR] - Controller - (Controller.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:36,314 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-29 12:15:36,314 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM3
+2022-11-29 12:15:44,762 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:44,762 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:44,762 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:53,205 - [ERROR] - Controller - (Controller.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:53,205 - [ERROR] - Controller - (Controller.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:53,205 - [ERROR] - Controller - (Controller.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:15:53,593 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-29 12:15:53,594 - [INFO] - __main__ - (Controller.py).readLog(72) - Start process
+2022-11-29 12:16:14,632 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,632 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,632 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,632 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,632 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,632 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,632 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,632 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,633 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,645 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,645 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,645 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,645 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,645 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:14
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:14,646 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:16,701 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:16
+2022-11-29 12:16:16,701 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:16,701 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:16,701 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:18,899 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:18
+2022-11-29 12:16:18,899 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:18,899 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:18,899 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:21,090 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:21
+2022-11-29 12:16:21,090 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:21,090 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:21,090 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:23,278 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:23
+2022-11-29 12:16:23,278 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:23,278 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:23,278 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:25,462 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:25
+2022-11-29 12:16:25,462 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:25,462 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:25,462 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:27,636 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:27
+2022-11-29 12:16:27,636 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:27,636 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:27,636 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:29,808 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:29
+2022-11-29 12:16:29,808 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:29,808 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:29,808 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:31,996 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:31
+2022-11-29 12:16:31,996 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:31,996 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:31,996 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:34,161 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:16:34
+2022-11-29 12:16:34,161 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:34,161 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:16:34,161 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:16:35,355 - [INFO] - __main__ - (Controller.py).readLog(72) - Exit process
+2022-11-29 12:17:22,725 - [ERROR] - Controller - (Controller.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:17:22,725 - [ERROR] - Controller - (Controller.py).initSocket(40) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:17:22,725 - [ERROR] - Controller - (Controller.py).initSocket(40) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-11-29 12:17:23,109 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-29 12:17:23,109 - [INFO] - __main__ - (Controller.py).readLog(72) - Start process
+2022-11-29 12:17:44,135 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,135 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,135 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,135 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,135 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,135 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,135 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,135 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,135 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,136 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,149 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,149 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,149 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,149 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,150 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,151 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:44
+2022-11-29 12:17:44,151 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:44,151 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:44,151 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:46,202 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:46
+2022-11-29 12:17:46,202 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:46,202 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:46,202 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:48,394 - [INFO] - __main__ - (Controller.py).readResult(153) - Parcel received: 2022-11-29 12:17:48
+2022-11-29 12:17:48,394 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:48,394 - [ERROR] - __main__ - (Controller.py).readResult(169) : int() can't convert non-string with explicit base
+2022-11-29 12:17:48,394 - [ERROR] - __main__ - (Controller.py).readResult(169) - int() can't convert non-string with explicit base
+2022-11-29 12:17:48,737 - [INFO] - __main__ - (Controller.py).readLog(72) - Exit process
+2022-11-29 12:19:14,086 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-29 12:19:14,087 - [INFO] - __main__ - (Controller.py).readLog(71) - Start process
+2022-11-29 12:19:15,325 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:19:15
+2022-11-29 12:19:15,325 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:15,325 - [ERROR] - __main__ - (Controller.py).readResult(168) : int() can't convert non-string with explicit base
+2022-11-29 12:19:15,325 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:17,511 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:19:17
+2022-11-29 12:19:17,511 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:17,511 - [ERROR] - __main__ - (Controller.py).readResult(168) : int() can't convert non-string with explicit base
+2022-11-29 12:19:17,511 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:19,700 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:19:19
+2022-11-29 12:19:19,700 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:19,700 - [ERROR] - __main__ - (Controller.py).readResult(168) : int() can't convert non-string with explicit base
+2022-11-29 12:19:19,700 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:21,890 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:19:21
+2022-11-29 12:19:21,890 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:21,890 - [ERROR] - __main__ - (Controller.py).readResult(168) : int() can't convert non-string with explicit base
+2022-11-29 12:19:21,890 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:24,086 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:19:24
+2022-11-29 12:19:24,086 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:24,086 - [ERROR] - __main__ - (Controller.py).readResult(168) : int() can't convert non-string with explicit base
+2022-11-29 12:19:24,086 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:26,274 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:19:26
+2022-11-29 12:19:26,274 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:26,274 - [ERROR] - __main__ - (Controller.py).readResult(168) : int() can't convert non-string with explicit base
+2022-11-29 12:19:26,274 - [ERROR] - __main__ - (Controller.py).readResult(168) - int() can't convert non-string with explicit base
+2022-11-29 12:19:26,549 - [INFO] - __main__ - (Controller.py).readLog(71) - Exit process
+2022-11-29 12:19:27,283 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-29 12:20:16,327 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-29 12:20:16,328 - [INFO] - __main__ - (Controller.py).readLog(71) - Start process
+2022-11-29 12:20:17,315 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:20:17
+2022-11-29 12:24:05,835 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-11-29 12:24:05,836 - [INFO] - __main__ - (Controller.py).readLog(71) - Start process
+2022-11-29 12:24:06,813 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:06
+2022-11-29 12:24:27,109 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,109 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,110 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,110 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,111 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,112 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,112 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,113 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,113 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:27,114 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:27
+2022-11-29 12:24:28,816 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:28
+2022-11-29 12:24:30,821 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:30
+2022-11-29 12:24:32,826 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:32
+2022-11-29 12:24:34,760 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:34
+2022-11-29 12:24:36,807 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:36
+2022-11-29 12:24:38,855 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:38
+2022-11-29 12:24:40,905 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:40
+2022-11-29 12:24:42,953 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:42
+2022-11-29 12:24:44,944 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:44
+2022-11-29 12:24:47,019 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:47
+2022-11-29 12:24:49,086 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:49
+2022-11-29 12:24:51,164 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:51
+2022-11-29 12:24:53,281 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:53
+2022-11-29 12:24:55,448 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:55
+2022-11-29 12:24:57,592 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:57
+2022-11-29 12:24:59,746 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:24:59
+2022-11-29 12:25:01,847 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:25:01
+2022-11-29 12:25:03,808 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:25:03
+2022-11-29 12:25:05,798 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:25:05
+2022-11-29 12:25:07,590 - [INFO] - __main__ - (Controller.py).readLog(71) - Exit process
+2022-11-29 12:25:08,768 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-11-29 12:25:08,779 - [INFO] - __main__ - (Controller.py).readResult(152) - Parcel received: 2022-11-29 12:25:08
