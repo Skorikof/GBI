@@ -105,20 +105,21 @@ class Writer(QRunnable):
             if self.command:
                 rq = self.client.write_registers(8192, [1], unit=self.adr_dev)
                 if not rq.isError():
-                    txt_log = 'Cam ' + str(self.adr_dev) + ' is enabled!'
+                    txt_log = 'Base Station ' + str(self.adr_dev) + ' enable!'
                     self.signals.check_cam.emit(self.adr_dev, True)
                 else:
-                    txt_log = 'Cam ' + str(self.adr_dev) + ' is unsuccessful attempt'
+                    txt_log = 'Base Station ' + str(self.adr_dev) + ' unsuccessful attempt'
                     self.signals.check_cam.emit(self.adr_dev, False)
             else:
                 rq = self.client.write_registers(8192, [0], unit=self.adr_dev)
                 if not rq.isError():
-                    txt_log = 'Cam ' + str(self.adr_dev) + ' is disabled!'
+                    txt_log = 'Base Station ' + str(self.adr_dev) + ' disable!'
                     self.signals.check_cam.emit(self.adr_dev, False)
                 else:
-                    txt_log = 'Cam ' + str(self.adr_dev) + ' is unsuccessful attempt'
+                    txt_log = 'Base Station ' + str(self.adr_dev) + ' unsuccessful attempt'
                     self.signals.check_cam.emit(self.adr_dev, True)
-            self.signals.result_log.emit(txt_log)
+            Reader.signals.result_log.emit(txt_log)
+
 
         except Exception as e:
             self.signals.error_read.emit(e)
@@ -151,6 +152,8 @@ class Reader(QRunnable):
                         if not rr.isError():
 
                             if rr.registers[0] == 1:
+                                txt_log = 'Base Station ' + str(i) + ' is enabled'
+                                self.signals.result_log.emit(txt_log)
                                 self.signals.check_cam.emit(i, True)
                                 for j in range(3):
                                     temp_list = []

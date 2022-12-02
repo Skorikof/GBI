@@ -30,6 +30,7 @@ class ChangeUi(QMainWindow):
     def initSocket(self):
         try:
             self.connect = Connection(self.set_port.IP_adr, self.set_port.local_port)
+            self.connect.signals.result_log.connect(self.readLog)
             self.connect.signals.connect_check.connect(self.check_cams)
             self.connect.signals.connect_data.connect(self.convertData)
             self.signals.signalConnect.connect(self.connect.startConnect)
@@ -120,7 +121,6 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            print(adr, state)
             self.writer = Writer(self.set_port.client, adr, state)
             self.threadpool.start(self.writer)
 
