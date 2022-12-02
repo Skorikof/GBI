@@ -1,4 +1,3 @@
-import sys
 import LogPrg
 from Thread import Reader, Writer, Connection
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
@@ -25,6 +24,7 @@ class ChangeUi(QMainWindow):
         self.logger = LogPrg.get_logger(__name__)
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
+        #self.startParam()
         self.initCheck()
 
     def initSocket(self):
@@ -49,8 +49,18 @@ class ChangeUi(QMainWindow):
 
     def convertData(self, camera):
         try:
-            send_list = self.dataCam.cam[camera]
-            self.signals.signalSendData.emit(send_list)
+            list_msg = []
+            for i in range(3):
+                list_msg.append(self.dataCam.cam[camera - 1].sens[i].temp)
+                list_msg.append(self.dataCam.cam[camera - 1].sens[i].serial)
+                list_msg.append(self.dataCam.cam[camera - 1].sens[i].bat)
+
+            msg = b'DATA,' + str(camera).encode(encoding='utf-8')
+
+            for i in range(len(list_msg)):
+                msg = msg + b',' + list_msg[i].encode(encoding='utf-8')
+
+            self.signals.signalSendData.emit(msg)
 
         except Exception as e:
             self.logger.error(e)
@@ -86,6 +96,14 @@ class ChangeUi(QMainWindow):
         print(temp)
         self.logger.error(temp)
 
+    def startParam(self):
+        try:
+            for i in range(1, 9):
+                self.check_cams(int(i), True)
+
+        except Exception as e:
+            self.logger.error(e)
+
     def initCheck(self):
         try:
             self.ui.cam1_checkBox.stateChanged.connect(lambda: self.check_cams(1, self.ui.cam1_checkBox.isChecked()))
@@ -102,6 +120,7 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
+            print(adr, state)
             self.writer = Writer(self.set_port.client, adr, state)
             self.threadpool.start(self.writer)
 

@@ -38,12 +38,13 @@ class Connection(QRunnable):
                             self.startConnect()
 
                         elif msg == b'Hello! ASU server welcomes you!':
+                            self.sock.send(b'Connection complite')
                             txt_log = 'Connection complite'
                             self.signals.result_log.emit(txt_log)
 
                         elif msg[:3] == b'KAM':
                             temp_list = msg.decode(encoding='utf-8').split(',')
-                            camera = temp_list[1]
+                            camera = int(temp_list[1])
                             command = temp_list[2]
                             if command == 'ON':
                                 self.signals.connect_check.emit(camera, True)
@@ -77,9 +78,10 @@ class Connection(QRunnable):
             self.signals.result_log.emit(txt_log)
             self.signals.error_read.emit(e)
 
-    def sendData(self, sens_list):
-        self.sock.send(sens_list)
-        print('msg send')
+    def sendData(self, msg):
+        self.sock.send(msg)
+        txt_log = 'Msg is send'
+        self.signals.result_log.emit(txt_log)
 
     def closeConnect(self):
         self.cycle = False
@@ -176,7 +178,7 @@ class Reader(QRunnable):
                         time.sleep(0.1)
 
                     self.signals.result_temp.emit(result_list)
-                    time.sleep(1)
+                    time.sleep(5)
 
             except Exception as e:
                 self.signals.error_read.emit(e)
