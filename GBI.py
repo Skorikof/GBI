@@ -26,7 +26,7 @@ def main():
     app = QApplication(sys.argv)
     window = ApplicationWindow()
     window.show()
-    txt_log = 'Programm starting!'
+    txt_log = 'Программа запущена'
     print(txt_log)
     window.logger.info(txt_log)
     try:
@@ -37,6 +37,7 @@ def main():
             window.ui.info_label.setText(txt_log)
         else:
             window.threadInit()
+            window.startParam()
             #window.initSocket()
 
     except Exception as e:

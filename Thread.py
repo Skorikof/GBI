@@ -39,7 +39,7 @@ class Connection(QRunnable):
 
                         elif msg == b'Hello! ASU server welcomes you!':
                             self.sock.send(b'Connection complite')
-                            txt_log = 'Connection complite'
+                            txt_log = 'Соединение с сервером установлено'
                             self.signals.result_log.emit(txt_log)
 
                         elif msg[:3] == b'KAM':
@@ -67,26 +67,26 @@ class Connection(QRunnable):
             self.flag_connect = False
             self.sock = socket.socket()
             self.sock.connect((self.ip, self.port))
-            txt_log = 'Connecting..'
+            txt_log = 'Соединение с сервером..'
             self.signals.result_log.emit(txt_log)
             self.flag_connect = True
 
         except Exception as e:
             self.flag_connect = False
-            txt_log = 'Connection is lose..'
+            txt_log = 'Соединение потеряно'
             self.sock.close()
             self.signals.result_log.emit(txt_log)
             self.signals.error_read.emit(e)
 
     def sendData(self, msg):
         self.sock.send(msg)
-        txt_log = 'Msg is send'
+        txt_log = 'Посылка отправлена на сервер'
         self.signals.result_log.emit(txt_log)
 
     def closeConnect(self):
         self.cycle = False
         self.sock.close()
-        txt_log = 'Exit connect'
+        txt_log = 'Разрыв соединения'
         self.signals.result_log.emit(txt_log)
 
 
@@ -105,18 +105,18 @@ class Writer(QRunnable):
             if self.command:
                 rq = self.client.write_registers(8192, [1], unit=self.adr_dev)
                 if not rq.isError():
-                    txt_log = 'Base Station ' + str(self.adr_dev) + ' enable!'
+                    txt_log = 'Подключение Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, True)
                 else:
-                    txt_log = 'Base Station ' + str(self.adr_dev) + ' unsuccessful attempt'
+                    txt_log = 'Неудачная попытка подключения Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, False)
             else:
                 rq = self.client.write_registers(8192, [0], unit=self.adr_dev)
                 if not rq.isError():
-                    txt_log = 'Base Station ' + str(self.adr_dev) + ' disable!'
+                    txt_log = 'Отключение Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, False)
                 else:
-                    txt_log = 'Base Station ' + str(self.adr_dev) + ' unsuccessful attempt'
+                    txt_log = 'Неудачная попытка отключения Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, True)
             Reader.signals.result_log.emit(txt_log)
 
@@ -135,7 +135,7 @@ class Reader(QRunnable):
         self.client = client
         self.is_paused = False
         self.is_killed = False
-        self.sens_regs = [4098, 4103, 4108]
+        self.sens_regs = [4103, 4108, 4113]
         self.flag_write = False
 
     @pyqtSlot()
@@ -152,7 +152,7 @@ class Reader(QRunnable):
                         if not rr.isError():
 
                             if rr.registers[0] == 1:
-                                txt_log = 'Base Station ' + str(i) + ' is enabled'
+                                txt_log = 'Базовая станция №' + str(i) + ' включена'
                                 self.signals.result_log.emit(txt_log)
                                 self.signals.check_cam.emit(i, True)
                                 for j in range(3):
@@ -166,13 +166,13 @@ class Reader(QRunnable):
 
                             else:
                                 self.signals.check_cam.emit(i, False)
-                                txt_log = 'Base Station ' + str(i) + ' is disabled'
+                                txt_log = 'Базовая станция №' + str(i) + ' выключена'
                                 self.signals.result_log.emit(txt_log)
                                 for j in range(3):
                                     temp_arr.append(['off', 'off', 'off'])
 
                         else:
-                            txt_log = 'Base Station ' + str(i) + ' does not answer'
+                            txt_log = 'Базовая станция №' + str(i) + ' не отвечает'
                             self.signals.result_log.emit(txt_log)
                             for j in range(3):
                                 temp_arr.append(['err', 'err', 'err'])
@@ -189,7 +189,7 @@ class Reader(QRunnable):
     def startProcess(self):
         self.cycle = True
         self.is_run = True
-        txt_log = 'Start process'
+        txt_log = 'Процесс чтения запущен'
         self.signals.result_log.emit(txt_log)
 
     def pauseProcess(self):
@@ -199,5 +199,5 @@ class Reader(QRunnable):
 
     def exitProcess(self):
         self.cycle = False
-        txt_log = 'Exit process'
+        txt_log = 'Выход из процесса чтения'
         self.signals.result_log.emit(txt_log)

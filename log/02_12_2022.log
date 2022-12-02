@@ -151,3 +151,289 @@
 2022-12-02 13:48:46,594 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 13:48:46
 2022-12-02 13:48:48,129 - [INFO] - __main__ - (Controller.py).readLog(93) - Exit process
 2022-12-02 13:48:51,602 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-12-02 14:51:26,951 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,951 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,951 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,952 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,952 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,952 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,952 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,952 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,952 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:26,953 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 14:51:27,324 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-12-02 14:51:27,325 - [INFO] - __main__ - (Controller.py).readLog(93) - Start process
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,119 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:49,354 - [INFO] - __main__ - (GBI.py).main(32) - Programm starting!
+2022-12-02 16:01:49,354 - [INFO] - __main__ - (GBI.py).main(37) - Отсутствует подключение по порту: COM5
+2022-12-02 16:01:54,441 - [ERROR] - __main__ - (GBI.py).closeEvent(24) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:54,441 - [ERROR] - __main__ - (GBI.py).closeEvent(24) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:01:54,441 - [ERROR] - __main__ - (GBI.py).closeEvent(24) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,728 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:02:24,978 - [INFO] - __main__ - (GBI.py).main(32) - Programm starting!
+2022-12-02 16:02:26,993 - [INFO] - __main__ - (Controller.py).readLog(93) - Start process
+2022-12-02 16:02:27,087 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is enabled
+2022-12-02 16:02:27,103 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 enable!
+2022-12-02 16:02:28,165 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:02:29,290 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:02:30,414 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:02:31,539 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:02:32,664 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:02:33,789 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:02:34,913 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:02:35,023 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:02:35
+2022-12-02 16:02:40,047 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is enabled
+2022-12-02 16:02:41,291 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:02:41,291 - [INFO] - __main__ - (Controller.py).readLog(93) - Exit process
+2022-12-02 16:02:53,059 - [INFO] - __main__ - (GBI.py).closeEvent(21) - Exit programm
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:02:53,110 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:02:53
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,663 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:03:20,913 - [INFO] - __main__ - (GBI.py).main(32) - Programm starting!
+2022-12-02 16:03:20,913 - [INFO] - __main__ - (Controller.py).readLog(93) - Start process
+2022-12-02 16:03:20,960 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is enabled
+2022-12-02 16:03:20,975 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 enable!
+2022-12-02 16:03:22,075 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:03:23,200 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:03:24,325 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:03:25,450 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:03:26,567 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:03:27,692 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:03:28,817 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:03:28,926 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:03:28
+2022-12-02 16:03:31,712 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 disable!
+2022-12-02 16:03:33,933 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is disabled
+2022-12-02 16:03:35,073 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:03:36,198 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:03:37,323 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:03:38,447 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:03:39,572 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:03:40,697 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:03:41,822 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:03:41,931 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:03:41
+2022-12-02 16:03:45,105 - [INFO] - __main__ - (Controller.py).readLog(93) - Exit process
+2022-12-02 16:03:46,933 - [INFO] - __main__ - (GBI.py).closeEvent(21) - Exit programm
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,026 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:04:03,244 - [INFO] - __main__ - (GBI.py).main(32) - Programm starting!
+2022-12-02 16:04:03,244 - [INFO] - __main__ - (Controller.py).readLog(93) - Start process
+2022-12-02 16:04:03,276 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is enabled
+2022-12-02 16:04:03,291 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 enable!
+2022-12-02 16:04:04,416 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:04:05,532 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:04:06,657 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:04:07,782 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:04:08,907 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:04:10,031 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:04:11,156 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:04:11,265 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:04:11
+2022-12-02 16:04:16,280 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is enabled
+2022-12-02 16:04:17,452 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:04:18,576 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:04:19,690 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:04:20,815 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:04:21,940 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:04:23,051 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:04:24,175 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:04:24,285 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:04:24
+2022-12-02 16:04:29,286 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is enabled
+2022-12-02 16:04:30,458 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:04:31,583 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:04:32,707 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:04:33,822 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:04:34,925 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:04:34,936 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 disable!
+2022-12-02 16:04:36,030 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:04:37,155 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:04:37,264 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:04:37
+2022-12-02 16:04:42,279 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 is disabled
+2022-12-02 16:04:43,419 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:04:44,544 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:04:45,668 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:04:46,793 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:04:47,918 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:04:49,043 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:04:50,167 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:04:50,277 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:04:50
+2022-12-02 16:04:54,729 - [INFO] - __main__ - (Controller.py).readLog(93) - Exit process
+2022-12-02 16:04:55,291 - [INFO] - __main__ - (GBI.py).closeEvent(21) - Exit programm
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,257 - [ERROR] - Controller - (Controller.py).check_cams(128) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 16:39:13,491 - [INFO] - __main__ - (GBI.py).main(31) - Programm starting!
+2022-12-02 16:39:13,491 - [INFO] - __main__ - (Controller.py).readLog(93) - Start process
+2022-12-02 16:39:13,538 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 does not answer
+2022-12-02 16:39:14,632 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:39:15,756 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:39:16,881 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:39:18,006 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:39:19,130 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:39:20,252 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:39:21,377 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:39:21,486 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:39:21
+2022-12-02 16:39:26,501 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 does not answer
+2022-12-02 16:39:27,641 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:39:28,766 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:39:29,891 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:39:31,015 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:39:32,140 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:39:33,265 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:39:34,376 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:39:34,485 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:39:34
+2022-12-02 16:39:36,801 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 enable!
+2022-12-02 16:39:39,505 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 does not answer
+2022-12-02 16:39:40,618 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:39:41,743 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:39:42,867 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:39:43,992 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:39:45,117 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:39:46,241 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:39:47,366 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:39:47,476 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:39:47
+2022-12-02 16:39:52,490 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 1 does not answer
+2022-12-02 16:39:53,630 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 2 does not answer
+2022-12-02 16:39:54,755 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 3 does not answer
+2022-12-02 16:39:55,874 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 4 does not answer
+2022-12-02 16:39:56,999 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 5 does not answer
+2022-12-02 16:39:58,123 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 6 does not answer
+2022-12-02 16:39:58,686 - [INFO] - __main__ - (Controller.py).readLog(93) - Exit process
+2022-12-02 16:40:05,497 - [INFO] - __main__ - (GBI.py).closeEvent(20) - Exit programm
+2022-12-02 16:40:05,527 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 7 does not answer
+2022-12-02 16:40:05,527 - [INFO] - __main__ - (Controller.py).readLog(93) - Base Station 8 does not answer
+2022-12-02 16:40:05,528 - [INFO] - __main__ - (Controller.py).readResult(182) - Parcel received: 2022-12-02 16:40:05
+2022-12-02 17:13:14,026 - [INFO] - __main__ - (GBI.py).main(31) - Программа запущена
+2022-12-02 17:13:14,026 - [INFO] - __main__ - (GBI.py).main(36) - Отсутствует подключение по порту: COM6
+2022-12-02 17:13:22,001 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 17:13:22,001 - [ERROR] - __main__ - (GBI.py).closeEvent(23) : 'ApplicationWindow' object has no attribute 'threadpool'
+2022-12-02 17:13:22,001 - [ERROR] - __main__ - (GBI.py).closeEvent(23) - 'ApplicationWindow' object has no attribute 'threadpool'

@@ -24,7 +24,6 @@ class ChangeUi(QMainWindow):
         self.logger = LogPrg.get_logger(__name__)
         self.signals = WindowSignals()
         self.set_port = COMSettings(self.logger)
-        #self.startParam()
         self.initCheck()
 
     def initSocket(self):
