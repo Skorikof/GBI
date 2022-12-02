@@ -38,7 +38,7 @@ def main():
         else:
             window.threadInit()
             window.startParam()
-            #window.initSocket()
+            window.initSocket()
 
     except Exception as e:
         window.logger.error(e)
