@@ -1,7 +1,10 @@
 import time
+import os
 import socket
+from datetime import datetime
 from PyQt5.QtCore import QObject, QRunnable, pyqtSignal, pyqtSlot
 
+base_dir = os.path.dirname(__file__)
 
 class ReadSignals(QObject):
     result_temp = pyqtSignal(object)
@@ -10,6 +13,38 @@ class ReadSignals(QObject):
     connect_data = pyqtSignal(int)
     check_cam = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
+
+
+class LogWriter(QRunnable):
+    def __init__(self, mode, obj_name, msg):
+        super(LogWriter, self).__init__()
+        try:
+            if mode == 'info':
+                _date_log = str(datetime.now().day).zfill(2) + '_' + str(datetime.now().month).zfill(2) + \
+                    '_' + str(datetime.now().year)
+            if mode == 'error':
+                _date_log = 'errors'
+
+            _path_logs = base_dir + '/log'
+            self.filename = _path_logs + '/' + _date_log + '.log'
+            self.msg = msg
+            self.nam_f = obj_name[0]
+            self.nam_m = obj_name[1]
+            self.num_line = obj_name[2]
+
+        except Exception as e:
+            print(str(e))
+
+    @pyqtSlot()
+    def run(self):
+        try:
+            with open(self.filename, 'a') as file:
+                temp_str = str(datetime.now())[:-3] + ' - [' + str(self.nam_f) + '].' + self.nam_m + \
+                    '[' + str(self.num_line) + '] - ' + self.msg + '\n'
+                file.write(temp_str)
+
+        except Exception as err:
+            print(str(err))
 
 
 class Connection(QRunnable):
@@ -190,11 +225,6 @@ class Reader(QRunnable):
         self.cycle = True
         self.is_run = True
         txt_log = 'Процесс чтения запущен'
-        self.signals.result_log.emit(txt_log)
-
-    def pauseProcess(self):
-        self.is_run = False
-        txt_log = 'Pause process'
         self.signals.result_log.emit(txt_log)
 
     def exitProcess(self):

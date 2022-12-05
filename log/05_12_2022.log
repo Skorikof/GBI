@@ -1,0 +1,54 @@
+2022-12-05 15:23:10.313 - [D:\Stands\GBI\Controller.py].readLog[107] - Процесс чтения запущен
+2022-12-05 15:23:13.610 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №1 выключена
+2022-12-05 15:23:13.610 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №2 не отвечает
+2022-12-05 15:23:13.610 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №3 не отвечает
+2022-12-05 15:23:13.610 - [D:\Stands\GBI\Controller.py].readLog[107] - Отключение Базовой станции №1
+2022-12-05 15:23:13.610 - [D:\Stands\GBI\Controller.py].readLog[107] - Неудачная попытка отключения Базовой станции №2
+2022-12-05 15:23:14.625 - [D:\Stands\GBI\Controller.py].readLog[107] - Неудачная попытка отключения Базовой станции №3
+2022-12-05 15:23:15.640 - [D:\Stands\GBI\Controller.py].readLog[107] - Неудачная попытка отключения Базовой станции №4
+2022-12-05 15:23:16.656 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №4 не отвечает
+2022-12-05 15:23:17.780 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №5 не отвечает
+2022-12-05 15:23:18.905 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №6 не отвечает
+2022-12-05 15:23:20.030 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №7 не отвечает
+2022-12-05 15:23:21.155 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №8 не отвечает
+2022-12-05 15:23:21.264 - [D:\Stands\GBI\Controller.py].readResult[196] - Parcel received: 2022-12-05 15:23:21
+2022-12-05 15:23:26.277 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №1 выключена
+2022-12-05 15:23:27.417 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №2 не отвечает
+2022-12-05 15:23:28.542 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №3 не отвечает
+2022-12-05 15:23:29.667 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №4 не отвечает
+2022-12-05 15:23:30.791 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №5 не отвечает
+2022-12-05 15:23:31.916 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №6 не отвечает
+2022-12-05 15:23:33.041 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №7 не отвечает
+2022-12-05 15:23:34.165 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №8 не отвечает
+2022-12-05 15:23:34.275 - [D:\Stands\GBI\Controller.py].readResult[196] - Parcel received: 2022-12-05 15:23:34
+2022-12-05 15:23:39.289 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №1 выключена
+2022-12-05 15:23:40.430 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №2 не отвечает
+2022-12-05 15:23:41.554 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №3 не отвечает
+2022-12-05 15:23:42.679 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №4 не отвечает
+2022-12-05 15:23:43.804 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №5 не отвечает
+2022-12-05 15:23:44.929 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №6 не отвечает
+2022-12-05 15:23:46.047 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №7 не отвечает
+2022-12-05 15:23:47.174 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №8 не отвечает
+2022-12-05 15:23:47.189 - [D:\Stands\GBI\Controller.py].readLog[107] - Подключение Базовой станции №1
+2022-12-05 15:23:47.283 - [D:\Stands\GBI\Controller.py].readResult[196] - Parcel received: 2022-12-05 15:23:47
+2022-12-05 15:23:52.297 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №1 включена
+2022-12-05 15:23:53.469 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №2 не отвечает
+2022-12-05 15:23:54.594 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №3 не отвечает
+2022-12-05 15:23:55.719 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №4 не отвечает
+2022-12-05 15:23:56.843 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №5 не отвечает
+2022-12-05 15:23:57.968 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №6 не отвечает
+2022-12-05 15:23:59.093 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №7 не отвечает
+2022-12-05 15:24:00.217 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №8 не отвечает
+2022-12-05 15:24:00.327 - [D:\Stands\GBI\Controller.py].readResult[196] - Parcel received: 2022-12-05 15:24:00
+2022-12-05 15:24:04.382 - [D:\Stands\GBI\Controller.py].readLog[107] - Отключение Базовой станции №1
+2022-12-05 15:24:05.336 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №1 выключена
+2022-12-05 15:24:06.476 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №2 не отвечает
+2022-12-05 15:24:07.601 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №3 не отвечает
+2022-12-05 15:24:08.726 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №4 не отвечает
+2022-12-05 15:24:09.850 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №5 не отвечает
+2022-12-05 15:24:10.972 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №6 не отвечает
+2022-12-05 15:24:12.097 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №7 не отвечает
+2022-12-05 15:24:13.216 - [D:\Stands\GBI\Controller.py].readLog[107] - Базовая станция №8 не отвечает
+2022-12-05 15:24:13.325 - [D:\Stands\GBI\Controller.py].readResult[196] - Parcel received: 2022-12-05 15:24:13
+2022-12-05 15:24:16.215 - [D:\Stands\GBI\Controller.py].readLog[107] - Выход из процесса чтения
+2022-12-05 15:24:18.340 - [GBI.py].closeEvent[19] - Выход из программы

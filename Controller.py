@@ -1,5 +1,5 @@
-import LogPrg
-from Thread import Reader, Writer, Connection
+import inspect
+from Thread import LogWriter, Reader, Writer, Connection
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
 from datetime import datetime
 from MainUi import Ui_MainWindow
@@ -21,10 +21,25 @@ class ChangeUi(QMainWindow):
         super(ChangeUi, self).__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.logger = LogPrg.get_logger(__name__)
         self.signals = WindowSignals()
-        self.set_port = COMSettings(self.logger)
-        self.initCheck()
+        self.set_port = COMSettings()
+
+    def saveLog(self, mode_s, msg_s):
+        try:
+            current_frame = inspect.currentframe()
+            caller_frame = current_frame.f_back
+            num_line = caller_frame.f_lineno
+            code_obj = caller_frame.f_code
+            code_obj_name = code_obj.co_name
+            temp_str = code_obj.co_filename
+            temp_d = temp_str.split('/')
+            nam_f = temp_d[len(temp_d) - 1]
+
+            self.logWriter = LogWriter(mode_s, (nam_f, code_obj_name, num_line), msg_s)
+            self.threadpool.start(self.logWriter)
+
+        except Exception as e:
+            print(str(e))
 
     def initSocket(self):
         try:
@@ -39,7 +54,7 @@ class ChangeUi(QMainWindow):
             self.startConnect()
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def startConnect(self):
         self.signals.signalConnect.emit(self.set_port.IP_adr, self.set_port.local_port)
@@ -63,7 +78,7 @@ class ChangeUi(QMainWindow):
             self.signals.signalSendData.emit(msg)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def threadInit(self):
         try:
@@ -79,7 +94,7 @@ class ChangeUi(QMainWindow):
             self.startThread()
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def startThread(self):
         self.signals.signalStart.emit()
@@ -89,20 +104,20 @@ class ChangeUi(QMainWindow):
 
     def readLog(self, text):
         self.ui.info_label.setText(text)
-        self.logger.info(text)
+        self.saveLog('info', text)
         print(text)
 
-    def readError(self, temp):
-        print(temp)
-        self.logger.error(temp)
+    def readError(self, text):
+        print(text)
+        self.saveLog('error', text)
 
     def startParam(self):
         try:
             for i in range(1, 9):
-                self.check_cams(int(i), True)
+                self.check_cams(int(i), False)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def initCheck(self):
         try:
@@ -116,7 +131,7 @@ class ChangeUi(QMainWindow):
             self.ui.cam8_checkBox.stateChanged.connect(lambda: self.check_cams(8, self.ui.cam8_checkBox.isChecked()))
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def check_cams(self, adr, state):
         try:
@@ -124,7 +139,7 @@ class ChangeUi(QMainWindow):
             self.threadpool.start(self.writer)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def cancel_check(self, adr, command):
         try:
@@ -170,7 +185,7 @@ class ChangeUi(QMainWindow):
                     self.ui.cam8_checkBox.setChecked(False)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def readResult(self, arr):
         try:
@@ -178,7 +193,7 @@ class ChangeUi(QMainWindow):
             print(self.arr)
             txt_log = 'Parcel received: ' + str(datetime.now())[:-7]
             self.ui.info_label.setText(txt_log)
-            self.logger.info(txt_log)
+            self.saveLog('info', txt_log)
 
             self.dataCam = DataCam()
             for i in range(8):
@@ -194,7 +209,7 @@ class ChangeUi(QMainWindow):
             self.monitorBatPort1()
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def monitorSerialPort1(self):
         try:
@@ -231,7 +246,7 @@ class ChangeUi(QMainWindow):
             self.ui.cam8_sens3serial_label.setText(self.dataCam.cam[7].sens[2].serial)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def monitorTempPort1(self):
         try:
@@ -268,7 +283,7 @@ class ChangeUi(QMainWindow):
             self.ui.cam8_sens3temp_lcdNum.display(self.dataCam.cam[7].sens[2].temp)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def monitorBatPort1(self):
         try:
@@ -305,25 +320,29 @@ class ChangeUi(QMainWindow):
             self.ui.cam8_sens3bat_lcdNum.display(self.dataCam.cam[7].sens[2].bat)
 
         except Exception as e:
-            self.logger.error(e)
+            self.saveLog('error', str(e))
 
     def dopCodeBintoDec(self, command, value, bits=16):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
-        if value == 'err':
-            return 'err'
-        if value == 'off':
-            return 'off'
-        if value[0] == '1':
-            val_temp = -(2 ** bits - int(value, 2))
-        else:
-            val_temp = int(value, 2)
+        try:
+            if value == 'err':
+                return 'err'
+            if value == 'off':
+                return 'off'
+            if value[0] == '1':
+                val_temp = -(2 ** bits - int(value, 2))
+            else:
+                val_temp = int(value, 2)
 
-        if command == 'Temp':
-            val_temp = round(val_temp / 16, 1)
-            if val_temp < -50:
-                return '-----'
+            if command == 'Temp':
+                val_temp = round(val_temp / 16, 1)
+                if val_temp < -50:
+                    return '-----'
 
-        if command == 'Bat':
-            val_temp = round(val_temp * 0.1, 1)
+            if command == 'Bat':
+                val_temp = round(val_temp * 0.1, 1)
 
-        return str(val_temp)
+            return str(val_temp)
+
+        except Exception as e:
+            self.saveLog('error', str(e))

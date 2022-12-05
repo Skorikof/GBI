@@ -5,9 +5,8 @@ from pymodbus.client.sync import ModbusSerialClient as ModbusClient
 class COMSettings(object):
     """Чтение настроек СОМ порта из файла ini"""
 
-    def __init__(self, logger):
+    def __init__(self):
         try:
-            self.logger = logger
             config = configparser.ConfigParser()
             config.read("Settings.ini")
             self.portNumber = 'COM' + config["ComPort"]["NumberPort"]
@@ -24,7 +23,7 @@ class COMSettings(object):
 
 
         except Exception as e:
-            self.logger.error(e)
+            print(str(e))
 
     def initPort(self):
         try:
@@ -41,7 +40,7 @@ class COMSettings(object):
                 return False
 
         except Exception as e:
-            self.logger.error(e)
+            print(str(e))
 
 
 class Registers(object):
