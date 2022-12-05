@@ -36,7 +36,7 @@ def main():
             window.threadInit()
             window.initCheck()
             window.startParam()
-            #window.initSocket()
+            window.initSocket()
 
     except Exception as e:
         window.saveLog('error', str(e))
