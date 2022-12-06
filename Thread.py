@@ -11,6 +11,7 @@ class ReadSignals(QObject):
     result_log = pyqtSignal(object)
     connect_check = pyqtSignal(int, bool)
     connect_data = pyqtSignal(int)
+    lucky_attemp = pyqtSignal(int, bool)
     check_cam = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
 
@@ -140,16 +141,14 @@ class Writer(QRunnable):
             if self.command:
                 rq = self.client.write_registers(8192, [1], unit=self.adr_dev)
                 if not rq.isError():
-                    txt_log = 'Подключение Базовой станции №' + str(self.adr_dev)
-                    self.signals.check_cam.emit(self.adr_dev, True)
+                    txt_log = 'Попытка подключения Базовой станции №' + str(self.adr_dev)
                 else:
                     txt_log = 'Неудачная попытка подключения Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, False)
             else:
                 rq = self.client.write_registers(8192, [0], unit=self.adr_dev)
                 if not rq.isError():
-                    txt_log = 'Отключение Базовой станции №' + str(self.adr_dev)
-                    self.signals.check_cam.emit(self.adr_dev, False)
+                    txt_log = 'Попытка отключения Базовой станции №' + str(self.adr_dev)
                 else:
                     txt_log = 'Неудачная попытка отключения Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, True)
@@ -216,7 +215,7 @@ class Reader(QRunnable):
                         time.sleep(0.1)
 
                     self.signals.result_temp.emit(result_list)
-                    time.sleep(5)
+                    time.sleep(10)
 
             except Exception as e:
                 self.signals.error_read.emit(e)

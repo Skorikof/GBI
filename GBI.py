@@ -1,5 +1,4 @@
 import sys
-import time
 from Controller import ChangeUi
 from PyQt5.QtWidgets import QApplication
 
@@ -32,6 +31,7 @@ def main():
             txt_log = 'Отсутствует подключение по порту: ' + window.set_port.portNumber
             print(txt_log)
             window.ui.info_label.setText(txt_log)
+
         else:
             window.threadInit()
             window.initCheck()
