@@ -121,14 +121,23 @@ class ChangeUi(QMainWindow):
 
     def initCheck(self):
         try:
-            self.ui.cam1_checkBox.stateChanged.connect(lambda: self.check_cams(1, self.ui.cam1_checkBox.isChecked()))
-            self.ui.cam2_checkBox.stateChanged.connect(lambda: self.check_cams(2, self.ui.cam2_checkBox.isChecked()))
-            self.ui.cam3_checkBox.stateChanged.connect(lambda: self.check_cams(3, self.ui.cam3_checkBox.isChecked()))
-            self.ui.cam4_checkBox.stateChanged.connect(lambda: self.check_cams(4, self.ui.cam4_checkBox.isChecked()))
-            self.ui.cam5_checkBox.stateChanged.connect(lambda: self.check_cams(5, self.ui.cam5_checkBox.isChecked()))
-            self.ui.cam6_checkBox.stateChanged.connect(lambda: self.check_cams(6, self.ui.cam6_checkBox.isChecked()))
-            self.ui.cam7_checkBox.stateChanged.connect(lambda: self.check_cams(7, self.ui.cam7_checkBox.isChecked()))
-            self.ui.cam8_checkBox.stateChanged.connect(lambda: self.check_cams(8, self.ui.cam8_checkBox.isChecked()))
+            self.ui.por1_cam1_checkBox.stateChanged.connect(lambda: self.check_cams(1, self.ui.por1_cam1_checkBox.isChecked()))
+            self.ui.por1_cam2_checkBox.stateChanged.connect(lambda: self.check_cams(2, self.ui.por1_cam2_checkBox.isChecked()))
+            self.ui.por1_cam3_checkBox.stateChanged.connect(lambda: self.check_cams(3, self.ui.por1_cam3_checkBox.isChecked()))
+            self.ui.por1_cam4_checkBox.stateChanged.connect(lambda: self.check_cams(4, self.ui.por1_cam4_checkBox.isChecked()))
+            self.ui.por1_cam5_checkBox.stateChanged.connect(lambda: self.check_cams(5, self.ui.por1_cam5_checkBox.isChecked()))
+            self.ui.por1_cam6_checkBox.stateChanged.connect(lambda: self.check_cams(6, self.ui.por1_cam6_checkBox.isChecked()))
+            self.ui.por1_cam7_checkBox.stateChanged.connect(lambda: self.check_cams(7, self.ui.por1_cam7_checkBox.isChecked()))
+            self.ui.por1_cam8_checkBox.stateChanged.connect(lambda: self.check_cams(8, self.ui.por1_cam8_checkBox.isChecked()))
+
+            self.ui.por2_cam1_checkBox.stateChanged.connect(lambda: self.check_cams(9, self.ui.por2_cam1_checkBox.isChecked()))
+            self.ui.por2_cam2_checkBox.stateChanged.connect(lambda: self.check_cams(10, self.ui.por2_cam2_checkBox.isChecked()))
+            self.ui.por2_cam3_checkBox.stateChanged.connect(lambda: self.check_cams(11, self.ui.por2_cam3_checkBox.isChecked()))
+            self.ui.por2_cam4_checkBox.stateChanged.connect(lambda: self.check_cams(12, self.ui.por2_cam4_checkBox.isChecked()))
+            self.ui.por2_cam5_checkBox.stateChanged.connect(lambda: self.check_cams(13, self.ui.por2_cam5_checkBox.isChecked()))
+            self.ui.por2_cam6_checkBox.stateChanged.connect(lambda: self.check_cams(14, self.ui.por2_cam6_checkBox.isChecked()))
+            self.ui.por2_cam7_checkBox.stateChanged.connect(lambda: self.check_cams(15, self.ui.por2_cam7_checkBox.isChecked()))
+            self.ui.por2_cam8_checkBox.stateChanged.connect(lambda: self.check_cams(16, self.ui.por2_cam8_checkBox.isChecked()))
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -145,44 +154,85 @@ class ChangeUi(QMainWindow):
         try:
             if adr == 1:
                 if command:
-                    self.ui.cam1_checkBox.setChecked(True)
+                    self.ui.por1_cam1_checkBox.setChecked(True)
                 else:
-                    self.ui.cam1_checkBox.setChecked(False)
+                    self.ui.por1_cam1_checkBox.setChecked(False)
             if adr == 2:
                 if command:
-                    self.ui.cam2_checkBox.setChecked(True)
+                    self.ui.por1_cam2_checkBox.setChecked(True)
                 else:
-                    self.ui.cam2_checkBox.setChecked(False)
+                    self.ui.por1_cam2_checkBox.setChecked(False)
             if adr == 3:
                 if command:
-                    self.ui.cam3_checkBox.setChecked(True)
+                    self.ui.por1_cam3_checkBox.setChecked(True)
                 else:
-                    self.ui.cam3_checkBox.setChecked(False)
+                    self.ui.por1_cam3_checkBox.setChecked(False)
             if adr == 4:
                 if command:
-                    self.ui.cam4_checkBox.setChecked(True)
+                    self.ui.por1_cam4_checkBox.setChecked(True)
                 else:
-                    self.ui.cam4_checkBox.setChecked(False)
+                    self.ui.por1_cam4_checkBox.setChecked(False)
             if adr == 5:
                 if command:
-                    self.ui.cam5_checkBox.setChecked(True)
+                    self.ui.por1_cam5_checkBox.setChecked(True)
                 else:
-                    self.ui.cam5_checkBox.setChecked(False)
+                    self.ui.por1_cam5_checkBox.setChecked(False)
             if adr == 6:
                 if command:
-                    self.ui.cam6_checkBox.setChecked(True)
+                    self.ui.por1_cam6_checkBox.setChecked(True)
                 else:
-                    self.ui.cam6_checkBox.setChecked(False)
+                    self.ui.por1_cam6_checkBox.setChecked(False)
             if adr == 7:
                 if command:
-                    self.ui.cam7_checkBox.setChecked(True)
+                    self.ui.por1_cam7_checkBox.setChecked(True)
                 else:
-                    self.ui.cam7_checkBox.setChecked(False)
+                    self.ui.por1_cam7_checkBox.setChecked(False)
             if adr == 8:
                 if command:
-                    self.ui.cam8_checkBox.setChecked(True)
+                    self.ui.por1_cam8_checkBox.setChecked(True)
                 else:
-                    self.ui.cam8_checkBox.setChecked(False)
+                    self.ui.por1_cam8_checkBox.setChecked(False)
+
+            if adr == 9:
+                if command:
+                    self.ui.por2_cam1_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam1_checkBox.setChecked(False)
+            if adr == 10:
+                if command:
+                    self.ui.por2_cam2_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam2_checkBox.setChecked(False)
+            if adr == 11:
+                if command:
+                    self.ui.por2_cam3_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam3_checkBox.setChecked(False)
+            if adr == 12:
+                if command:
+                    self.ui.por2_cam4_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam4_checkBox.setChecked(False)
+            if adr == 13:
+                if command:
+                    self.ui.por2_cam5_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam5_checkBox.setChecked(False)
+            if adr == 14:
+                if command:
+                    self.ui.por2_cam6_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam6_checkBox.setChecked(False)
+            if adr == 15:
+                if command:
+                    self.ui.por2_cam7_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam7_checkBox.setChecked(False)
+            if adr == 16:
+                if command:
+                    self.ui.por2_cam8_checkBox.setChecked(True)
+                else:
+                    self.ui.por2_cam8_checkBox.setChecked(False)
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -196,7 +246,7 @@ class ChangeUi(QMainWindow):
             self.saveLog('info', txt_log)
 
             self.dataCam = DataCam()
-            for i in range(8):
+            for i in range(16):
                 self.dataCam.cam.append(DataSens())
                 for j in range(3):
                     self.dataCam.cam[i].sens.append(Registers())
@@ -205,119 +255,233 @@ class ChangeUi(QMainWindow):
                     self.dataCam.cam[i].sens[j].bat = self.dopCodeBintoDec('Bat', arr[i][j][2])
 
             self.monitorSerialPort1()
+            self.monitorSerialPort2()
             self.monitorTempPort1()
+            self.monitorTempPort2()
             self.monitorBatPort1()
+            self.monitorBatPort2()
 
         except Exception as e:
             self.saveLog('error', str(e))
 
     def monitorSerialPort1(self):
         try:
-            self.ui.cam1_sens1serial_label.setText(self.dataCam.cam[0].sens[0].serial)
-            self.ui.cam1_sens2serial_label.setText(self.dataCam.cam[0].sens[1].serial)
-            self.ui.cam1_sens3serial_label.setText(self.dataCam.cam[0].sens[2].serial)
+            self.ui.por1_cam1_sens1serial_label.setText(self.dataCam.cam[0].sens[0].serial)
+            self.ui.por1_cam1_sens2serial_label.setText(self.dataCam.cam[0].sens[1].serial)
+            self.ui.por1_cam1_sens3serial_label.setText(self.dataCam.cam[0].sens[2].serial)
 
-            self.ui.cam2_sens1serial_label.setText(self.dataCam.cam[1].sens[0].serial)
-            self.ui.cam2_sens2serial_label.setText(self.dataCam.cam[1].sens[1].serial)
-            self.ui.cam2_sens3serial_label.setText(self.dataCam.cam[1].sens[2].serial)
+            self.ui.por1_cam2_sens1serial_label.setText(self.dataCam.cam[1].sens[0].serial)
+            self.ui.por1_cam2_sens2serial_label.setText(self.dataCam.cam[1].sens[1].serial)
+            self.ui.por1_cam2_sens3serial_label.setText(self.dataCam.cam[1].sens[2].serial)
 
-            self.ui.cam3_sens1serial_label.setText(self.dataCam.cam[2].sens[0].serial)
-            self.ui.cam3_sens2serial_label.setText(self.dataCam.cam[2].sens[1].serial)
-            self.ui.cam3_sens3serial_label.setText(self.dataCam.cam[2].sens[2].serial)
+            self.ui.por1_cam3_sens1serial_label.setText(self.dataCam.cam[2].sens[0].serial)
+            self.ui.por1_cam3_sens2serial_label.setText(self.dataCam.cam[2].sens[1].serial)
+            self.ui.por1_cam3_sens3serial_label.setText(self.dataCam.cam[2].sens[2].serial)
 
-            self.ui.cam4_sens1serial_label.setText(self.dataCam.cam[3].sens[0].serial)
-            self.ui.cam4_sens2serial_label.setText(self.dataCam.cam[3].sens[1].serial)
-            self.ui.cam4_sens3serial_label.setText(self.dataCam.cam[3].sens[2].serial)
+            self.ui.por1_cam4_sens1serial_label.setText(self.dataCam.cam[3].sens[0].serial)
+            self.ui.por1_cam4_sens2serial_label.setText(self.dataCam.cam[3].sens[1].serial)
+            self.ui.por1_cam4_sens3serial_label.setText(self.dataCam.cam[3].sens[2].serial)
 
-            self.ui.cam5_sens1serial_label.setText(self.dataCam.cam[4].sens[0].serial)
-            self.ui.cam5_sens2serial_label.setText(self.dataCam.cam[4].sens[1].serial)
-            self.ui.cam5_sens3serial_label.setText(self.dataCam.cam[4].sens[2].serial)
+            self.ui.por1_cam5_sens1serial_label.setText(self.dataCam.cam[4].sens[0].serial)
+            self.ui.por1_cam5_sens2serial_label.setText(self.dataCam.cam[4].sens[1].serial)
+            self.ui.por1_cam5_sens3serial_label.setText(self.dataCam.cam[4].sens[2].serial)
 
-            self.ui.cam6_sens1serial_label.setText(self.dataCam.cam[5].sens[0].serial)
-            self.ui.cam6_sens2serial_label.setText(self.dataCam.cam[5].sens[1].serial)
-            self.ui.cam6_sens3serial_label.setText(self.dataCam.cam[5].sens[2].serial)
+            self.ui.por1_cam6_sens1serial_label.setText(self.dataCam.cam[5].sens[0].serial)
+            self.ui.por1_cam6_sens2serial_label.setText(self.dataCam.cam[5].sens[1].serial)
+            self.ui.por1_cam6_sens3serial_label.setText(self.dataCam.cam[5].sens[2].serial)
 
-            self.ui.cam7_sens1serial_label.setText(self.dataCam.cam[6].sens[0].serial)
-            self.ui.cam7_sens2serial_label.setText(self.dataCam.cam[6].sens[1].serial)
-            self.ui.cam7_sens3serial_label.setText(self.dataCam.cam[6].sens[2].serial)
+            self.ui.por1_cam7_sens1serial_label.setText(self.dataCam.cam[6].sens[0].serial)
+            self.ui.por1_cam7_sens2serial_label.setText(self.dataCam.cam[6].sens[1].serial)
+            self.ui.por1_cam7_sens3serial_label.setText(self.dataCam.cam[6].sens[2].serial)
 
-            self.ui.cam8_sens1serial_label.setText(self.dataCam.cam[7].sens[0].serial)
-            self.ui.cam8_sens2serial_label.setText(self.dataCam.cam[7].sens[1].serial)
-            self.ui.cam8_sens3serial_label.setText(self.dataCam.cam[7].sens[2].serial)
+            self.ui.por1_cam8_sens1serial_label.setText(self.dataCam.cam[7].sens[0].serial)
+            self.ui.por1_cam8_sens2serial_label.setText(self.dataCam.cam[7].sens[1].serial)
+            self.ui.por1_cam8_sens3serial_label.setText(self.dataCam.cam[7].sens[2].serial)
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
+    def monitorSerialPort2(self):
+        try:
+            self.ui.por2_cam1_sens1serial_label.setText(self.dataCam.cam[8].sens[0].serial)
+            self.ui.por2_cam1_sens2serial_label.setText(self.dataCam.cam[8].sens[1].serial)
+            self.ui.por2_cam1_sens3serial_label.setText(self.dataCam.cam[8].sens[2].serial)
+
+            self.ui.por2_cam2_sens1serial_label.setText(self.dataCam.cam[9].sens[0].serial)
+            self.ui.por2_cam2_sens2serial_label.setText(self.dataCam.cam[9].sens[1].serial)
+            self.ui.por2_cam2_sens3serial_label.setText(self.dataCam.cam[9].sens[2].serial)
+
+            self.ui.por2_cam3_sens1serial_label.setText(self.dataCam.cam[10].sens[0].serial)
+            self.ui.por2_cam3_sens2serial_label.setText(self.dataCam.cam[10].sens[1].serial)
+            self.ui.por2_cam3_sens3serial_label.setText(self.dataCam.cam[10].sens[2].serial)
+
+            self.ui.por2_cam4_sens1serial_label.setText(self.dataCam.cam[11].sens[0].serial)
+            self.ui.por2_cam4_sens2serial_label.setText(self.dataCam.cam[11].sens[1].serial)
+            self.ui.por2_cam4_sens3serial_label.setText(self.dataCam.cam[11].sens[2].serial)
+
+            self.ui.por2_cam5_sens1serial_label.setText(self.dataCam.cam[12].sens[0].serial)
+            self.ui.por2_cam5_sens2serial_label.setText(self.dataCam.cam[12].sens[1].serial)
+            self.ui.por2_cam5_sens3serial_label.setText(self.dataCam.cam[12].sens[2].serial)
+
+            self.ui.por2_cam6_sens1serial_label.setText(self.dataCam.cam[13].sens[0].serial)
+            self.ui.por2_cam6_sens2serial_label.setText(self.dataCam.cam[13].sens[1].serial)
+            self.ui.por2_cam6_sens3serial_label.setText(self.dataCam.cam[13].sens[2].serial)
+
+            self.ui.por2_cam7_sens1serial_label.setText(self.dataCam.cam[14].sens[0].serial)
+            self.ui.por2_cam7_sens2serial_label.setText(self.dataCam.cam[14].sens[1].serial)
+            self.ui.por2_cam7_sens3serial_label.setText(self.dataCam.cam[14].sens[2].serial)
+
+            self.ui.por2_cam8_sens1serial_label.setText(self.dataCam.cam[15].sens[0].serial)
+            self.ui.por2_cam8_sens2serial_label.setText(self.dataCam.cam[15].sens[1].serial)
+            self.ui.por2_cam8_sens3serial_label.setText(self.dataCam.cam[15].sens[2].serial)
 
         except Exception as e:
             self.saveLog('error', str(e))
 
     def monitorTempPort1(self):
         try:
-            self.ui.cam1_sens1temp_lcdNum.display(self.dataCam.cam[0].sens[0].temp)
-            self.ui.cam1_sens2temp_lcdNum.display(self.dataCam.cam[0].sens[1].temp)
-            self.ui.cam1_sens3temp_lcdNum.display(self.dataCam.cam[0].sens[2].temp)
+            self.ui.por1_cam1_sens1temp_lcdNum.display(self.dataCam.cam[0].sens[0].temp)
+            self.ui.por1_cam1_sens2temp_lcdNum.display(self.dataCam.cam[0].sens[1].temp)
+            self.ui.por1_cam1_sens3temp_lcdNum.display(self.dataCam.cam[0].sens[2].temp)
 
-            self.ui.cam2_sens1temp_lcdNum.display(self.dataCam.cam[1].sens[0].temp)
-            self.ui.cam2_sens2temp_lcdNum.display(self.dataCam.cam[1].sens[1].temp)
-            self.ui.cam2_sens3temp_lcdNum.display(self.dataCam.cam[1].sens[2].temp)
+            self.ui.por1_cam2_sens1temp_lcdNum.display(self.dataCam.cam[1].sens[0].temp)
+            self.ui.por1_cam2_sens2temp_lcdNum.display(self.dataCam.cam[1].sens[1].temp)
+            self.ui.por1_cam2_sens3temp_lcdNum.display(self.dataCam.cam[1].sens[2].temp)
 
-            self.ui.cam3_sens1temp_lcdNum.display(self.dataCam.cam[2].sens[0].temp)
-            self.ui.cam3_sens2temp_lcdNum.display(self.dataCam.cam[2].sens[1].temp)
-            self.ui.cam3_sens3temp_lcdNum.display(self.dataCam.cam[2].sens[2].temp)
+            self.ui.por1_cam3_sens1temp_lcdNum.display(self.dataCam.cam[2].sens[0].temp)
+            self.ui.por1_cam3_sens2temp_lcdNum.display(self.dataCam.cam[2].sens[1].temp)
+            self.ui.por1_cam3_sens3temp_lcdNum.display(self.dataCam.cam[2].sens[2].temp)
 
-            self.ui.cam4_sens1temp_lcdNum.display(self.dataCam.cam[3].sens[0].temp)
-            self.ui.cam4_sens2temp_lcdNum.display(self.dataCam.cam[3].sens[1].temp)
-            self.ui.cam4_sens3temp_lcdNum.display(self.dataCam.cam[3].sens[2].temp)
+            self.ui.por1_cam4_sens1temp_lcdNum.display(self.dataCam.cam[3].sens[0].temp)
+            self.ui.por1_cam4_sens2temp_lcdNum.display(self.dataCam.cam[3].sens[1].temp)
+            self.ui.por1_cam4_sens3temp_lcdNum.display(self.dataCam.cam[3].sens[2].temp)
 
-            self.ui.cam5_sens1temp_lcdNum.display(self.dataCam.cam[4].sens[0].temp)
-            self.ui.cam5_sens2temp_lcdNum.display(self.dataCam.cam[4].sens[1].temp)
-            self.ui.cam5_sens3temp_lcdNum.display(self.dataCam.cam[4].sens[2].temp)
+            self.ui.por1_cam5_sens1temp_lcdNum.display(self.dataCam.cam[4].sens[0].temp)
+            self.ui.por1_cam5_sens2temp_lcdNum.display(self.dataCam.cam[4].sens[1].temp)
+            self.ui.por1_cam5_sens3temp_lcdNum.display(self.dataCam.cam[4].sens[2].temp)
 
-            self.ui.cam6_sens1temp_lcdNum.display(self.dataCam.cam[5].sens[0].temp)
-            self.ui.cam6_sens2temp_lcdNum.display(self.dataCam.cam[5].sens[1].temp)
-            self.ui.cam6_sens3temp_lcdNum.display(self.dataCam.cam[5].sens[2].temp)
+            self.ui.por1_cam6_sens1temp_lcdNum.display(self.dataCam.cam[5].sens[0].temp)
+            self.ui.por1_cam6_sens2temp_lcdNum.display(self.dataCam.cam[5].sens[1].temp)
+            self.ui.por1_cam6_sens3temp_lcdNum.display(self.dataCam.cam[5].sens[2].temp)
 
-            self.ui.cam7_sens1temp_lcdNum.display(self.dataCam.cam[6].sens[0].temp)
-            self.ui.cam7_sens2temp_lcdNum.display(self.dataCam.cam[6].sens[1].temp)
-            self.ui.cam7_sens3temp_lcdNum.display(self.dataCam.cam[6].sens[2].temp)
+            self.ui.por1_cam7_sens1temp_lcdNum.display(self.dataCam.cam[6].sens[0].temp)
+            self.ui.por1_cam7_sens2temp_lcdNum.display(self.dataCam.cam[6].sens[1].temp)
+            self.ui.por1_cam7_sens3temp_lcdNum.display(self.dataCam.cam[6].sens[2].temp)
 
-            self.ui.cam8_sens1temp_lcdNum.display(self.dataCam.cam[7].sens[0].temp)
-            self.ui.cam8_sens2temp_lcdNum.display(self.dataCam.cam[7].sens[1].temp)
-            self.ui.cam8_sens3temp_lcdNum.display(self.dataCam.cam[7].sens[2].temp)
+            self.ui.por1_cam8_sens1temp_lcdNum.display(self.dataCam.cam[7].sens[0].temp)
+            self.ui.por1_cam8_sens2temp_lcdNum.display(self.dataCam.cam[7].sens[1].temp)
+            self.ui.por1_cam8_sens3temp_lcdNum.display(self.dataCam.cam[7].sens[2].temp)
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
+    def monitorTempPort2(self):
+        try:
+            self.ui.por2_cam1_sens1temp_lcdNum.display(self.dataCam.cam[8].sens[0].temp)
+            self.ui.por2_cam1_sens2temp_lcdNum.display(self.dataCam.cam[8].sens[1].temp)
+            self.ui.por2_cam1_sens3temp_lcdNum.display(self.dataCam.cam[8].sens[2].temp)
+
+            self.ui.por2_cam2_sens1temp_lcdNum.display(self.dataCam.cam[9].sens[0].temp)
+            self.ui.por2_cam2_sens2temp_lcdNum.display(self.dataCam.cam[9].sens[1].temp)
+            self.ui.por2_cam2_sens3temp_lcdNum.display(self.dataCam.cam[9].sens[2].temp)
+
+            self.ui.por2_cam3_sens1temp_lcdNum.display(self.dataCam.cam[10].sens[0].temp)
+            self.ui.por2_cam3_sens2temp_lcdNum.display(self.dataCam.cam[10].sens[1].temp)
+            self.ui.por2_cam3_sens3temp_lcdNum.display(self.dataCam.cam[10].sens[2].temp)
+
+            self.ui.por2_cam4_sens1temp_lcdNum.display(self.dataCam.cam[11].sens[0].temp)
+            self.ui.por2_cam4_sens2temp_lcdNum.display(self.dataCam.cam[11].sens[1].temp)
+            self.ui.por2_cam4_sens3temp_lcdNum.display(self.dataCam.cam[11].sens[2].temp)
+
+            self.ui.por2_cam5_sens1temp_lcdNum.display(self.dataCam.cam[12].sens[0].temp)
+            self.ui.por2_cam5_sens2temp_lcdNum.display(self.dataCam.cam[12].sens[1].temp)
+            self.ui.por2_cam5_sens3temp_lcdNum.display(self.dataCam.cam[12].sens[2].temp)
+
+            self.ui.por2_cam6_sens1temp_lcdNum.display(self.dataCam.cam[13].sens[0].temp)
+            self.ui.por2_cam6_sens2temp_lcdNum.display(self.dataCam.cam[13].sens[1].temp)
+            self.ui.por2_cam6_sens3temp_lcdNum.display(self.dataCam.cam[13].sens[2].temp)
+
+            self.ui.por2_cam7_sens1temp_lcdNum.display(self.dataCam.cam[14].sens[0].temp)
+            self.ui.por2_cam7_sens2temp_lcdNum.display(self.dataCam.cam[14].sens[1].temp)
+            self.ui.por2_cam7_sens3temp_lcdNum.display(self.dataCam.cam[14].sens[2].temp)
+
+            self.ui.por2_cam8_sens1temp_lcdNum.display(self.dataCam.cam[15].sens[0].temp)
+            self.ui.por2_cam8_sens2temp_lcdNum.display(self.dataCam.cam[15].sens[1].temp)
+            self.ui.por2_cam8_sens3temp_lcdNum.display(self.dataCam.cam[15].sens[2].temp)
 
         except Exception as e:
             self.saveLog('error', str(e))
 
     def monitorBatPort1(self):
         try:
-            self.ui.cam1_sens1bat_lcdNum.display(self.dataCam.cam[0].sens[0].bat)
-            self.ui.cam1_sens2bat_lcdNum.display(self.dataCam.cam[0].sens[1].bat)
-            self.ui.cam1_sens3bat_lcdNum.display(self.dataCam.cam[0].sens[2].bat)
+            self.ui.por1_cam1_sens1bat_lcdNum.display(self.dataCam.cam[0].sens[0].bat)
+            self.ui.por1_cam1_sens2bat_lcdNum.display(self.dataCam.cam[0].sens[1].bat)
+            self.ui.por1_cam1_sens3bat_lcdNum.display(self.dataCam.cam[0].sens[2].bat)
 
-            self.ui.cam2_sens1bat_lcdNum.display(self.dataCam.cam[1].sens[0].bat)
-            self.ui.cam2_sens2bat_lcdNum.display(self.dataCam.cam[1].sens[1].bat)
-            self.ui.cam2_sens3bat_lcdNum.display(self.dataCam.cam[1].sens[2].bat)
+            self.ui.por1_cam2_sens1bat_lcdNum.display(self.dataCam.cam[1].sens[0].bat)
+            self.ui.por1_cam2_sens2bat_lcdNum.display(self.dataCam.cam[1].sens[1].bat)
+            self.ui.por1_cam2_sens3bat_lcdNum.display(self.dataCam.cam[1].sens[2].bat)
 
-            self.ui.cam3_sens1bat_lcdNum.display(self.dataCam.cam[2].sens[0].bat)
-            self.ui.cam3_sens2bat_lcdNum.display(self.dataCam.cam[2].sens[1].bat)
-            self.ui.cam3_sens3bat_lcdNum.display(self.dataCam.cam[2].sens[2].bat)
+            self.ui.por1_cam3_sens1bat_lcdNum.display(self.dataCam.cam[2].sens[0].bat)
+            self.ui.por1_cam3_sens2bat_lcdNum.display(self.dataCam.cam[2].sens[1].bat)
+            self.ui.por1_cam3_sens3bat_lcdNum.display(self.dataCam.cam[2].sens[2].bat)
 
-            self.ui.cam4_sens1bat_lcdNum.display(self.dataCam.cam[3].sens[0].bat)
-            self.ui.cam4_sens2bat_lcdNum.display(self.dataCam.cam[3].sens[1].bat)
-            self.ui.cam4_sens3bat_lcdNum.display(self.dataCam.cam[3].sens[2].bat)
+            self.ui.por1_cam4_sens1bat_lcdNum.display(self.dataCam.cam[3].sens[0].bat)
+            self.ui.por1_cam4_sens2bat_lcdNum.display(self.dataCam.cam[3].sens[1].bat)
+            self.ui.por1_cam4_sens3bat_lcdNum.display(self.dataCam.cam[3].sens[2].bat)
 
-            self.ui.cam5_sens1bat_lcdNum.display(self.dataCam.cam[4].sens[0].bat)
-            self.ui.cam5_sens2bat_lcdNum.display(self.dataCam.cam[4].sens[1].bat)
-            self.ui.cam5_sens3bat_lcdNum.display(self.dataCam.cam[4].sens[2].bat)
+            self.ui.por1_cam5_sens1bat_lcdNum.display(self.dataCam.cam[4].sens[0].bat)
+            self.ui.por1_cam5_sens2bat_lcdNum.display(self.dataCam.cam[4].sens[1].bat)
+            self.ui.por1_cam5_sens3bat_lcdNum.display(self.dataCam.cam[4].sens[2].bat)
 
-            self.ui.cam6_sens1bat_lcdNum.display(self.dataCam.cam[5].sens[0].bat)
-            self.ui.cam6_sens2bat_lcdNum.display(self.dataCam.cam[5].sens[1].bat)
-            self.ui.cam6_sens3bat_lcdNum.display(self.dataCam.cam[5].sens[2].bat)
+            self.ui.por1_cam6_sens1bat_lcdNum.display(self.dataCam.cam[5].sens[0].bat)
+            self.ui.por1_cam6_sens2bat_lcdNum.display(self.dataCam.cam[5].sens[1].bat)
+            self.ui.por1_cam6_sens3bat_lcdNum.display(self.dataCam.cam[5].sens[2].bat)
 
-            self.ui.cam7_sens1bat_lcdNum.display(self.dataCam.cam[6].sens[0].bat)
-            self.ui.cam7_sens2bat_lcdNum.display(self.dataCam.cam[6].sens[1].bat)
-            self.ui.cam7_sens3bat_lcdNum.display(self.dataCam.cam[6].sens[2].bat)
+            self.ui.por1_cam7_sens1bat_lcdNum.display(self.dataCam.cam[6].sens[0].bat)
+            self.ui.por1_cam7_sens2bat_lcdNum.display(self.dataCam.cam[6].sens[1].bat)
+            self.ui.por1_cam7_sens3bat_lcdNum.display(self.dataCam.cam[6].sens[2].bat)
 
-            self.ui.cam8_sens1bat_lcdNum.display(self.dataCam.cam[7].sens[0].bat)
-            self.ui.cam8_sens2bat_lcdNum.display(self.dataCam.cam[7].sens[1].bat)
-            self.ui.cam8_sens3bat_lcdNum.display(self.dataCam.cam[7].sens[2].bat)
+            self.ui.por1_cam8_sens1bat_lcdNum.display(self.dataCam.cam[7].sens[0].bat)
+            self.ui.por1_cam8_sens2bat_lcdNum.display(self.dataCam.cam[7].sens[1].bat)
+            self.ui.por1_cam8_sens3bat_lcdNum.display(self.dataCam.cam[7].sens[2].bat)
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
+    def monitorBatPort2(self):
+        try:
+            self.ui.por2_cam1_sens1bat_lcdNum.display(self.dataCam.cam[8].sens[0].bat)
+            self.ui.por2_cam1_sens2bat_lcdNum.display(self.dataCam.cam[8].sens[1].bat)
+            self.ui.por2_cam1_sens3bat_lcdNum.display(self.dataCam.cam[8].sens[2].bat)
+
+            self.ui.por2_cam2_sens1bat_lcdNum.display(self.dataCam.cam[9].sens[0].bat)
+            self.ui.por2_cam2_sens2bat_lcdNum.display(self.dataCam.cam[9].sens[1].bat)
+            self.ui.por2_cam2_sens3bat_lcdNum.display(self.dataCam.cam[9].sens[2].bat)
+
+            self.ui.por2_cam3_sens1bat_lcdNum.display(self.dataCam.cam[10].sens[0].bat)
+            self.ui.por2_cam3_sens2bat_lcdNum.display(self.dataCam.cam[10].sens[1].bat)
+            self.ui.por2_cam3_sens3bat_lcdNum.display(self.dataCam.cam[10].sens[2].bat)
+
+            self.ui.por2_cam4_sens1bat_lcdNum.display(self.dataCam.cam[11].sens[0].bat)
+            self.ui.por2_cam4_sens2bat_lcdNum.display(self.dataCam.cam[11].sens[1].bat)
+            self.ui.por2_cam4_sens3bat_lcdNum.display(self.dataCam.cam[11].sens[2].bat)
+
+            self.ui.por2_cam5_sens1bat_lcdNum.display(self.dataCam.cam[12].sens[0].bat)
+            self.ui.por2_cam5_sens2bat_lcdNum.display(self.dataCam.cam[12].sens[1].bat)
+            self.ui.por2_cam5_sens3bat_lcdNum.display(self.dataCam.cam[12].sens[2].bat)
+
+            self.ui.por2_cam6_sens1bat_lcdNum.display(self.dataCam.cam[13].sens[0].bat)
+            self.ui.por2_cam6_sens2bat_lcdNum.display(self.dataCam.cam[13].sens[1].bat)
+            self.ui.por2_cam6_sens3bat_lcdNum.display(self.dataCam.cam[13].sens[2].bat)
+
+            self.ui.por2_cam7_sens1bat_lcdNum.display(self.dataCam.cam[14].sens[0].bat)
+            self.ui.por2_cam7_sens2bat_lcdNum.display(self.dataCam.cam[14].sens[1].bat)
+            self.ui.por2_cam7_sens3bat_lcdNum.display(self.dataCam.cam[14].sens[2].bat)
+
+            self.ui.por2_cam8_sens1bat_lcdNum.display(self.dataCam.cam[15].sens[0].bat)
+            self.ui.por2_cam8_sens2bat_lcdNum.display(self.dataCam.cam[15].sens[1].bat)
+            self.ui.por2_cam8_sens3bat_lcdNum.display(self.dataCam.cam[15].sens[2].bat)
 
         except Exception as e:
             self.saveLog('error', str(e))

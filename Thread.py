@@ -180,7 +180,7 @@ class Reader(QRunnable):
                     time.sleep(1)
                 else:
                     result_list = []
-                    for i in range(1, 9):
+                    for i in range(1, 17):
                         temp_arr = []
                         rr = self.client.read_holding_registers(8192, 1, unit=i)
                         if not rr.isError():
