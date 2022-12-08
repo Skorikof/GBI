@@ -15,7 +15,8 @@ class ApplicationWindow(ChangeUi):
             self.threadpool.waitForDone()
             print('Threads working: ', str(self.threadpool.activeThreadCount()))
             self.set_port.client.close()
-            self.saveLog('info', 'Выход из программы')
+            if self.set_port.active_log == '1':
+                self.saveLog('info', 'Выход из программы')
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -36,7 +37,7 @@ def main():
             window.threadInit()
             window.initCheck()
             window.startParam()
-            #window.initSocket()
+            window.initSocket()
 
     except Exception as e:
         window.saveLog('error', str(e))

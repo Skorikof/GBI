@@ -21,6 +21,8 @@ class COMSettings(object):
             self.IP_adr = config["Local"]["IP_Address"]
             self.local_port = int(config["Local"]["Port"])
 
+            self.active_log = config["PrgSet"]["Log"]
+
 
         except Exception as e:
             print(str(e))

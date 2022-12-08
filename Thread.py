@@ -186,8 +186,6 @@ class Reader(QRunnable):
                         if not rr.isError():
 
                             if rr.registers[0] == 1:
-                                txt_log = 'Базовая станция №' + str(i) + ' включена'
-                                self.signals.result_log.emit(txt_log)
                                 self.signals.check_cam.emit(i, True)
                                 for j in range(3):
                                     temp_list = []
@@ -200,8 +198,6 @@ class Reader(QRunnable):
 
                             else:
                                 self.signals.check_cam.emit(i, False)
-                                txt_log = 'Базовая станция №' + str(i) + ' выключена'
-                                self.signals.result_log.emit(txt_log)
                                 for j in range(3):
                                     temp_arr.append(['off', 'off', 'off'])
 
@@ -215,7 +211,7 @@ class Reader(QRunnable):
                         time.sleep(0.1)
 
                     self.signals.result_temp.emit(result_list)
-                    time.sleep(10)
+                    time.sleep(0.5)
 
             except Exception as e:
                 self.signals.error_read.emit(e)

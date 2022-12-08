@@ -104,8 +104,9 @@ class ChangeUi(QMainWindow):
 
     def readLog(self, text):
         self.ui.info_label.setText(text)
-        self.saveLog('info', text)
         print(text)
+        if self.set_port.active_log == '1':
+            self.saveLog('info', text)
 
     def readError(self, text):
         print(text)
@@ -242,9 +243,10 @@ class ChangeUi(QMainWindow):
         try:
             self.arr = arr
             print(self.arr)
-            txt_log = 'Parcel received: ' + str(datetime.now())[:-7]
+            txt_log = 'Посылка получена: ' + str(datetime.now())[:-7]
             self.ui.info_label.setText(txt_log)
-            self.saveLog('info', txt_log)
+            if self.set_port.active_log == '1':
+                self.saveLog('info', txt_log)
 
             self.dataCam = DataCam()
             for i in range(16):
@@ -256,11 +258,19 @@ class ChangeUi(QMainWindow):
                     self.dataCam.cam[i].sens[j].bat = self.dopCodeBintoDec('Bat', arr[i][j][2])
 
             self.monitorSerialPort1()
+            self.setColorSerialPort1()
             self.monitorSerialPort2()
+            self.setColorSerialPort2()
+
             self.monitorTempPort1()
+            self.setColorTempPort1()
             self.monitorTempPort2()
+            self.setColorTempPort2()
+
             self.monitorBatPort1()
+            self.setColorBatPort1()
             self.monitorBatPort2()
+            self.setColorBatPort2()
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -302,6 +312,43 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.saveLog('error', str(e))
 
+    def setColorSerialPort1(self):
+        try:
+            self.ui.por1_cam1_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[0].serial))
+            self.ui.por1_cam1_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[1].serial))
+            self.ui.por1_cam1_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[2].serial))
+
+            self.ui.por1_cam2_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[0].serial))
+            self.ui.por1_cam2_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[1].serial))
+            self.ui.por1_cam2_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[2].serial))
+
+            self.ui.por1_cam3_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[0].serial))
+            self.ui.por1_cam3_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[1].serial))
+            self.ui.por1_cam3_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[2].serial))
+
+            self.ui.por1_cam4_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[0].serial))
+            self.ui.por1_cam4_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[1].serial))
+            self.ui.por1_cam4_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[2].serial))
+
+            self.ui.por1_cam5_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[0].serial))
+            self.ui.por1_cam5_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[1].serial))
+            self.ui.por1_cam5_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[2].serial))
+
+            self.ui.por1_cam6_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[0].serial))
+            self.ui.por1_cam6_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[1].serial))
+            self.ui.por1_cam6_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[2].serial))
+
+            self.ui.por1_cam7_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[0].serial))
+            self.ui.por1_cam7_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[1].serial))
+            self.ui.por1_cam7_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[2].serial))
+
+            self.ui.por1_cam8_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[0].serial))
+            self.ui.por1_cam8_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[1].serial))
+            self.ui.por1_cam8_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[2].serial))
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
     def monitorSerialPort2(self):
         try:
             self.ui.por2_cam1_sens1serial_label.setText(self.dataCam.cam[8].sens[0].serial)
@@ -335,6 +382,43 @@ class ChangeUi(QMainWindow):
             self.ui.por2_cam8_sens1serial_label.setText(self.dataCam.cam[15].sens[0].serial)
             self.ui.por2_cam8_sens2serial_label.setText(self.dataCam.cam[15].sens[1].serial)
             self.ui.por2_cam8_sens3serial_label.setText(self.dataCam.cam[15].sens[2].serial)
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
+    def setColorSerialPort2(self):
+        try:
+            self.ui.por2_cam1_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[0].serial))
+            self.ui.por2_cam1_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[1].serial))
+            self.ui.por2_cam1_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[2].serial))
+
+            self.ui.por2_cam2_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[0].serial))
+            self.ui.por2_cam2_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[1].serial))
+            self.ui.por2_cam2_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[2].serial))
+
+            self.ui.por2_cam3_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[0].serial))
+            self.ui.por2_cam3_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[1].serial))
+            self.ui.por2_cam3_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[2].serial))
+
+            self.ui.por2_cam4_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[0].serial))
+            self.ui.por2_cam4_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[1].serial))
+            self.ui.por2_cam4_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[2].serial))
+
+            self.ui.por2_cam5_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[0].serial))
+            self.ui.por2_cam5_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[1].serial))
+            self.ui.por2_cam5_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[2].serial))
+
+            self.ui.por2_cam6_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[0].serial))
+            self.ui.por2_cam6_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[1].serial))
+            self.ui.por2_cam6_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[2].serial))
+
+            self.ui.por2_cam7_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[0].serial))
+            self.ui.por2_cam7_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[1].serial))
+            self.ui.por2_cam7_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[2].serial))
+
+            self.ui.por2_cam8_sens1serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[0].serial))
+            self.ui.por2_cam8_sens2serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[1].serial))
+            self.ui.por2_cam8_sens3serial_label.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[2].serial))
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -376,6 +460,43 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.saveLog('error', str(e))
 
+    def setColorTempPort1(self):
+        try:
+            self.ui.por1_cam1_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[0].temp))
+            self.ui.por1_cam1_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[1].temp))
+            self.ui.por1_cam1_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[2].temp))
+
+            self.ui.por1_cam2_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[0].temp))
+            self.ui.por1_cam2_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[1].temp))
+            self.ui.por1_cam2_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[2].temp))
+
+            self.ui.por1_cam3_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[0].temp))
+            self.ui.por1_cam3_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[1].temp))
+            self.ui.por1_cam3_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[2].temp))
+
+            self.ui.por1_cam4_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[0].temp))
+            self.ui.por1_cam4_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[1].temp))
+            self.ui.por1_cam4_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[2].temp))
+
+            self.ui.por1_cam5_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[0].temp))
+            self.ui.por1_cam5_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[1].temp))
+            self.ui.por1_cam5_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[2].temp))
+
+            self.ui.por1_cam6_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[0].temp))
+            self.ui.por1_cam6_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[1].temp))
+            self.ui.por1_cam6_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[2].temp))
+
+            self.ui.por1_cam7_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[0].temp))
+            self.ui.por1_cam7_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[1].temp))
+            self.ui.por1_cam7_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[2].temp))
+
+            self.ui.por1_cam8_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[0].temp))
+            self.ui.por1_cam8_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[1].temp))
+            self.ui.por1_cam8_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[2].temp))
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
     def monitorTempPort2(self):
         try:
             self.ui.por2_cam1_sens1temp_lcdNum.display(self.dataCam.cam[8].sens[0].temp)
@@ -409,6 +530,43 @@ class ChangeUi(QMainWindow):
             self.ui.por2_cam8_sens1temp_lcdNum.display(self.dataCam.cam[15].sens[0].temp)
             self.ui.por2_cam8_sens2temp_lcdNum.display(self.dataCam.cam[15].sens[1].temp)
             self.ui.por2_cam8_sens3temp_lcdNum.display(self.dataCam.cam[15].sens[2].temp)
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
+    def setColorTempPort2(self):
+        try:
+            self.ui.por2_cam1_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[0].temp))
+            self.ui.por2_cam1_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[1].temp))
+            self.ui.por2_cam1_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[2].temp))
+
+            self.ui.por2_cam2_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[0].temp))
+            self.ui.por2_cam2_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[1].temp))
+            self.ui.por2_cam2_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[2].temp))
+
+            self.ui.por2_cam3_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[0].temp))
+            self.ui.por2_cam3_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[1].temp))
+            self.ui.por2_cam3_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[2].temp))
+
+            self.ui.por2_cam4_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[0].temp))
+            self.ui.por2_cam4_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[1].temp))
+            self.ui.por2_cam4_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[2].temp))
+
+            self.ui.por2_cam5_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[0].temp))
+            self.ui.por2_cam5_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[1].temp))
+            self.ui.por2_cam5_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[2].temp))
+
+            self.ui.por2_cam6_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[0].temp))
+            self.ui.por2_cam6_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[1].temp))
+            self.ui.por2_cam6_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[2].temp))
+
+            self.ui.por2_cam7_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[0].temp))
+            self.ui.por2_cam7_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[1].temp))
+            self.ui.por2_cam7_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[2].temp))
+
+            self.ui.por2_cam8_sens1temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[0].temp))
+            self.ui.por2_cam8_sens2temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[1].temp))
+            self.ui.por2_cam8_sens3temp_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[2].temp))
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -450,6 +608,43 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.saveLog('error', str(e))
 
+    def setColorBatPort1(self):
+        try:
+            self.ui.por1_cam1_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[0].bat))
+            self.ui.por1_cam1_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[1].bat))
+            self.ui.por1_cam1_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[0].sens[2].bat))
+
+            self.ui.por1_cam2_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[0].bat))
+            self.ui.por1_cam2_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[1].bat))
+            self.ui.por1_cam2_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[1].sens[2].bat))
+
+            self.ui.por1_cam3_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[0].bat))
+            self.ui.por1_cam3_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[1].bat))
+            self.ui.por1_cam3_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[2].sens[2].bat))
+
+            self.ui.por1_cam4_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[0].bat))
+            self.ui.por1_cam4_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[1].bat))
+            self.ui.por1_cam4_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[3].sens[2].bat))
+
+            self.ui.por1_cam5_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[0].bat))
+            self.ui.por1_cam5_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[1].bat))
+            self.ui.por1_cam5_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[4].sens[2].bat))
+
+            self.ui.por1_cam6_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[0].bat))
+            self.ui.por1_cam6_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[1].bat))
+            self.ui.por1_cam6_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[5].sens[2].bat))
+
+            self.ui.por1_cam7_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[0].bat))
+            self.ui.por1_cam7_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[1].bat))
+            self.ui.por1_cam7_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[6].sens[2].bat))
+
+            self.ui.por1_cam8_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[0].bat))
+            self.ui.por1_cam8_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[1].bat))
+            self.ui.por1_cam8_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[7].sens[2].bat))
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
     def monitorBatPort2(self):
         try:
             self.ui.por2_cam1_sens1bat_lcdNum.display(self.dataCam.cam[8].sens[0].bat)
@@ -487,6 +682,43 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.saveLog('error', str(e))
 
+    def setColorBatPort2(self):
+        try:
+            self.ui.por2_cam1_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[0].bat))
+            self.ui.por2_cam1_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[1].bat))
+            self.ui.por2_cam1_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[8].sens[2].bat))
+
+            self.ui.por2_cam2_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[0].bat))
+            self.ui.por2_cam2_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[1].bat))
+            self.ui.por2_cam2_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[9].sens[2].bat))
+
+            self.ui.por2_cam3_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[0].bat))
+            self.ui.por2_cam3_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[1].bat))
+            self.ui.por2_cam3_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[10].sens[2].bat))
+
+            self.ui.por2_cam4_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[0].bat))
+            self.ui.por2_cam4_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[1].bat))
+            self.ui.por2_cam4_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[11].sens[2].bat))
+
+            self.ui.por2_cam5_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[0].bat))
+            self.ui.por2_cam5_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[1].bat))
+            self.ui.por2_cam5_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[12].sens[2].bat))
+
+            self.ui.por2_cam6_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[0].bat))
+            self.ui.por2_cam6_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[1].bat))
+            self.ui.por2_cam6_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[13].sens[2].bat))
+
+            self.ui.por2_cam7_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[0].bat))
+            self.ui.por2_cam7_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[1].bat))
+            self.ui.por2_cam7_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[14].sens[2].bat))
+
+            self.ui.por2_cam8_sens1bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[0].bat))
+            self.ui.por2_cam8_sens2bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[1].bat))
+            self.ui.por2_cam8_sens3bat_lcdNum.setStyleSheet(self.colorLCD(self.dataCam.cam[15].sens[2].bat))
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
     def dopCodeBintoDec(self, command, value, bits=16):
         """Переводит бинарную строку в двоичном коде в десятичное число"""
         try:
@@ -508,6 +740,20 @@ class ChangeUi(QMainWindow):
                 val_temp = round(val_temp * 0.1, 1)
 
             return str(val_temp)
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
+    def colorLCD(self, data):
+        try:
+            color = 'color: rgb(25, 30, 115);'
+            if data == 'off':
+                color = 'color: rgb(0, 0, 0);'
+            if data == 'err':
+                color = 'color: rgb(255, 0, 0);'
+            if data == '-----':
+                color = 'color: rgb(255, 0, 0);'
+            return color
 
         except Exception as e:
             self.saveLog('error', str(e))
