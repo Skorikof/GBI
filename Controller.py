@@ -113,7 +113,8 @@ class ChangeUi(QMainWindow):
 
     def startParam(self):
         try:
-            for i in range(1, 9):
+            self.ui.tabWidget.setCurrentIndex(0)
+            for i in range(1, 17):
                 self.check_cams(int(i), False)
 
         except Exception as e:
