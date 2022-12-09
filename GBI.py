@@ -1,4 +1,5 @@
 import sys
+import time
 from Controller import ChangeUi
 from PyQt5.QtWidgets import QApplication
 

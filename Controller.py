@@ -1,4 +1,5 @@
 import inspect
+import time
 from Thread import LogWriter, Reader, Writer, Connection
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
 from datetime import datetime
@@ -9,7 +10,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 
 class WindowSignals(QObject):
     signalStart = pyqtSignal()
-    signalConnect = pyqtSignal(str, int)
+    signalConnect = pyqtSignal()
     signalSendData = pyqtSignal(object)
     signalPause = pyqtSignal()
     signalExit = pyqtSignal()
@@ -51,13 +52,12 @@ class ChangeUi(QMainWindow):
             self.signals.signalDisconnect.connect(self.connect.closeConnect)
             self.signals.signalSendData.connect(self.connect.sendData)
             self.threadpool.start(self.connect)
-            self.startConnect()
 
         except Exception as e:
             self.saveLog('error', str(e))
 
     def startConnect(self):
-        self.signals.signalConnect.emit(self.set_port.IP_adr, self.set_port.local_port)
+        self.signals.signalConnect.emit()
 
     def closeConnect(self):
         self.signals.signalDisconnect.emit()
@@ -115,6 +115,7 @@ class ChangeUi(QMainWindow):
     def startParam(self):
         try:
             self.ui.tabWidget.setCurrentIndex(0)
+            time.sleep(0.5)
             for i in range(1, 17):
                 self.check_cams(int(i), False)
 
