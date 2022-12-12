@@ -54,12 +54,6 @@ class Connection(QRunnable):
         super(Connection, self).__init__()
         self.ip = ip
         self.port = port
-        self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.s.settimeout(3)
-        print('Wtgkztvcz r ueuke')
-        self.s.connect(('8.8.8.8', 80))
-        print('Цепанулись')
-        print(self.s.getsockname()[0])
 
     @pyqtSlot()
     def run(self):
