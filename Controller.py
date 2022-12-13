@@ -87,6 +87,7 @@ class ChangeUi(QMainWindow):
             self.reader.signals.result_temp.connect(self.readResult)
             self.reader.signals.check_cam.connect(self.cancel_check)
             self.reader.signals.error_read.connect(self.readError)
+            self.reader.signals.error_modbus.connect(self.readErrorModBus)
             self.reader.signals.result_log.connect(self.readLog)
             self.signals.signalStart.connect(self.reader.startProcess)
             self.signals.signalExit.connect(self.reader.exitProcess)
@@ -110,7 +111,13 @@ class ChangeUi(QMainWindow):
 
     def readError(self, text):
         print(text)
-        self.saveLog('error', text)
+        self.ui.info_label.setText(str(text))
+        self.saveLog('error', str(text))
+
+    def readErrorModBus(self, text):
+        print(text)
+        self.ui.info_label.setText(str(text))
+        self.saveLog('error', str(text))
 
     def startParam(self):
         try:
@@ -119,6 +126,7 @@ class ChangeUi(QMainWindow):
             for i in range(1, 9): # 9 - 1 портал, 17 - 2 портала
                 self.check_cams(int(i), False)
                 time.sleep(0.01)
+            time.sleep(0.01)
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -737,16 +745,16 @@ class ChangeUi(QMainWindow):
 
             if command == 'Temp':
                 val_temp = round(val_temp / 16, 1)
-                if val_temp < 0 or val_temp > 125:
+                if val_temp < 1 or val_temp > 125:
                     return '-----'
 
             if command == 'Serial':
-                if val_temp < 0 or val_temp > 30000:
+                if val_temp < 1 or val_temp > 30000:
                     return '-----'
 
             if command == 'Bat':
                 val_temp = round(val_temp * 0.1, 1)
-                if val_temp == 0.0 or val_temp == 5.0:
+                if val_temp < 0.1 or val_temp > 4.9:
                     return '-----'
 
             return str(val_temp)

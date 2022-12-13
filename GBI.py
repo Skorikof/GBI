@@ -28,16 +28,10 @@ def main():
     txt_log = 'Программа запущена'
     print(txt_log)
     try:
-        if not window.set_port.initPort():
-            txt_log = 'Отсутствует подключение по порту: ' + window.set_port.portNumber
-            print(txt_log)
-            window.ui.info_label.setText(txt_log)
-
-        else:
-            window.startParam()
-            window.threadInit()
-            window.initCheck()
-            window.initSocket()
+        window.startParam()
+        window.threadInit()
+        window.initCheck()
+        window.initSocket()
 
     except Exception as e:
         window.saveLog('error', str(e))

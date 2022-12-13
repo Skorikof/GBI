@@ -3,6 +3,7 @@ import os
 import socket
 from datetime import datetime
 from PyQt5.QtCore import QObject, QRunnable, pyqtSignal, pyqtSlot
+from pymodbus.exceptions import ModbusException as ModEx
 
 base_dir = os.path.dirname(__file__)
 
@@ -14,6 +15,7 @@ class ReadSignals(QObject):
     lucky_attemp = pyqtSignal(int, bool)
     check_cam = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
+    error_modbus = pyqtSignal(object)
 
 
 class LogWriter(QRunnable):
@@ -154,6 +156,8 @@ class Writer(QRunnable):
                     self.signals.check_cam.emit(self.adr_dev, True)
             Reader.signals.result_log.emit(txt_log)
 
+        except ModEx as e:
+            self.signals.error_modbus.emit(e)
 
         except Exception as e:
             self.signals.error_read.emit(e)
@@ -214,6 +218,10 @@ class Reader(QRunnable):
 
                     self.signals.result_temp.emit(result_list)
                     time.sleep(0.5)
+
+            except ModEx as e:
+                self.signals.error_modbus.emit(str(e))
+
 
             except Exception as e:
                 self.signals.error_read.emit(e)

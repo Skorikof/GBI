@@ -23,16 +23,18 @@ class COMSettings(object):
 
             self.active_log = config["PrgSet"]["Log"]
 
+            a = self.initPort()
+
 
         except Exception as e:
             print(str(e))
 
     def initPort(self):
         try:
-            self.client = ModbusClient(method='ascii', port=self.portNumber,
-                                       timeout=1, baudrate=self.portSpeed,
+            self.client = ModbusClient(method='ascii', port=str(self.portNumber),
+                                       timeout=1, baudrate=int(self.portSpeed),
                                        stopbits=int(self.portStopBits),
-                                       parity=self.portParity, strict=False)
+                                       parity=str(self.portParity), strict=False)
 
             self.port_connect = self.client.connect()
 
