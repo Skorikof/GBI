@@ -24,6 +24,7 @@ class ChangeUi(QMainWindow):
         self.ui.setupUi(self)
         self.signals = WindowSignals()
         self.set_port = COMSettings()
+        self.threadpool = QThreadPool()
 
     def saveLog(self, mode_s, msg_s):
         try:
@@ -47,7 +48,7 @@ class ChangeUi(QMainWindow):
             self.connect = Connection(self.set_port.IP_adr, self.set_port.local_port)
             self.connect.signals.result_log.connect(self.readLog)
             self.connect.signals.connect_check.connect(self.check_cams)
-            self.connect.signals.connect_data.connect(self.convertData)
+            self.connect.signals.connect_data.connect(self.sendData)
             self.signals.signalConnect.connect(self.connect.startConnect)
             self.signals.signalDisconnect.connect(self.connect.closeConnect)
             self.signals.signalSendData.connect(self.connect.sendData)
@@ -62,7 +63,7 @@ class ChangeUi(QMainWindow):
     def closeConnect(self):
         self.signals.signalDisconnect.emit()
 
-    def convertData(self, camera):
+    def sendData(self, camera):
         try:
             list_msg = []
             for i in range(3):
@@ -82,7 +83,6 @@ class ChangeUi(QMainWindow):
 
     def threadInit(self):
         try:
-            self.threadpool = QThreadPool()
             self.reader = Reader(self.set_port.client)
             self.reader.signals.result_temp.connect(self.readResult)
             self.reader.signals.check_cam.connect(self.cancel_check)
@@ -115,9 +115,10 @@ class ChangeUi(QMainWindow):
     def startParam(self):
         try:
             self.ui.tabWidget.setCurrentIndex(0)
-            time.sleep(0.5)
-            for i in range(1, 17):
+            self.ui.portal_2.setEnabled(False) # Отображается только 1 портал
+            for i in range(1, 9): # 9 - 1 портал, 17 - 2 портала
                 self.check_cams(int(i), False)
+                time.sleep(0.01)
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -250,28 +251,30 @@ class ChangeUi(QMainWindow):
                 self.saveLog('info', txt_log)
 
             self.dataCam = DataCam()
-            for i in range(16):
+            for i in range(8):
+            # 8 - 1 портал
+            # 16 - 2 портала
                 self.dataCam.cam.append(DataSens())
                 for j in range(3):
                     self.dataCam.cam[i].sens.append(Registers())
                     self.dataCam.cam[i].sens[j].temp = self.dopCodeBintoDec('Temp', arr[i][j][0])
-                    self.dataCam.cam[i].sens[j].serial = arr[i][j][1]
+                    self.dataCam.cam[i].sens[j].serial = self.dopCodeBintoDec('Serial', arr[i][j][1])
                     self.dataCam.cam[i].sens[j].bat = self.dopCodeBintoDec('Bat', arr[i][j][2])
 
             self.monitorSerialPort1()
             self.setColorSerialPort1()
-            self.monitorSerialPort2()
-            self.setColorSerialPort2()
+            #self.monitorSerialPort2()
+            #self.setColorSerialPort2()
 
             self.monitorTempPort1()
             self.setColorTempPort1()
-            self.monitorTempPort2()
-            self.setColorTempPort2()
+            #self.monitorTempPort2()
+            #self.setColorTempPort2()
 
             self.monitorBatPort1()
             self.setColorBatPort1()
-            self.monitorBatPort2()
-            self.setColorBatPort2()
+            #self.monitorBatPort2()
+            #self.setColorBatPort2()
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -734,11 +737,17 @@ class ChangeUi(QMainWindow):
 
             if command == 'Temp':
                 val_temp = round(val_temp / 16, 1)
-                if val_temp < -50:
+                if val_temp < 0 or val_temp > 125:
+                    return '-----'
+
+            if command == 'Serial':
+                if val_temp < 0 or val_temp > 30000:
                     return '-----'
 
             if command == 'Bat':
                 val_temp = round(val_temp * 0.1, 1)
+                if val_temp == 0.0 or val_temp == 5.0:
+                    return '-----'
 
             return str(val_temp)
 

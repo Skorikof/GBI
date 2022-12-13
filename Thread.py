@@ -180,7 +180,9 @@ class Reader(QRunnable):
                     time.sleep(1)
                 else:
                     result_list = []
-                    for i in range(1, 17):
+                    for i in range(1, 9):
+                        # 9 - Количество Базовых станций 8(1 пролёт)
+                        # 17 - Количество Базовых станций 16(2 пролёта)
                         temp_arr = []
                         rr = self.client.read_holding_registers(8192, 1, unit=i)
                         if not rr.isError():
@@ -191,7 +193,7 @@ class Reader(QRunnable):
                                     temp_list = []
                                     rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=i)
                                     temp_list.append(bin(rr.registers[0])[2:].zfill(16))
-                                    temp_list.append(str(rr.registers[1]))
+                                    temp_list.append(bin(rr.registers[1])[2:].zfill(16))
                                     temp_list.append(bin(rr.registers[2])[2:].zfill(8))
 
                                     temp_arr.append(temp_list)

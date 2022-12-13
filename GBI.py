@@ -1,5 +1,4 @@
 import sys
-import time
 from Controller import ChangeUi
 from PyQt5.QtWidgets import QApplication
 
@@ -35,9 +34,9 @@ def main():
             window.ui.info_label.setText(txt_log)
 
         else:
+            window.startParam()
             window.threadInit()
             window.initCheck()
-            window.startParam()
             window.initSocket()
 
     except Exception as e:

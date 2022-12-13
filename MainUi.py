@@ -2267,7 +2267,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.shadow_drop)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -2329,7 +2329,7 @@ class Ui_MainWindow(object):
         self.por1_cam8_sernum_label.setText(_translate("MainWindow", "Серийный номер"))
         self.por1_cam8_sens2serial_label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt;\">000</span></p></body></html>"))
         self.por1_cam8_bat_label.setText(_translate("MainWindow", "Напряжение"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.portal_1), _translate("MainWindow", "Пролёт № 1"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.portal_1), _translate("MainWindow", "Пролёт № 3"))
         self.por2_cam3_sernum_label.setText(_translate("MainWindow", "Серийный номер"))
         self.por2_cam3_checkBox.setText(_translate("MainWindow", "Камера №3"))
         self.por2_cam3_sens1serial_label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">000</p></body></html>"))
@@ -2386,5 +2386,5 @@ class Ui_MainWindow(object):
         self.por2_cam8_sernum_label.setText(_translate("MainWindow", "Серийный номер"))
         self.por2_cam8_sens2serial_label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt;\">000</span></p></body></html>"))
         self.por2_cam8_bat_label.setText(_translate("MainWindow", "Напряжение"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.portal_2), _translate("MainWindow", "Пролёт № 2"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.portal_2), _translate("MainWindow", "Пролёт № 4"))
         self.info_label.setText(_translate("MainWindow", "Информационная панель"))

@@ -66,11 +66,11 @@
        <item>
         <widget class="QTabWidget" name="tabWidget">
          <property name="currentIndex">
-          <number>1</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="portal_1">
           <attribute name="title">
-           <string>Пролёт № 1</string>
+           <string>Пролёт № 3</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_4">
            <property name="spacing">
@@ -2858,7 +2858,7 @@
          </widget>
          <widget class="QWidget" name="portal_2">
           <attribute name="title">
-           <string>Пролёт № 2</string>
+           <string>Пролёт № 4</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_5">
            <property name="spacing">
