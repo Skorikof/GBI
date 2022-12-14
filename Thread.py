@@ -8,7 +8,7 @@ from pymodbus.exceptions import ModbusException as ModEx
 base_dir = os.path.dirname(__file__)
 
 class ReadSignals(QObject):
-    result_temp = pyqtSignal(object)
+    result_temp = pyqtSignal(int, list)
     result_log = pyqtSignal(object)
     connect_check = pyqtSignal(int, bool)
     connect_data = pyqtSignal(int)
@@ -158,6 +158,7 @@ class Writer(QRunnable):
 
         except ModEx as e:
             self.signals.error_modbus.emit(e)
+            time.sleep(1)
 
         except Exception as e:
             self.signals.error_read.emit(e)
@@ -183,7 +184,6 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
-                    result_list = []
                     for i in range(1, 9):
                         # 9 - Количество Базовых станций 8(1 пролёт)
                         # 17 - Количество Базовых станций 16(2 пролёта)
@@ -213,14 +213,12 @@ class Reader(QRunnable):
                             for j in range(3):
                                 temp_arr.append(['err', 'err', 'err'])
 
-                        result_list.append(temp_arr)
-                        time.sleep(0.1)
-
-                    self.signals.result_temp.emit(result_list)
-                    time.sleep(0.5)
+                        self.signals.result_temp.emit(int(i), temp_arr)
+                        time.sleep(0.01)
 
             except ModEx as e:
                 self.signals.error_modbus.emit(str(e))
+                time.sleep(1)
 
 
             except Exception as e:

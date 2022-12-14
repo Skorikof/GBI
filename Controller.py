@@ -43,6 +43,29 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             print(str(e))
 
+    def startParam(self):
+        try:
+            self.ui.tabWidget.setCurrentIndex(0)
+            self.ui.portal_2.setEnabled(False) # Отображается только 1 портал
+            for i in range(1, 9): # 9 - 1 портал, 17 - 2 портала
+                self.check_cams(int(i), False)
+                time.sleep(0.01)
+            time.sleep(0.01)
+
+            self.dataCam = DataCam()
+            for i in range(8):
+                # 8 - 1 портал
+                # 16 - 2 портала
+                self.dataCam.cam.append(DataSens())
+                for j in range(3):
+                    self.dataCam.cam[i].sens.append(Registers())
+                    self.dataCam.cam[i].sens[j].temp = '0'
+                    self.dataCam.cam[i].sens[j].serial = '0'
+                    self.dataCam.cam[i].sens[j].bat = '0'
+
+        except Exception as e:
+            self.saveLog('error', str(e))
+
     def initSocket(self):
         try:
             self.connect = Connection(self.set_port.IP_adr, self.set_port.local_port)
@@ -65,16 +88,22 @@ class ChangeUi(QMainWindow):
 
     def sendData(self, camera):
         try:
-            list_msg = []
-            for i in range(3):
-                list_msg.append(self.dataCam.cam[camera - 1].sens[i].temp)
-                list_msg.append(self.dataCam.cam[camera - 1].sens[i].serial)
-                list_msg.append(self.dataCam.cam[camera - 1].sens[i].bat)
+            if camera < 1 or camera > 8:
+                #8 - 1 портал
+                #16 - 2 портала
+                msg = b'ERROR, Incorrect camera number!'.encode(encoding='utf-8')
 
-            msg = b'DATA,' + str(camera).encode(encoding='utf-8')
+            else:
+                list_msg = []
+                for i in range(3):
+                    list_msg.append(self.dataCam.cam[camera - 1].sens[i].temp)
+                    list_msg.append(self.dataCam.cam[camera - 1].sens[i].serial)
+                    list_msg.append(self.dataCam.cam[camera - 1].sens[i].bat)
 
-            for i in range(len(list_msg)):
-                msg = msg + b',' + list_msg[i].encode(encoding='utf-8')
+                msg = b'DATA,' + str(camera).encode(encoding='utf-8')
+
+                for i in range(len(list_msg)):
+                    msg = msg + b',' + list_msg[i].encode(encoding='utf-8')
 
             self.signals.signalSendData.emit(msg)
 
@@ -118,18 +147,6 @@ class ChangeUi(QMainWindow):
         print(text)
         self.ui.info_label.setText(str(text))
         self.saveLog('error', str(text))
-
-    def startParam(self):
-        try:
-            self.ui.tabWidget.setCurrentIndex(0)
-            self.ui.portal_2.setEnabled(False) # Отображается только 1 портал
-            for i in range(1, 9): # 9 - 1 портал, 17 - 2 портала
-                self.check_cams(int(i), False)
-                time.sleep(0.01)
-            time.sleep(0.01)
-
-        except Exception as e:
-            self.saveLog('error', str(e))
 
     def initCheck(self):
         try:
@@ -249,7 +266,7 @@ class ChangeUi(QMainWindow):
         except Exception as e:
             self.saveLog('error', str(e))
 
-    def readResult(self, arr):
+    def readResult(self, cam, arr):
         try:
             self.arr = arr
             print(self.arr)
@@ -258,16 +275,10 @@ class ChangeUi(QMainWindow):
             if self.set_port.active_log == '1':
                 self.saveLog('info', txt_log)
 
-            self.dataCam = DataCam()
-            for i in range(8):
-            # 8 - 1 портал
-            # 16 - 2 портала
-                self.dataCam.cam.append(DataSens())
-                for j in range(3):
-                    self.dataCam.cam[i].sens.append(Registers())
-                    self.dataCam.cam[i].sens[j].temp = self.dopCodeBintoDec('Temp', arr[i][j][0])
-                    self.dataCam.cam[i].sens[j].serial = self.dopCodeBintoDec('Serial', arr[i][j][1])
-                    self.dataCam.cam[i].sens[j].bat = self.dopCodeBintoDec('Bat', arr[i][j][2])
+            for i in range(3):
+                self.dataCam.cam[cam - 1].sens[i].temp = self.dopCodeBintoDec('Temp', arr[i][0])
+                self.dataCam.cam[cam - 1].sens[i].serial = self.dopCodeBintoDec('Serial', arr[i][1])
+                self.dataCam.cam[cam - 1].sens[i].bat = self.dopCodeBintoDec('Bat', arr[i][2])
 
             self.monitorSerialPort1()
             self.setColorSerialPort1()
