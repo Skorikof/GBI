@@ -46,14 +46,14 @@ class ChangeUi(QMainWindow):
     def startParam(self):
         try:
             self.ui.tabWidget.setCurrentIndex(0)
-            self.ui.portal_2.setEnabled(False) # Отображается только 1 портал
-            for i in range(1, 9): # 9 - 1 портал, 17 - 2 портала
+            #self.ui.portal_2.setEnabled(False) # Отображается только 1 портал
+            for i in range(1, 17): # 9 - 1 портал, 17 - 2 портала
                 self.check_cams(int(i), False)
                 time.sleep(0.01)
             time.sleep(0.01)
 
             self.dataCam = DataCam()
-            for i in range(8):
+            for i in range(16):
                 # 8 - 1 портал
                 # 16 - 2 портала
                 self.dataCam.cam.append(DataSens())
@@ -88,7 +88,7 @@ class ChangeUi(QMainWindow):
 
     def sendData(self, camera):
         try:
-            if camera < 1 or camera > 8:
+            if camera < 1 or camera > 16:
                 #8 - 1 портал
                 #16 - 2 портала
                 msg = b'ERROR, Incorrect camera number!'.encode(encoding='utf-8')
@@ -173,8 +173,17 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            self.writer = Writer(self.set_port.client, adr, state)
-            self.threadpool.start(self.writer)
+            if adr < 1 or adr > 16:
+                #8 - 1 портал
+                #16 - 2 портала
+
+                msg = b'ERROR,Incorrect camera number!'.encode(encoding='utf-8')
+
+                self.signals.signalSendData.emit(msg)
+
+            else:
+                self.writer = Writer(self.set_port.client, adr, state)
+                self.threadpool.start(self.writer)
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -282,18 +291,18 @@ class ChangeUi(QMainWindow):
 
             self.monitorSerialPort1()
             self.setColorSerialPort1()
-            #self.monitorSerialPort2()
-            #self.setColorSerialPort2()
+            self.monitorSerialPort2()
+            self.setColorSerialPort2()
 
             self.monitorTempPort1()
             self.setColorTempPort1()
-            #self.monitorTempPort2()
-            #self.setColorTempPort2()
+            self.monitorTempPort2()
+            self.setColorTempPort2()
 
             self.monitorBatPort1()
             self.setColorBatPort1()
-            #self.monitorBatPort2()
-            #self.setColorBatPort2()
+            self.monitorBatPort2()
+            self.setColorBatPort2()
 
         except Exception as e:
             self.saveLog('error', str(e))

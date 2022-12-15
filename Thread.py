@@ -184,7 +184,7 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
-                    for i in range(1, 9):
+                    for i in range(1, 17):
                         # 9 - Количество Базовых станций 8(1 пролёт)
                         # 17 - Количество Базовых станций 16(2 пролёта)
                         temp_arr = []
