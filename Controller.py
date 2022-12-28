@@ -4,7 +4,7 @@ from Thread import LogWriter, Reader, Writer, Connection
 from ReadSettings import COMSettings, DataCam, DataSens, Registers
 from datetime import datetime
 from MainUi import Ui_MainWindow
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow, QTabWidget
 from PyQt5.QtCore import QObject, pyqtSignal, QThreadPool
 
 
@@ -46,21 +46,26 @@ class ChangeUi(QMainWindow):
     def startParam(self):
         try:
             self.ui.tabWidget.setCurrentIndex(0)
-            #self.ui.portal_2.setEnabled(False) # Отображается только 1 портал
-            for i in range(1, 17): # 9 - 1 портал, 17 - 2 портала
-                self.check_cams(int(i), False)
+            if self.set_port.count_por == '1':
+                QTabWidget.setTabVisible(self.ui.tabWidget, 1, False)
+
+            if self.set_port.count_por == '2':
+                QTabWidget.setTabVisible(self.ui.tabWidget, 1, True)
+
+            self.cam_list = self.set_port.cam_list.split(',')
+
+            for i in range(len(self.cam_list)):
+                self.check_cams(int(self.cam_list[i]), False)
                 time.sleep(0.01)
             time.sleep(0.01)
 
             self.dataCam = DataCam()
             for i in range(16):
-                # 8 - 1 портал
-                # 16 - 2 портала
                 self.dataCam.cam.append(DataSens())
                 for j in range(3):
                     self.dataCam.cam[i].sens.append(Registers())
                     self.dataCam.cam[i].sens[j].temp = '0'
-                    self.dataCam.cam[i].sens[j].serial = '0'
+                    self.dataCam.cam[i].sens[j].serial = '000'
                     self.dataCam.cam[i].sens[j].bat = '0'
 
         except Exception as e:
@@ -88,9 +93,8 @@ class ChangeUi(QMainWindow):
 
     def sendData(self, camera):
         try:
-            if camera < 1 or camera > 16:
-                #8 - 1 портал
-                #16 - 2 портала
+            if str(camera) not in self.cam_list:
+
                 msg = b'ERROR, Incorrect camera number!'.encode(encoding='utf-8')
 
             else:
@@ -112,7 +116,7 @@ class ChangeUi(QMainWindow):
 
     def threadInit(self):
         try:
-            self.reader = Reader(self.set_port.client)
+            self.reader = Reader(self.set_port.client, self.cam_list)
             self.reader.signals.result_temp.connect(self.readResult)
             self.reader.signals.check_cam.connect(self.cancel_check)
             self.reader.signals.error_read.connect(self.readError)
@@ -173,9 +177,7 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            if adr < 1 or adr > 16:
-                #8 - 1 портал
-                #16 - 2 портала
+            if str(adr) not in self.cam_list:
 
                 msg = b'ERROR,Incorrect camera number!'.encode(encoding='utf-8')
 

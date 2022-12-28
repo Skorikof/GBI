@@ -52,7 +52,9 @@ class LogWriter(QRunnable):
 
 class Connection(QRunnable):
     signals = ReadSignals()
+
     def __init__(self, ip, port):
+
         super(Connection, self).__init__()
         self.ip = ip
         self.port = port
@@ -147,6 +149,7 @@ class Writer(QRunnable):
                 else:
                     txt_log = 'Неудачная попытка подключения Базовой станции №' + str(self.adr_dev)
                     self.signals.check_cam.emit(self.adr_dev, False)
+
             else:
                 rq = self.client.write_registers(8192, [0], unit=self.adr_dev)
                 if not rq.isError():
@@ -167,7 +170,7 @@ class Writer(QRunnable):
 class Reader(QRunnable):
     signals = ReadSignals()
 
-    def __init__(self, client):
+    def __init__(self, client, cam_list):
         super(Reader, self).__init__()
         self.cycle = True
         self.is_run = False
@@ -175,7 +178,7 @@ class Reader(QRunnable):
         self.is_paused = False
         self.is_killed = False
         self.sens_regs = [4103, 4108, 4113]
-        self.flag_write = False
+        self.cam_list = cam_list
 
     @pyqtSlot()
     def run(self):
@@ -184,18 +187,17 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
-                    for i in range(1, 17):
-                        # 9 - Количество Базовых станций 8(1 пролёт)
-                        # 17 - Количество Базовых станций 16(2 пролёта)
+                    for i in range(len(self.cam_list)):
+                        cam_num = int(self.cam_list[i])
                         temp_arr = []
-                        rr = self.client.read_holding_registers(8192, 1, unit=i)
+                        rr = self.client.read_holding_registers(8192, 1, unit=cam_num)
                         if not rr.isError():
 
                             if rr.registers[0] == 1:
-                                self.signals.check_cam.emit(i, True)
+                                self.signals.check_cam.emit(cam_num, True)
                                 for j in range(3):
                                     temp_list = []
-                                    rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=i)
+                                    rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=cam_num)
                                     temp_list.append(bin(rr.registers[0])[2:].zfill(16))
                                     temp_list.append(bin(rr.registers[1])[2:].zfill(16))
                                     temp_list.append(bin(rr.registers[2])[2:].zfill(8))
@@ -203,7 +205,7 @@ class Reader(QRunnable):
                                     temp_arr.append(temp_list)
 
                             else:
-                                self.signals.check_cam.emit(i, False)
+                                self.signals.check_cam.emit(cam_num, False)
                                 for j in range(3):
                                     temp_arr.append(['off', 'off', 'off'])
 
@@ -213,7 +215,7 @@ class Reader(QRunnable):
                             for j in range(3):
                                 temp_arr.append(['err', 'err', 'err'])
 
-                        self.signals.result_temp.emit(int(i), temp_arr)
+                        self.signals.result_temp.emit(cam_num, temp_arr)
                         time.sleep(0.01)
 
             except ModEx as e:

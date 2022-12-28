@@ -31,7 +31,8 @@ def main():
         window.startParam()
         window.threadInit()
         window.initCheck()
-        window.initSocket()
+        if window.set_port.activ_online == '1':
+            window.initSocket()
 
     except Exception as e:
         window.saveLog('error', str(e))
