@@ -60,6 +60,8 @@ class Connection(QRunnable):
         self.ip = ip
         self.port = port
 
+        self.startConnect()
+
     @pyqtSlot()
     def run(self):
         try:

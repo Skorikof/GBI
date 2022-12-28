@@ -82,7 +82,7 @@ class ChangeUi(QMainWindow):
             self.signals.signalSendData.connect(self.connect.sendData)
             self.threadpool.start(self.connect)
 
-            self.startConnect()
+            #self.startConnect()
 
         except Exception as e:
             self.saveLog('error', str(e))
