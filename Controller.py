@@ -74,13 +74,15 @@ class ChangeUi(QMainWindow):
     def initSocket(self):
         try:
             self.connect = Connection(self.set_port.IP_adr, self.set_port.local_port)
-            self.connect.signals.result_log.connect(self.readLog)
+            self.connect.signals.result_log_connect.connect(self.readLogConnect)
             self.connect.signals.connect_check.connect(self.check_cams)
             self.connect.signals.connect_data.connect(self.sendData)
             self.signals.signalConnect.connect(self.connect.startConnect)
             self.signals.signalDisconnect.connect(self.connect.closeConnect)
             self.signals.signalSendData.connect(self.connect.sendData)
             self.threadpool.start(self.connect)
+
+            self.startConnect()
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -100,8 +102,8 @@ class ChangeUi(QMainWindow):
             else:
                 list_msg = []
                 for i in range(3):
-                    list_msg.append(self.dataCam.cam[camera - 1].sens[i].temp)
                     list_msg.append(self.dataCam.cam[camera - 1].sens[i].serial)
+                    list_msg.append(self.dataCam.cam[camera - 1].sens[i].temp)
                     list_msg.append(self.dataCam.cam[camera - 1].sens[i].bat)
 
                 msg = b'DATA,' + str(camera).encode(encoding='utf-8')
@@ -113,6 +115,12 @@ class ChangeUi(QMainWindow):
 
         except Exception as e:
             self.saveLog('error', str(e))
+
+    def readLogConnect(self, text):
+        self.ui.info_set_label.setText(text)
+        print(text)
+        if self.set_port.active_log == '1':
+            self.saveLog('info', text)
 
     def threadInit(self):
         try:
@@ -281,7 +289,7 @@ class ChangeUi(QMainWindow):
         try:
             self.arr = arr
             print(self.arr)
-            txt_log = 'Посылка получена: ' + str(datetime.now())[:-7]
+            txt_log = 'Посылка от Базовых станций получена: ' + str(datetime.now())[:-7]
             self.ui.info_label.setText(txt_log)
             if self.set_port.active_log == '1':
                 self.saveLog('info', txt_log)

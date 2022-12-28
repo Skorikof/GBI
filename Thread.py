@@ -10,6 +10,7 @@ base_dir = os.path.dirname(__file__)
 class ReadSignals(QObject):
     result_temp = pyqtSignal(int, list)
     result_log = pyqtSignal(object)
+    result_log_connect = pyqtSignal(object)
     connect_check = pyqtSignal(int, bool)
     connect_data = pyqtSignal(int)
     lucky_attemp = pyqtSignal(int, bool)
@@ -65,6 +66,7 @@ class Connection(QRunnable):
             while self.cycle:
                 while not self.flag_connect:
                     time.sleep(1)
+
                     self.startConnect()
 
                 while self.flag_connect:
@@ -73,14 +75,16 @@ class Connection(QRunnable):
                         print(msg)
                         if msg == b'':
                             time.sleep(1)
+                            txt_log = 'Соединение с сервером разорвано'
+                            self.signals.result_log_connect.emit(txt_log)
                             self.flag_connect = False
                             self.sock.close()
                             self.startConnect()
 
                         elif msg == b'Hello! ASU server welcomes you!':
-                            self.sock.send(b'Connection complite')
+                            self.sock.send(b'Connection OK')
                             txt_log = 'Соединение с сервером установлено'
-                            self.signals.result_log.emit(txt_log)
+                            self.signals.result_log_connect.emit(txt_log)
 
                         elif msg[:3] == b'KAM':
                             temp_list = msg.decode(encoding='utf-8').split(',')
@@ -94,7 +98,7 @@ class Connection(QRunnable):
                                 self.signals.connect_data.emit(camera)
 
                     except Exception as e:
-                        self.signals.result_log.emit(e)
+                        self.signals.error_read.emit(e)
                         self.flag_connect = False
                         self.sock.close()
 
@@ -108,26 +112,26 @@ class Connection(QRunnable):
             self.sock = socket.socket()
             self.sock.connect((self.ip, self.port))
             txt_log = 'Соединение с сервером..'
-            self.signals.result_log.emit(txt_log)
+            self.signals.result_log_connect.emit(txt_log)
             self.flag_connect = True
 
         except Exception as e:
             self.flag_connect = False
             txt_log = 'Соединение потеряно'
             self.sock.close()
-            self.signals.result_log.emit(txt_log)
+            self.signals.result_log_connect.emit(txt_log)
             self.signals.error_read.emit(e)
 
     def sendData(self, msg):
         self.sock.send(msg)
-        txt_log = 'Посылка отправлена на сервер'
-        self.signals.result_log.emit(txt_log)
+        txt_log = 'Посылка отправлена на сервер: ' + str(datetime.now())[:-7]
+        self.signals.result_log_connect.emit(txt_log)
 
     def closeConnect(self):
         self.cycle = False
         self.sock.close()
         txt_log = 'Разрыв соединения'
-        self.signals.result_log.emit(txt_log)
+        self.signals.result_log_connect.emit(txt_log)
 
 
 class Writer(QRunnable):
@@ -216,7 +220,7 @@ class Reader(QRunnable):
                                 temp_arr.append(['err', 'err', 'err'])
 
                         self.signals.result_temp.emit(cam_num, temp_arr)
-                        time.sleep(0.01)
+                        time.sleep(0.1)
 
             except ModEx as e:
                 self.signals.error_modbus.emit(str(e))
