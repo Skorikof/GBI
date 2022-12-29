@@ -1,11 +1,34 @@
 import sys
 from Controller import ChangeUi
-from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QStyle, QAction, QMenu, qApp
 
 
 class ApplicationWindow(ChangeUi):
     def __init__(self):
         super(ApplicationWindow, self).__init__()
+        self.initTray()
+        self.tray_icon.show()
+
+    def initTray(self):
+        try:
+            self.tray_icon = QSystemTrayIcon(self)
+            self.tray_icon.setIcon(self.style().standardIcon(QStyle.SP_ComputerIcon))
+            self.tray_icon.setToolTip('Температура бетона')
+            show_action = QAction("Show", self)
+            quit_action = QAction("Exit", self)
+            hide_action = QAction("Hide", self)
+            show_action.triggered.connect(self.showNormal)
+            hide_action.triggered.connect(self.hide)
+            quit_action.triggered.connect(self.closeEvent)
+            tray_menu = QMenu()
+            tray_menu.addAction(show_action)
+            tray_menu.addAction(hide_action)
+            tray_menu.addAction(quit_action)
+            self.tray_icon.setContextMenu(tray_menu)
+            self.hide()
+
+        except Exception as e:
+            self.saveLog('error', str(e))
 
     def closeEvent(self, event):
         try:
@@ -17,6 +40,7 @@ class ApplicationWindow(ChangeUi):
             self.set_port.client.close()
             if self.set_port.active_log == '1':
                 self.saveLog('info', 'Выход из программы')
+            qApp.quit()
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -24,7 +48,7 @@ class ApplicationWindow(ChangeUi):
 def main():
     app = QApplication(sys.argv)
     window = ApplicationWindow()
-    window.show()
+    #window.show()
     txt_log = 'Программа запущена'
     print(txt_log)
     try:
