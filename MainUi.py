@@ -2280,7 +2280,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Температура бетона"))
         self.por1_cam3_sernum_label.setText(_translate("MainWindow", "Серийный номер"))
         self.por1_cam3_checkBox.setText(_translate("MainWindow", "Камера №3"))
         self.por1_cam3_sens1serial_label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">000</p></body></html>"))
@@ -2396,4 +2396,4 @@ class Ui_MainWindow(object):
         self.por2_cam8_bat_label.setText(_translate("MainWindow", "Напряжение"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.portal_2), _translate("MainWindow", "Пролёт № 4"))
         self.info_label.setText(_translate("MainWindow", "Информационная панель"))
-        self.info_set_label.setText(_translate("MainWindow", "<html><head/><body><p align=\"right\"><br/></p></body></html>"))
+        self.info_set_label.setText(_translate("MainWindow", "<html><head/><body><p align=\"right\">Соединение..</p></body></html>"))

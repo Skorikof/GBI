@@ -14,9 +14,9 @@ class ApplicationWindow(ChangeUi):
             self.tray_icon = QSystemTrayIcon(self)
             self.tray_icon.setIcon(self.style().standardIcon(QStyle.SP_ComputerIcon))
             self.tray_icon.setToolTip('Температура бетона')
-            show_action = QAction("Show", self)
-            quit_action = QAction("Exit", self)
-            hide_action = QAction("Hide", self)
+            show_action = QAction("Развернуть программу", self)
+            quit_action = QAction("Выход из программы", self)
+            hide_action = QAction("Свернуть программу", self)
             show_action.triggered.connect(self.showNormal)
             hide_action.triggered.connect(self.hide)
             quit_action.triggered.connect(self.closeEvent)
@@ -25,7 +25,6 @@ class ApplicationWindow(ChangeUi):
             tray_menu.addAction(hide_action)
             tray_menu.addAction(quit_action)
             self.tray_icon.setContextMenu(tray_menu)
-            self.hide()
 
         except Exception as e:
             self.saveLog('error', str(e))
@@ -48,7 +47,7 @@ class ApplicationWindow(ChangeUi):
 def main():
     app = QApplication(sys.argv)
     window = ApplicationWindow()
-    #window.show()
+    window.show()
     txt_log = 'Программа запущена'
     print(txt_log)
     try:
