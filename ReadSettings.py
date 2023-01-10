@@ -20,10 +20,11 @@ class COMSettings(object):
 
             self.IP_adr = config["Local"]["IP_Address"]
             self.local_port = int(config["Local"]["Port"])
-            self.activ_online = config["PrgSet"]["Online"]
-            self.count_por = config["PrgSet"]["CountPor"]
-            self.active_log = config["PrgSet"]["Log"]
-            self.cam_list = config["PrgSet"]["CamList"]
+            self.start_up_position = config["PrgSet"]["StartUpPosition"]
+            self.connect_to_server = config["PrgSet"]["ConnectToServer"]
+            self.count_span = config["PrgSet"]["CountSpan"]
+            self.create_log = config["PrgSet"]["CreateLogFile"]
+            self.cell_list = config["PrgSet"]["CellList"]
 
             a = self.initPort()
 

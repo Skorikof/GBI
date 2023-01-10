@@ -46,16 +46,16 @@ class ChangeUi(QMainWindow):
     def startParam(self):
         try:
             self.ui.tabWidget.setCurrentIndex(0)
-            if self.set_port.count_por == '1':
+            if self.set_port.count_span == '1':
                 QTabWidget.setTabVisible(self.ui.tabWidget, 1, False)
 
-            if self.set_port.count_por == '2':
+            if self.set_port.count_span == '2':
                 QTabWidget.setTabVisible(self.ui.tabWidget, 1, True)
 
-            self.cam_list = self.set_port.cam_list.split(',')
+            self.cell_list = self.set_port.cell_list.split(',')
 
-            for i in range(len(self.cam_list)):
-                self.check_cams(int(self.cam_list[i]), False)
+            for i in range(len(self.cell_list)):
+                self.check_cams(int(self.cell_list[i]), False)
                 time.sleep(0.01)
             time.sleep(0.01)
 
@@ -82,8 +82,6 @@ class ChangeUi(QMainWindow):
             self.signals.signalSendData.connect(self.connect.sendData)
             self.threadpool.start(self.connect)
 
-            #self.startConnect()
-
         except Exception as e:
             self.saveLog('error', str(e))
 
@@ -95,7 +93,7 @@ class ChangeUi(QMainWindow):
 
     def sendData(self, camera):
         try:
-            if str(camera) not in self.cam_list:
+            if str(camera) not in self.cell_list:
 
                 msg = b'ERROR, Incorrect camera number!'.encode(encoding='utf-8')
 
@@ -119,14 +117,14 @@ class ChangeUi(QMainWindow):
     def readLogConnect(self, text):
         self.ui.info_set_label.setText(text)
         print(text)
-        if self.set_port.active_log == '1':
+        if self.set_port.create_log == '1':
             self.saveLog('info', text)
 
     def threadInit(self):
         try:
-            self.reader = Reader(self.set_port.client, self.cam_list)
+            self.reader = Reader(self.set_port.client, self.cell_list)
             self.reader.signals.result_temp.connect(self.readResult)
-            self.reader.signals.check_cam.connect(self.cancel_check)
+            self.reader.signals.check_cell.connect(self.cancel_check)
             self.reader.signals.error_read.connect(self.readError)
             self.reader.signals.error_modbus.connect(self.readErrorModBus)
             self.reader.signals.result_log.connect(self.readLog)
@@ -147,7 +145,7 @@ class ChangeUi(QMainWindow):
     def readLog(self, text):
         self.ui.info_label.setText(text)
         print(text)
-        if self.set_port.active_log == '1':
+        if self.set_port.create_log == '1':
             self.saveLog('info', text)
 
     def readError(self, text):
@@ -185,7 +183,7 @@ class ChangeUi(QMainWindow):
 
     def check_cams(self, adr, state):
         try:
-            if str(adr) not in self.cam_list:
+            if str(adr) not in self.cell_list:
 
                 msg = b'ERROR,Incorrect camera number!'.encode(encoding='utf-8')
 
@@ -291,7 +289,7 @@ class ChangeUi(QMainWindow):
             print(self.arr)
             txt_log = 'Посылка от Базовых станций получена: ' + str(datetime.now())[:-7]
             self.ui.info_label.setText(txt_log)
-            if self.set_port.active_log == '1':
+            if self.set_port.create_log == '1':
                 self.saveLog('info', txt_log)
 
             for i in range(3):

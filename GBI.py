@@ -1,4 +1,5 @@
 import sys
+
 from Controller import ChangeUi
 from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QStyle, QAction, QMenu, qApp
 
@@ -37,24 +38,26 @@ class ApplicationWindow(ChangeUi):
             self.threadpool.waitForDone()
             print('Threads working: ', str(self.threadpool.activeThreadCount()))
             self.set_port.client.close()
-            if self.set_port.active_log == '1':
+            if self.set_port.create_log == '1':
                 self.saveLog('info', 'Выход из программы')
             qApp.quit()
 
         except Exception as e:
             self.saveLog('error', str(e))
 
+
 def main():
     app = QApplication(sys.argv)
     window = ApplicationWindow()
-    window.show()
+    if window.set_port.start_up_position == '1':
+        window.show()
     txt_log = 'Программа запущена'
     print(txt_log)
     try:
         window.startParam()
         window.threadInit()
         window.initCheck()
-        if window.set_port.activ_online == '1':
+        if window.set_port.connect_to_server == '1':
             window.initSocket()
 
     except Exception as e:

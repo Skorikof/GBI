@@ -5,7 +5,9 @@ from datetime import datetime
 from PyQt5.QtCore import QObject, QRunnable, pyqtSignal, pyqtSlot
 from pymodbus.exceptions import ModbusException as ModEx
 
+
 base_dir = os.path.dirname(__file__)
+
 
 class ReadSignals(QObject):
     result_temp = pyqtSignal(int, list)
@@ -14,7 +16,7 @@ class ReadSignals(QObject):
     connect_check = pyqtSignal(int, bool)
     connect_data = pyqtSignal(int)
     lucky_attemp = pyqtSignal(int, bool)
-    check_cam = pyqtSignal(int, bool)
+    check_cell = pyqtSignal(int, bool)
     error_read = pyqtSignal(object)
     error_modbus = pyqtSignal(object)
 
@@ -55,11 +57,9 @@ class Connection(QRunnable):
     signals = ReadSignals()
 
     def __init__(self, ip, port):
-
         super(Connection, self).__init__()
         self.ip = ip
         self.port = port
-
         self.startConnect()
 
     @pyqtSlot()
@@ -68,7 +68,6 @@ class Connection(QRunnable):
             while self.cycle:
                 while not self.flag_connect:
                     time.sleep(1)
-
                     self.startConnect()
 
                 while self.flag_connect:
@@ -154,7 +153,7 @@ class Writer(QRunnable):
                     txt_log = 'Попытка подключения Базовой станции №' + str(self.adr_dev)
                 else:
                     txt_log = 'Неудачная попытка подключения Базовой станции №' + str(self.adr_dev)
-                    self.signals.check_cam.emit(self.adr_dev, False)
+                    self.signals.check_cell.emit(self.adr_dev, False)
 
             else:
                 rq = self.client.write_registers(8192, [0], unit=self.adr_dev)
@@ -162,7 +161,7 @@ class Writer(QRunnable):
                     txt_log = 'Попытка отключения Базовой станции №' + str(self.adr_dev)
                 else:
                     txt_log = 'Неудачная попытка отключения Базовой станции №' + str(self.adr_dev)
-                    self.signals.check_cam.emit(self.adr_dev, True)
+                    self.signals.check_cell.emit(self.adr_dev, True)
             Reader.signals.result_log.emit(txt_log)
 
         except ModEx as e:
@@ -176,7 +175,7 @@ class Writer(QRunnable):
 class Reader(QRunnable):
     signals = ReadSignals()
 
-    def __init__(self, client, cam_list):
+    def __init__(self, client, cell_list):
         super(Reader, self).__init__()
         self.cycle = True
         self.is_run = False
@@ -184,7 +183,7 @@ class Reader(QRunnable):
         self.is_paused = False
         self.is_killed = False
         self.sens_regs = [4103, 4108, 4113]
-        self.cam_list = cam_list
+        self.cell_list = cell_list
 
     @pyqtSlot()
     def run(self):
@@ -193,17 +192,17 @@ class Reader(QRunnable):
                 if not self.is_run:
                     time.sleep(1)
                 else:
-                    for i in range(len(self.cam_list)):
-                        cam_num = int(self.cam_list[i])
+                    for i in range(len(self.cell_list)):
+                        cell_num = int(self.cell_list[i])
                         temp_arr = []
-                        rr = self.client.read_holding_registers(8192, 1, unit=cam_num)
+                        rr = self.client.read_holding_registers(8192, 1, unit=cell_num)
                         if not rr.isError():
 
                             if rr.registers[0] == 1:
-                                self.signals.check_cam.emit(cam_num, True)
+                                self.signals.check_cell.emit(cell_num, True)
                                 for j in range(3):
                                     temp_list = []
-                                    rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=cam_num)
+                                    rr = self.client.read_holding_registers(self.sens_regs[j], 3, unit=cell_num)
                                     temp_list.append(bin(rr.registers[0])[2:].zfill(16))
                                     temp_list.append(bin(rr.registers[1])[2:].zfill(16))
                                     temp_list.append(bin(rr.registers[2])[2:].zfill(8))
@@ -211,7 +210,7 @@ class Reader(QRunnable):
                                     temp_arr.append(temp_list)
 
                             else:
-                                self.signals.check_cam.emit(cam_num, False)
+                                self.signals.check_cell.emit(cell_num, False)
                                 for j in range(3):
                                     temp_arr.append(['off', 'off', 'off'])
 
@@ -221,7 +220,7 @@ class Reader(QRunnable):
                             for j in range(3):
                                 temp_arr.append(['err', 'err', 'err'])
 
-                        self.signals.result_temp.emit(cam_num, temp_arr)
+                        self.signals.result_temp.emit(cell_num, temp_arr)
                         time.sleep(0.1)
 
             except ModEx as e:
